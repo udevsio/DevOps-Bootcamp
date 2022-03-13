@@ -26,13 +26,13 @@ DevOps Internship invitation task
    - 6.3 Ignore your output files and .gitignore file (this files should not be in the image)
 ---
 Extra:
-  1. Create AWS EC2 instance with Ubuntu 20.04 LTS
-    - 1.1 Add auto genrated domain of your ec2 instance to this readme - https://updateme.com
-  2. Install Docker and run your image in it
-    - 2.1 Save output of docker ps to `username_docker.out` file
-  3. Install nginx and serve request to Docker container
-    - 3.1 Add url to the application to the readme - url: http://your-ip:your_app_port (edit this file)
-  4. Write Github Actions pipeline for auto build/deploy new image
+1. Create AWS EC2 instance with Ubuntu 20.04 LTS
+  - 1.1 Add auto genrated domain of your ec2 instance to this readme - https://updateme.com
+2. Install Docker and run your image in it
+  - 2.1 Save output of docker ps to `username_docker.out` file
+3. Install nginx and serve request to Docker container
+  - 3.1 Add url to the application to the readme - url: http://your-ip:your_app_port (edit this file)
+4. Write Github Actions pipeline for auto build/deploy new image
 
 2x Extra:
-+ Use terraform/ansible to setup first 3 steps from above task. 
+1. Use terraform/ansible to setup first 3 steps from above task. 
