@@ -36,3 +36,6 @@ Extra:
 
 2x Extra:
 1. Use terraform/ansible to setup first 3 steps from above task. 
+
+
+Firdavs Juraboyev Shuhrativich
