@@ -7,7 +7,7 @@ DevOps Internship invitation task
   - 1.2 After completion of all tasks create pull request
 2. Linux (Each output should be redirected to username_output.txt)
   - 2.1 What is absolute and relative path? 
-  - 2.2 Absolute path to git repositpry you have cloned earlier
+  - 2.2 Absolute path to git repository you have cloned earlier
   - 2.3 uname, what is it and how we can use it?
       - 2.3.1 What is version of kernel?
       - 2.3.2 What is processor architecture?
@@ -22,7 +22,7 @@ DevOps Internship invitation task
    - 5.1 Explain how curl requests work - `curl google.com` (as detailed as possible)
 6. Write Dockerfile for repo entity
    - 6.1 Build image from Dockerfile
-   - 6.2 Push image to your dockerhub repo
+   - 6.2 Push image to your dockerhub repo -> link to your your public image
    - 6.3 Ignore your output files and .gitignore file (this files should not be in the image)
 ---
 Extra:
