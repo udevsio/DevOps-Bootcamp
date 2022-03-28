@@ -7,6 +7,7 @@ DevOps Internship invitation task
   - 1.2 After completion of all tasks create pull request
 2. Linux (Each output should be redirected to username_output.txt)
   - 2.1 What is absolute and relative path?
+    -- Absolute path is the path from the root of the file system and relative path is the path from the current directory.
   - 2.2 Path to git repo you have cloned earlier
   - 2.3 uname, what is it and how we can use it?
       - 2.3.1 What is version of kernel?
@@ -35,4 +36,4 @@ Extra:
 4. Write Github Actions pipeline for auto build/deploy new image
 
 2x Extra:
-1. Use terraform/ansible to setup first 3 steps from above task. 
+1. Use terraform/ansible to setup first 3 steps from above task.
