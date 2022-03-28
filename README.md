@@ -6,8 +6,8 @@ DevOps Internship invitation task
   - 1.1 Create git branch with your name
   - 1.2 After completion of all tasks create pull request
 2. Linux (Each output should be redirected to username_output.txt)
-  - 2.1 What is absolute and relative path?
-  - 2.2 Path to git repo you have cloned earlier
+  - 2.1 What is absolute and relative path? 
+  - 2.2 Absolute path to git repositpry you have cloned earlier
   - 2.3 uname, what is it and how we can use it?
       - 2.3.1 What is version of kernel?
       - 2.3.2 What is processor architecture?
