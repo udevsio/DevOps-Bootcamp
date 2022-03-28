@@ -27,3 +27,13 @@
     4.1  ssh-keygen -b 4096
     4.2 private -key        In Private key, the same key (secret key) is used for encryption and decryption
         public - key        In Public key, two keys are used one key is used for encryption and another key is used for decryption
+
+        SSH key relies upon the use of two related keys, a public key and a private key, that together create a key pair that is used as the secure access credential.
+        The private key is secret, known only to the user, and should be encrypted and stored safely.
+
+
+
+
+5. Curl is opensource ,commandline interface and library for transfering data using internet protocols(http,https,ftp,imap,imaps ...).
+    It works that: curl sends a request some methods as(GET,POST ...) 
+    a number of request header and request body. Http server responds a status code and responsible headers and body
