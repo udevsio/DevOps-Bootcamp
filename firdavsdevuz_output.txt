@@ -1,0 +1,29 @@
+2.1     Absolute path is defined as the specifying the location of a file or directory from the root directory(/).
+        Relative path is defined as the path related to the present working directly(pwd). It starts at your current directory and never starts with a /
+
+2.2     /home/chlenix/Desktop/udevs-lab/DevOps-Bootcamp  - local path
+        https://github.com/firdavsdevuz/DevOps-Bootcamp  - global path
+
+2.3     we can see information about system by uname command
+    2.3.1   Linux kernel is the core component of Linux operating systems.
+            uname -r
+    2.3.2   uname -a
+            getconf LONG_BIT    
+
+
+2.4      systemctl --type=service
+
+2.5 ps aux
+
+2.6 cat /proc/cpuinfo
+    car /proc/meminfo
+
+
+
+
+
+
+4. SSH, or Secure Shell Protocol, is a remote administration protocol that allows users to access, control, and modify their remote servers over the internet.
+    4.1  ssh-keygen -b 4096
+    4.2 private -key        In Private key, the same key (secret key) is used for encryption and decryption
+        public - key        In Public key, two keys are used one key is used for encryption and another key is used for decryption
