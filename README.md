@@ -76,7 +76,7 @@ Extra:
 
 1. Create AWS EC2 instance with Ubuntu 20.04 LTS
 
-- 1.1 Add auto genrated domain of your ec2 instance to this readme - https://updateme.com
+- 1.1 Add auto genrated domain of your ec2 instance to this readme - http://ec2-54-204-237-226.compute-1.amazonaws.com/
 
 2. Install Docker and run your image in it
 
@@ -84,7 +84,7 @@ Extra:
 
 3. Install nginx and serve request to Docker container
 
-- 3.1 Add url to the application to the readme - url: http://your-ip:your_app_port (edit this file)
+- 3.1 Add url to the application to the readme - url: http://udevs.zafardevops.uz
 
 4. Write Github Actions pipeline for auto build/deploy new image
 
