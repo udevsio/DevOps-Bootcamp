@@ -31,7 +31,3 @@ jobs:
         run: |
           docker build -t $ECR_REGISTRY_URL/$ECR_REPOSITORY:$IMAGE_TAG .
           docker push $ECR_REGISTRY_URL/$ECR_REPOSITORY:$IMAGE_TAG
-          printf '[{"name":"udevs-go-app","imageUri":"430370457903.dkr.ecr.us-east-1.amazonaws.com/udevs-go-app:latest"}]' > docker-image-tags.json
-
-artifacts:
-  - docker-image-tags.json
