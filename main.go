@@ -14,7 +14,7 @@ func main() {
 	fmt.Printf("Server is running on %s", PORT)
 
 	http.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) {
-		fmt.Fprintf(w, "Hello World")
+		fmt.Fprintf(w, "Hello World from Udevs company!")
 	})
 
 	log.Fatal(http.ListenAndServe(PORT, nil))

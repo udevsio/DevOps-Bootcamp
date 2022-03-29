@@ -1,0 +1,8 @@
+terraform/
+ansible/
+Dockerfile
+.gitignore
+.github/
+commands.sh
+runcommands.sh
+zafar_output.txt

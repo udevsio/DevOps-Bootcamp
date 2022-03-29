@@ -1,0 +1,2 @@
+[webservers]
+server1   ansible_host=ubuntu@54.204.237.226  ansible_connection=ssh  deprecation_warnings=false INTERPRETER_PYTHON=auto_silent
