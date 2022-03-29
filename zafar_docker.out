@@ -1,0 +1,2 @@
+CONTAINER ID   IMAGE                                                              COMMAND        CREATED         STATUS         PORTS                                       NAMES
+ce43267b1b50   430370457903.dkr.ecr.us-east-1.amazonaws.com/udevs-go-app:latest   /build-app   8 minutes ago   Up 8 minutes   0.0.0.0:8080->8080/tcp, :::8080->8080/tcp   mystifying_mcclintock
