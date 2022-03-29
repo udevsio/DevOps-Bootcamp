@@ -1,0 +1,51 @@
+---
+- name: "Udevs server"
+  hosts: webservers
+  serial: 1
+
+  tasks:
+    - name: "test reachability"
+      ping:
+
+    - name: Update
+      shell: "sudo apt update"
+
+    - name: Install AWS CLI
+      shell: "sudo apt install awscli -y"
+
+    - name: Install curl apt-transport-htps and software-properties-common
+      shell: "sudo apt install -y curl apt-transport-https software-properties-common"
+
+    - name: Add Docker's official GPG key
+      shell: "curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -"
+
+    - name: Add Docker's repository
+      shell: 'sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable"'
+
+    - name: Install Docker
+      shell: "sudo apt update && sudo apt install -y docker-ce"
+
+    - name: Add user to docker group
+      shell: "sudo usermod -aG docker $USER"
+
+    - name: "Install nginx"
+      shell: "sudo apt install -y nginx"
+
+    - name: "Check status nginx"
+      shell: "sudo systemctl status nginx"
+
+    - name: "Configure nginx"
+      shell: |
+        sudo su
+        echo "server {
+          listen 80;
+          server_name udevs.zafardevops.uz;
+          location / {
+            proxy_pass http://localhost:8080;
+          }
+        }" > /etc/nginx/sites-available/udevs-go-app
+        exit
+        sudo ln -s /etc/nginx/sites-available/udevs-go-app /etc/nginx/sites-enabled/udevs-go-app
+
+    - name: "Restart nginx"
+      shell: "sudo systemctl restart nginx"
