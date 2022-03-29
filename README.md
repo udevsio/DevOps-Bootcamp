@@ -9,10 +9,10 @@ DevOps Internship invitation task
 
 2. Linux (Each output should be redirected to username_output.txt)
 
-- 2.1 What is absolute and relative path?
-  Absolute path is the path from the root of the file system and relative path is the path from the current directory.
+- 2.1 What is absolute and relative path? <br />
+  __ Absolute path is the path from the root of the file system and relative path is the path from the current directory.
   `/home/mysuer/files/example.txt` - this is example of absolute path
-  `../../../example` - this is an example of relative path
+  `../../../example` - this is an example of relative path__
 - 2.2 Path to git repo you have cloned earlier
   `/c/Users/Tension/Desktop/Workspace/DevOps-Bootcamp`
 - 2.3 uname, what is it and how we can use it?
