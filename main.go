@@ -9,7 +9,7 @@ import (
 func main() {
 	fmt.Println("Go Server is running!")
 
-	PORT := ":8080"
+	PORT := ":3000"
 
 	fmt.Printf("Server is running on %s", PORT)
 
