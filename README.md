@@ -49,7 +49,7 @@ Extra:
 2. Install Docker and run your image in it
   - 2.1 Save output of docker ps to `username_docker.out` file
 3. Install nginx and serve request to Docker container
-  - 3.1 Add url to the application to the readme - url: http://your-ip:your_app_port (edit this file)
+  - 3.1 Add url to the application to the readme - url: [http://194.195.210.192/](http://194.195.210.192/)
 4. Write Github Actions pipeline for auto build/deploy new image
 
 2x Extra:
