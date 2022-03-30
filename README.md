@@ -40,7 +40,7 @@ DevOps Internship invitation task
 6. Write Dockerfile for repo entity
    - 6.1 Build image from Dockerfile
    - 6.2 Push image to your dockerhub repo -> link to your your public image
-      https://hub.docker.com/r/xfirdavs/udevs_bootcamp
+      [https://hub.docker.com/r/xfirdavs/udevs_bootcamp](https://hub.docker.com/r/xfirdavs/udevs_bootcamp)
    - 6.3 Ignore your output files and .gitignore file (this files should not be in the image)
 ---
 Extra:
