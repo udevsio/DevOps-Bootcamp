@@ -1,0 +1,581 @@
+/home/chlenix/Desktop/firdavs/DevOps-Bootcamp
+
+Linux
+
+5.15.0-kali3-amd64
+
+Linux kali 5.15.0-kali3-amd64 #1 SMP Debian 5.15.15-2kali1 (2022-01-31) x86_64 GNU/Linux
+
+  UNIT                                                  LOAD   ACTIVE SUB     DESCRIPTION
+  accounts-daemon.service                               loaded active running Accounts Service
+  colord.service                                        loaded active running Manage, Install and Generate Color Profiles
+  console-setup.service                                 loaded active exited  Set console font and keymap
+  cron.service                                          loaded active running Regular background program processing daemon
+  dbus.service                                          loaded active running D-Bus System Message Bus
+  docker.service                                        loaded active running Docker Application Container Engine
+  getty@tty1.service                                    loaded active running Getty on tty1
+  haveged.service                                       loaded active running Entropy Daemon based on the HAVEGE algorithm
+  ifupdown-pre.service                                  loaded active exited  Helper to synchronize boot up for ifupdown
+  keyboard-setup.service                                loaded active exited  Set the console keyboard layout
+  kmod-static-nodes.service                             loaded active exited  Create List of Static Device Nodes
+  lightdm.service                                       loaded active running Light Display Manager
+  ModemManager.service                                  loaded active running Modem Manager
+  networking.service                                    loaded active exited  Raise network interfaces
+  NetworkManager-wait-online.service                    loaded active exited  Network Manager Wait Online
+  NetworkManager.service                                loaded active running Network Manager
+  plymouth-quit-wait.service                            loaded active exited  Hold until boot process finishes up
+  plymouth-read-write.service                           loaded active exited  Tell Plymouth To Write Out Runtime Data
+  plymouth-start.service                                loaded active exited  Show Plymouth Boot Screen
+  polkit.service                                        loaded active running Authorization Manager
+  rsyslog.service                                       loaded active running System Logging Service
+  rtkit-daemon.service                                  loaded active running RealtimeKit Scheduling Policy Service
+  smartmontools.service                                 loaded active running Self Monitoring and Reporting Technology (SMART) Daemon
+  systemd-backlight@backlight:intel_backlight.service   loaded active exited  Load/Save Screen Backlight Brightness of backlight:intel_backlight
+  systemd-fsck@dev-disk-by\x2duuid-3FC8\x2d7DEC.service loaded active exited  File System Check on /dev/disk/by-uuid/3FC8-7DEC
+  systemd-journal-flush.service                         loaded active exited  Flush Journal to Persistent Storage
+  systemd-journald.service                              loaded active running Journal Service
+  systemd-logind.service                                loaded active running User Login Management
+  systemd-modules-load.service                          loaded active exited  Load Kernel Modules
+  systemd-random-seed.service                           loaded active exited  Load/Save Random Seed
+  systemd-remount-fs.service                            loaded active exited  Remount Root and Kernel File Systems
+  systemd-sysctl.service                                loaded active exited  Apply Kernel Variables
+  systemd-sysusers.service                              loaded active exited  Create System Users
+  systemd-timesyncd.service                             loaded active running Network Time Synchronization
+  systemd-tmpfiles-setup-dev.service                    loaded active exited  Create Static Device Nodes in /dev
+  systemd-tmpfiles-setup.service                        loaded active exited  Create Volatile Files and Directories
+  systemd-udev-trigger.service                          loaded active exited  Coldplug All udev Devices
+  systemd-udevd.service                                 loaded active running Rule-based Manager for Device Events and Files
+  systemd-update-utmp.service                           loaded active exited  Record System Boot/Shutdown in UTMP
+  systemd-user-sessions.service                         loaded active exited  Permit User Sessions
+  thin.service                                          loaded active exited  LSB: thin initscript
+  udisks2.service                                       loaded active running Disk Manager
+  upower.service                                        loaded active running Daemon for power management
+  user-runtime-dir@1000.service                         loaded active exited  User Runtime Directory /run/user/1000
+  user@1000.service                                     loaded active running User Manager for UID 1000
+  wpa_supplicant.service                                loaded active running WPA supplicant
+
+
+LOAD   = Reflects whether the unit definition was properly loaded.
+ACTIVE = The high-level unit activation state, i.e. generalization of SUB.
+SUB    = The low-level unit activation state, values depend on unit type.
+46 loaded units listed. Pass --all to see loaded but inactive units, too.
+To show all installed unit files use 'systemctl list-unit-files'.
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root           1  0.0  0.1 166164 11472 ?        Ss   03:21   0:00 /sbin/init splash
+root           2  0.0  0.0      0     0 ?        S    03:21   0:00 [kthreadd]
+root           3  0.0  0.0      0     0 ?        I<   03:21   0:00 [rcu_gp]
+root           4  0.0  0.0      0     0 ?        I<   03:21   0:00 [rcu_par_gp]
+root           6  0.0  0.0      0     0 ?        I<   03:21   0:00 [kworker/0:0H-events_highpri]
+root           9  0.0  0.0      0     0 ?        I<   03:21   0:00 [mm_percpu_wq]
+root          10  0.0  0.0      0     0 ?        S    03:21   0:00 [rcu_tasks_rude_]
+root          11  0.0  0.0      0     0 ?        S    03:21   0:00 [rcu_tasks_trace]
+root          12  0.0  0.0      0     0 ?        S    03:21   0:00 [ksoftirqd/0]
+root          13  0.1  0.0      0     0 ?        I    03:21   0:02 [rcu_sched]
+root          14  0.0  0.0      0     0 ?        S    03:21   0:00 [migration/0]
+root          15  0.0  0.0      0     0 ?        S    03:21   0:00 [cpuhp/0]
+root          16  0.0  0.0      0     0 ?        S    03:21   0:00 [cpuhp/1]
+root          17  0.0  0.0      0     0 ?        S    03:21   0:00 [migration/1]
+root          18  0.0  0.0      0     0 ?        S    03:21   0:00 [ksoftirqd/1]
+root          19  0.0  0.0      0     0 ?        I    03:21   0:00 [kworker/1:0-events]
+root          20  0.0  0.0      0     0 ?        I<   03:21   0:00 [kworker/1:0H-events_highpri]
+root          21  0.0  0.0      0     0 ?        S    03:21   0:00 [cpuhp/2]
+root          22  0.0  0.0      0     0 ?        S    03:21   0:00 [migration/2]
+root          23  0.0  0.0      0     0 ?        S    03:21   0:00 [ksoftirqd/2]
+root          25  0.0  0.0      0     0 ?        I<   03:21   0:00 [kworker/2:0H-events_highpri]
+root          26  0.0  0.0      0     0 ?        S    03:21   0:00 [cpuhp/3]
+root          27  0.0  0.0      0     0 ?        S    03:21   0:00 [migration/3]
+root          28  0.0  0.0      0     0 ?        S    03:21   0:00 [ksoftirqd/3]
+root          30  0.0  0.0      0     0 ?        I<   03:21   0:00 [kworker/3:0H-events_highpri]
+root          31  0.0  0.0      0     0 ?        S    03:21   0:00 [cpuhp/4]
+root          32  0.0  0.0      0     0 ?        S    03:21   0:00 [migration/4]
+root          33  0.0  0.0      0     0 ?        S    03:21   0:00 [ksoftirqd/4]
+root          35  0.0  0.0      0     0 ?        I<   03:21   0:00 [kworker/4:0H-events_highpri]
+root          36  0.0  0.0      0     0 ?        S    03:21   0:00 [cpuhp/5]
+root          37  0.0  0.0      0     0 ?        S    03:21   0:00 [migration/5]
+root          38  0.0  0.0      0     0 ?        S    03:21   0:00 [ksoftirqd/5]
+root          40  0.0  0.0      0     0 ?        I<   03:21   0:00 [kworker/5:0H-events_highpri]
+root          41  0.0  0.0      0     0 ?        S    03:21   0:00 [cpuhp/6]
+root          42  0.0  0.0      0     0 ?        S    03:21   0:00 [migration/6]
+root          43  0.0  0.0      0     0 ?        S    03:21   0:00 [ksoftirqd/6]
+root          45  0.0  0.0      0     0 ?        I<   03:21   0:00 [kworker/6:0H-events_highpri]
+root          46  0.0  0.0      0     0 ?        S    03:21   0:00 [cpuhp/7]
+root          47  0.0  0.0      0     0 ?        S    03:21   0:00 [migration/7]
+root          48  0.0  0.0      0     0 ?        S    03:21   0:00 [ksoftirqd/7]
+root          50  0.0  0.0      0     0 ?        I<   03:21   0:00 [kworker/7:0H-events_highpri]
+root          53  0.0  0.0      0     0 ?        I    03:21   0:00 [kworker/u16:2-flush-259:0]
+root          59  0.0  0.0      0     0 ?        S    03:21   0:00 [kdevtmpfs]
+root          60  0.0  0.0      0     0 ?        I<   03:21   0:00 [netns]
+root          61  0.0  0.0      0     0 ?        I<   03:21   0:00 [inet_frag_wq]
+root          62  0.0  0.0      0     0 ?        S    03:21   0:00 [kauditd]
+root          63  0.0  0.0      0     0 ?        S    03:21   0:00 [khungtaskd]
+root          64  0.0  0.0      0     0 ?        S    03:21   0:00 [oom_reaper]
+root          65  0.0  0.0      0     0 ?        I<   03:21   0:00 [writeback]
+root          66  0.0  0.0      0     0 ?        S    03:21   0:00 [kcompactd0]
+root          67  0.0  0.0      0     0 ?        SN   03:21   0:00 [ksmd]
+root          68  0.0  0.0      0     0 ?        SN   03:21   0:00 [khugepaged]
+root          88  0.0  0.0      0     0 ?        I<   03:21   0:00 [kintegrityd]
+root          89  0.0  0.0      0     0 ?        I<   03:21   0:00 [kblockd]
+root          90  0.0  0.0      0     0 ?        I<   03:21   0:00 [blkcg_punt_bio]
+root          91  0.0  0.0      0     0 ?        I<   03:21   0:00 [tpm_dev_wq]
+root          92  0.0  0.0      0     0 ?        I<   03:21   0:00 [edac-poller]
+root          93  0.0  0.0      0     0 ?        I<   03:21   0:00 [devfreq_wq]
+root          94  0.0  0.0      0     0 ?        I    03:21   0:00 [kworker/4:1-mm_percpu_wq]
+root          95  0.0  0.0      0     0 ?        I<   03:21   0:00 [kworker/0:1H-events_highpri]
+root          96  0.0  0.0      0     0 ?        S    03:21   0:00 [kswapd0]
+root          97  0.0  0.0      0     0 ?        I<   03:21   0:00 [kthrotld]
+root         103  0.0  0.0      0     0 ?        I<   03:21   0:00 [acpi_thermal_pm]
+root         104  0.0  0.0      0     0 ?        I    03:21   0:00 [kworker/0:2-kacpi_notify]
+root         106  0.0  0.0      0     0 ?        I    03:21   0:00 [kworker/1:2-cgroup_destroy]
+root         107  0.0  0.0      0     0 ?        I<   03:21   0:00 [mld]
+root         108  0.0  0.0      0     0 ?        I<   03:21   0:00 [kworker/1:1H-events_highpri]
+root         109  0.0  0.0      0     0 ?        I<   03:21   0:00 [ipv6_addrconf]
+root         118  0.0  0.0      0     0 ?        I<   03:21   0:00 [kstrp]
+root         121  0.0  0.0      0     0 ?        I<   03:21   0:00 [zswap-shrink]
+root         122  0.1  0.0      0     0 ?        I<   03:21   0:05 [kworker/u17:0-i915_flip]
+root         152  0.0  0.0      0     0 ?        I<   03:21   0:00 [kworker/3:1H-events_highpri]
+root         172  0.0  0.0      0     0 ?        I<   03:21   0:00 [kworker/4:1H-kblockd]
+root         184  0.2  0.0      0     0 ?        I    03:21   0:05 [kworker/6:2-events]
+root         189  0.0  0.0      0     0 ?        I<   03:21   0:00 [ata_sff]
+root         192  0.0  0.0      0     0 ?        I<   03:21   0:00 [kworker/6:1H-kblockd]
+root         193  0.0  0.0      0     0 ?        I<   03:21   0:00 [nvme-wq]
+root         194  0.0  0.0      0     0 ?        I<   03:21   0:00 [cryptd]
+root         195  0.0  0.0      0     0 ?        S    03:21   0:00 [scsi_eh_0]
+root         197  0.0  0.0      0     0 ?        I<   03:21   0:00 [scsi_tmf_0]
+root         201  0.0  0.0      0     0 ?        S    03:21   0:00 [scsi_eh_1]
+root         205  0.0  0.0      0     0 ?        I<   03:21   0:00 [nvme-reset-wq]
+root         207  0.0  0.0      0     0 ?        I<   03:21   0:00 [nvme-delete-wq]
+root         215  0.0  0.0      0     0 ?        I<   03:21   0:00 [scsi_tmf_1]
+root         239  0.0  0.0      0     0 ?        S    03:21   0:00 [card0-crtc0]
+root         240  0.0  0.0      0     0 ?        S    03:21   0:00 [card0-crtc1]
+root         241  0.0  0.0      0     0 ?        S    03:21   0:00 [card0-crtc2]
+root         260  0.0  0.0      0     0 ?        I<   03:21   0:00 [kworker/7:1H-events_highpri]
+root         261  0.0  0.0      0     0 ?        I<   03:21   0:00 [kworker/5:1H-events_highpri]
+root         264  0.0  0.0      0     0 ?        I<   03:21   0:00 [kworker/2:1H-kblockd]
+root         306  0.0  0.0      0     0 ?        S    03:21   0:00 [jbd2/nvme0n1p2-]
+root         307  0.0  0.0      0     0 ?        I<   03:21   0:00 [ext4-rsv-conver]
+root         364  0.0  0.2  56548 23544 ?        Ss   03:21   0:00 /lib/systemd/systemd-journald
+root         373  0.0  0.0      0     0 ?        I<   03:21   0:00 [rpciod]
+root         374  0.0  0.0      0     0 ?        I<   03:21   0:00 [xprtiod]
+root         380  0.0  0.0  24264  6868 ?        Ss   03:21   0:00 /lib/systemd/systemd-udevd
+root         436  0.0  0.0      0     0 ?        S    03:21   0:00 [watchdogd]
+root         440  0.0  0.0      0     0 ?        S    03:21   0:00 [irq/138-mei_me]
+root         452  0.0  0.0      0     0 ?        I<   03:21   0:00 [cfg80211]
+root         536  0.0  0.0   8232  6044 ?        Ss   03:21   0:00 /usr/sbin/haveged --Foreground --verbose=1
+systemd+     537  0.0  0.0  89000  6132 ?        Ssl  03:21   0:00 /lib/systemd/systemd-timesyncd
+root         579  0.0  0.0      0     0 ?        I<   03:21   0:00 [ath10k_wq]
+root         580  0.0  0.0      0     0 ?        I<   03:21   0:00 [ath10k_aux_wq]
+root         581  0.0  0.0      0     0 ?        I<   03:21   0:00 [ath10k_tx_compl]
+root         582  0.0  0.1 238120  7980 ?        Ssl  03:21   0:00 /usr/libexec/accounts-daemon
+root         583  0.0  0.0   6792  2820 ?        Ss   03:21   0:00 /usr/sbin/cron -f
+message+     584  0.0  0.0  11372  6276 ?        Ss   03:21   0:00 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+root         586  0.0  0.2 259792 21344 ?        Ssl  03:21   0:00 /usr/sbin/NetworkManager --no-daemon
+root         590  0.0  0.1 240956 11004 ?        Ssl  03:21   0:00 /usr/libexec/polkitd --no-debug
+root         591  0.0  0.0 222444  4872 ?        Ssl  03:21   0:00 /usr/sbin/rsyslogd -n -iNONE
+root         592  0.0  0.0  11676  5404 ?        Ss   03:21   0:00 /usr/sbin/smartd -n
+root         596  0.0  0.1 311072  8304 ?        Ss   03:21   0:00 /lib/systemd/systemd-logind
+root         621  0.0  0.1 317548 11792 ?        Ssl  03:21   0:00 /usr/sbin/ModemManager
+root         627  0.0  0.1 309532  9672 ?        SLsl 03:21   0:00 /usr/sbin/lightdm
+root         639  0.0  0.0      0     0 ?        I<   03:21   0:00 [kworker/u17:1-hci0]
+root         660  3.5  1.3 678156 107244 tty7    Ssl+ 03:21   1:32 /usr/lib/xorg/Xorg :0 -seat seat0 -auth /var/run/lightdm/root/:0 -nolisten tcp vt7 -novtswitch
+root         668  0.0  0.0   5824   816 tty1     Ss+  03:21   0:00 /sbin/agetty -o -p -- \u --noclear - linux
+root         699  0.0  0.1  15300  9520 ?        Ss   03:21   0:00 /sbin/wpa_supplicant -u -s -O /run/wpa_supplicant
+rtkit        727  0.0  0.0 154016  3144 ?        SNsl 03:21   0:00 /usr/libexec/rtkit-daemon
+root         779  0.0  0.0      0     0 ?        I    03:21   0:00 [kworker/6:3-events]
+root         780  0.0  0.1 165288 11100 ?        Sl   03:21   0:00 lightdm --session-child 12 21
+root         806  0.0  1.1 1898448 93604 ?       Ssl  03:21   0:01 /usr/sbin/dockerd -H fd://
+root         862  0.3  0.5 1637520 47052 ?       Ssl  03:21   0:09 containerd --config /var/run/docker/containerd/containerd.toml --log-level info
+chlenix     1057  0.0  0.1  17660 10156 ?        Ss   03:21   0:00 /lib/systemd/systemd --user
+chlenix     1058  0.0  0.0 169264  5360 ?        S    03:21   0:00 (sd-pam)
+chlenix     1073  0.0  0.1  52288 14216 ?        S<sl 03:21   0:00 /usr/bin/pipewire
+chlenix     1074  0.0  0.3 169076 27956 ?        Ssl  03:21   0:00 /usr/bin/pipewire-media-session
+chlenix     1075  0.0  0.3 900520 29008 ?        S<sl 03:21   0:00 /usr/bin/pulseaudio --daemonize=no --log-target=journal
+chlenix     1078  0.0  0.1 312624  8032 ?        Sl   03:21   0:00 /usr/bin/gnome-keyring-daemon --daemonize --login
+chlenix     1082  0.0  0.0  10456  5780 ?        Ss   03:21   0:01 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+chlenix     1083  0.0  0.3 270484 27788 ?        Ssl  03:21   0:01 xfce4-session
+chlenix     1133  0.0  0.0   6100   480 ?        Ss   03:21   0:00 /usr/bin/ssh-agent x-session-manager
+chlenix     1143  0.0  0.1 312320 10164 ?        Ssl  03:21   0:00 /usr/libexec/at-spi-bus-launcher
+chlenix     1149  0.0  0.0   9920  4944 ?        S    03:21   0:00 /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 3
+chlenix     1153  0.0  0.0 231476  6376 ?        Sl   03:21   0:00 /usr/lib/x86_64-linux-gnu/xfce4/xfconf/xfconfd
+chlenix     1159  0.0  0.1 167512  8356 ?        Sl   03:21   0:00 /usr/libexec/at-spi2-registryd --use-gnome-session
+chlenix     1169  0.0  0.0  81256  3428 ?        SLs  03:21   0:00 /usr/bin/gpg-agent --supervised
+chlenix     1171  0.7  1.3 657220 107732 ?       Sl   03:21   0:20 xfwm4 --display :0.0 --sm-client-id 2512fe008-71d4-4caf-b37d-85c37037be4e
+chlenix     1174  0.0  0.1 238512  8116 ?        Ssl  03:21   0:00 /usr/libexec/gvfsd
+chlenix     1179  0.0  0.1 381420 10904 ?        Sl   03:21   0:00 /usr/libexec/gvfsd-fuse /run/user/1000/gvfs -f
+chlenix     1193  0.0  0.3 231448 27064 ?        Sl   03:21   0:00 xfsettingsd --display :0.0 --sm-client-id 2a8d60916-9687-4bb6-868e-16bb8bd5f1d5
+root        1197  0.0  0.1 239220  8716 ?        Ssl  03:21   0:00 /usr/libexec/upowerd
+chlenix     1203  0.3  0.5 469520 46532 ?        Sl   03:21   0:08 xfce4-panel --display :0.0 --sm-client-id 2ffae4288-973a-46b4-8ab0-f7abffe9746c
+chlenix     1207  0.0  0.6 487024 52840 ?        Sl   03:21   0:00 Thunar --sm-client-id 2b8609cd7-7364-421f-89fc-7d0c9aae8dde --daemon
+chlenix     1212  0.0  0.9 497024 74748 ?        Sl   03:21   0:01 xfdesktop --display :0.0 --sm-client-id 2110b46b0-98a9-408a-a9b1-090d83d5eadb
+chlenix     1215  0.0  0.6 470520 51196 ?        Sl   03:21   0:02 /usr/lib/x86_64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/x86_64-linux-gnu/xfce4/panel/plugins/libwhiskermenu.so 1 16777223 whiskermenu Whisker Menu Show a menu to easily access installed applications
+chlenix     1216  0.0  0.3 343136 24992 ?        Sl   03:21   0:00 /usr/lib/x86_64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/x86_64-linux-gnu/xfce4/panel/plugins/libsystray.so 14 16777224 systray Status Tray Plugin Provides status notifier items (application indicators) and legacy systray items
+chlenix     1217  0.3  0.3 353216 28680 ?        Sl   03:21   0:08 /usr/lib/x86_64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/x86_64-linux-gnu/xfce4/panel/plugins/libgenmon.so 15 16777225 genmon Generic Monitor Show output of a command.
+chlenix     1218  0.0  0.5 660464 46840 ?        Sl   03:21   0:02 /usr/lib/x86_64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/x86_64-linux-gnu/xfce4/panel/plugins/libpulseaudio-plugin.so 16 16777226 pulseaudio PulseAudio Plugin Adjust the audio volume of the PulseAudio sound system
+chlenix     1219  0.0  0.5 327004 43704 ?        Sl   03:21   0:00 /usr/lib/x86_64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/x86_64-linux-gnu/xfce4/panel/plugins/libnotification-plugin.so 17 16777227 notification-plugin Notification Plugin Notification plugin for the Xfce panel
+chlenix     1222  0.0  0.5 327236 43336 ?        Sl   03:21   0:00 /usr/lib/x86_64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/x86_64-linux-gnu/xfce4/panel/plugins/libxfce4powermanager.so 18 16777228 power-manager-plugin Power Manager Plugin Display the battery levels of your devices and control the brightness of your display
+chlenix     1223  0.0  0.5 392600 43848 ?        Sl   03:21   0:00 /usr/lib/x86_64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/x86_64-linux-gnu/xfce4/panel/plugins/libactions.so 22 16777229 actions Action Buttons Log out, lock or other system actions
+chlenix     1254  0.0  0.5 464276 42036 ?        Ssl  03:21   0:00 /usr/lib/x86_64-linux-gnu/xfce4/notifyd/xfce4-notifyd
+chlenix     1271  0.0  0.3 195760 24736 ?        Sl   03:21   0:00 xfce4-power-manager --restart --sm-client-id 297c8db3f-343c-4309-965f-cfb4e7bbd5ff
+chlenix     1281  0.0  0.0 235076  7084 ?        Sl   03:21   0:00 /usr/libexec/geoclue-2.0/demos/agent
+chlenix     1282  0.0  0.0  16872  1936 ?        Ssl  03:21   0:00 xcape -e Super_L Control_L Escape
+chlenix     1303  0.0  0.0 157496  5920 ?        Ssl  03:21   0:00 /usr/libexec/dconf-service
+chlenix     1307  0.0  0.6 376676 53256 ?        Sl   03:21   0:00 /usr/bin/python3 /usr/bin/blueman-applet
+chlenix     1309  0.0  0.3 492360 28808 ?        Sl   03:21   0:00 light-locker
+chlenix     1310  0.0  0.6 552552 51484 ?        Sl   03:21   0:00 nm-applet
+chlenix     1311  0.0  0.2 189280 17108 ?        Sl   03:21   0:00 /usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1
+chlenix     1312  0.0  0.1 312700  8604 ?        Sl   03:21   0:00 xiccd
+colord      1329  0.0  0.1 243476 13204 ?        Ssl  03:21   0:00 /usr/libexec/colord
+chlenix     1336  0.0  0.1 349668 12068 ?        Ssl  03:21   0:00 /usr/libexec/gvfs-udisks2-volume-monitor
+root        1341  0.0  0.1 394052 14380 ?        Ssl  03:21   0:00 /usr/libexec/udisks2/udisksd
+chlenix     1362  0.0  0.0 234540  6640 ?        Ssl  03:21   0:00 /usr/libexec/gvfs-goa-volume-monitor
+chlenix     1366  0.0  0.1 311744  9912 ?        Ssl  03:21   0:00 /usr/libexec/gvfs-afc-volume-monitor
+chlenix     1374  0.0  0.0 234368  6476 ?        Ssl  03:21   0:00 /usr/libexec/gvfs-mtp-volume-monitor
+chlenix     1381  0.0  0.0 235448  7128 ?        Ssl  03:21   0:00 /usr/libexec/gvfs-gphoto2-volume-monitor
+chlenix     1397  0.0  0.1 312612 10208 ?        Sl   03:21   0:00 /usr/libexec/gvfsd-trash --spawner :1.15 /org/gtk/gvfs/exec_spaw/0
+chlenix     1402  0.0  0.0 160952  6612 ?        Ssl  03:21   0:00 /usr/libexec/gvfsd-metadata
+chlenix     1415  0.0  0.0  45748  6928 ?        Ss   03:21   0:00 /usr/libexec/bluetooth/obexd
+chlenix     1434  3.1  3.5 17358608 278064 ?     SLl  03:21   1:20 /opt/google/chrome/chrome --enable-crashpad
+chlenix     1438  0.0  0.0   5560   692 ?        S    03:21   0:00 cat
+chlenix     1439  0.0  0.0   5560   752 ?        S    03:21   0:00 cat
+chlenix     1441  0.0  0.0 16799680 3208 ?       Sl   03:21   0:00 /opt/google/chrome/chrome_crashpad_handler --monitor-self --monitor-self-annotation=ptype=crashpad-handler --database=/home/chlenix/.config/google-chrome/Crash Reports --metrics-dir=/home/chlenix/.config/google-chrome --url=https://clients2.google.com/cr/report --annotation=channel= --annotation=lsb-release=Kali GNU/Linux Rolling --annotation=plat=Linux --annotation=prod=Chrome_Linux --annotation=ver=99.0.4844.51 --initial-client-fd=5 --shared-client-connection
+chlenix     1443  0.0  0.0 16790444 1432 ?       Sl   03:21   0:00 /opt/google/chrome/chrome_crashpad_handler --no-periodic-tasks --monitor-self-annotation=ptype=crashpad-handler --database=/home/chlenix/.config/google-chrome/Crash Reports --url=https://clients2.google.com/cr/report --annotation=channel= --annotation=lsb-release=Kali GNU/Linux Rolling --annotation=plat=Linux --annotation=prod=Chrome_Linux --annotation=ver=99.0.4844.51 --initial-client-fd=4 --shared-client-connection
+chlenix     1449  0.0  0.7 17043272 57044 ?      S    03:21   0:00 /opt/google/chrome/chrome --type=zygote --no-zygote-sandbox --enable-crashpad --crashpad-handler-pid=1441 --enable-crash-reporter=a3043f17-4474-4476-8481-9377408fc06d, --change-stack-guard-on-fork=enable --enable-crashpad
+chlenix     1450  0.0  0.7 17043264 59152 ?      S    03:21   0:00 /opt/google/chrome/chrome --type=zygote --enable-crashpad --crashpad-handler-pid=1441 --enable-crash-reporter=a3043f17-4474-4476-8481-9377408fc06d, --change-stack-guard-on-fork=enable --enable-crashpad
+chlenix     1451  0.0  0.0 16786092 4228 ?       S    03:21   0:00 /opt/google/chrome/nacl_helper
+chlenix     1454  0.0  0.2 17043288 18108 ?      S    03:21   0:00 /opt/google/chrome/chrome --type=zygote --enable-crashpad --crashpad-handler-pid=1441 --enable-crash-reporter=a3043f17-4474-4476-8481-9377408fc06d, --change-stack-guard-on-fork=enable --enable-crashpad
+chlenix     1472  0.0  0.1 474632 15580 ?        Ssl  03:21   0:00 /usr/libexec/xdg-desktop-portal
+chlenix     1476  3.8  2.1 17409388 171508 ?     Sl   03:21   1:39 /opt/google/chrome/chrome --type=gpu-process --enable-crashpad --crashpad-handler-pid=1441 --enable-crash-reporter=a3043f17-4474-4476-8481-9377408fc06d, --change-stack-guard-on-fork=enable --gpu-preferences=UAAAAAAAAAAgAAAIAAAAAAAAAAAAAAAAAABgAAAAAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAABgAAAAAAAAAGAAAAAAAAAAIAAAAAAAAAAgAAAAAAAAACAAAAAAAAAA= --shared-files --field-trial-handle=0,i,3721304805485717325,1191259044705144331,131072
+chlenix     1479  0.8  1.3 17098796 108052 ?     Sl   03:21   0:22 /opt/google/chrome/chrome --type=utility --utility-sub-type=network.mojom.NetworkService --lang=en-US --service-sandbox-type=none --enable-crashpad --crashpad-handler-pid=1441 --enable-crash-reporter=a3043f17-4474-4476-8481-9377408fc06d, --change-stack-guard-on-fork=enable --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,3721304805485717325,1191259044705144331,131072 --enable-crashpad
+chlenix     1482  0.0  0.0 456124  6668 ?        Ssl  03:21   0:00 /usr/libexec/xdg-document-portal
+chlenix     1484  0.0  0.0 238628  7864 ?        Sl   03:21   0:00 /usr/bin/gnome-keyring-daemon --start --foreground --components=secrets
+chlenix     1488  0.0  0.0 234276  5304 ?        Ssl  03:21   0:00 /usr/libexec/xdg-permission-store
+root        1496  0.0  0.0   2524  1840 ?        Ss   03:21   0:00 fusermount -o rw,nosuid,nodev,fsname=portal,auto_unmount,subtype=portal -- /run/user/1000/doc
+chlenix     1502  0.0  0.2 339100 19852 ?        Ssl  03:21   0:00 /usr/libexec/xdg-desktop-portal-gtk
+chlenix     1518  0.0  0.6 17084668 48424 ?      Sl   03:21   0:00 /opt/google/chrome/chrome --type=utility --utility-sub-type=storage.mojom.StorageService --lang=en-US --service-sandbox-type=utility --enable-crashpad --crashpad-handler-pid=1441 --enable-crash-reporter=a3043f17-4474-4476-8481-9377408fc06d, --change-stack-guard-on-fork=enable --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,3721304805485717325,1191259044705144331,131072
+chlenix     1584  1.9  2.1 29788432 169620 ?     Sl   03:21   0:50 /opt/google/chrome/chrome --type=renderer --enable-crashpad --crashpad-handler-pid=1441 --enable-crash-reporter=a3043f17-4474-4476-8481-9377408fc06d, --display-capture-permissions-policy-allowed --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=7 --launch-time-ticks=21205088 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,3721304805485717325,1191259044705144331,131072
+chlenix     2889  0.1  1.2 517512 97928 ?        Sl   03:24   0:02 /usr/bin/qterminal
+chlenix     2892  0.1  0.1  14072  8012 pts/0    Ss+  03:24   0:03 /usr/bin/zsh
+chlenix     3200  0.5  2.3 42544252 188344 ?     SLsl 03:25   0:12 /usr/share/code/code .
+chlenix     3204  0.0  0.5 197648 41624 ?        S    03:25   0:00 /usr/share/code/code --type=zygote --no-zygote-sandbox
+chlenix     3205  0.0  0.5 197648 41396 ?        S    03:25   0:00 /usr/share/code/code --type=zygote
+chlenix     3207  0.0  0.0 197648  7408 ?        S    03:25   0:00 /usr/share/code/code --type=zygote
+chlenix     3240  0.0  0.7 265528 58160 ?        Sl   03:25   0:00 /usr/share/code/code --type=utility --utility-sub-type=network.mojom.NetworkService --field-trial-handle=1323587010966767005,5802407255091666809,131072 --disable-features=CookiesWithoutSameSiteMustBeSecure,SameSiteByDefaultCookies,SpareRendererForSitePerProcess --lang=en-US --service-sandbox-type=none --enable-crash-reporter=b805848f-625c-444e-91cb-8e3eec493913,no_channel --global-crash-keys=b805848f-625c-444e-91cb-8e3eec493913,no_channel,_companyName=Microsoft,_productName=VSCode,_version=1.65.2 --user-data-dir=/home/chlenix/.config/Code --standard-schemes=vscode-webview,vscode-file --secure-schemes=vscode-webview,vscode-file --bypasscsp-schemes --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --streaming-schemes --shared-files=v8_context_snapshot_data:100
+chlenix     3266  1.4  3.5 52908900 278304 ?     Sl   03:25   0:34 /usr/share/code/code --type=renderer --disable-color-correct-rendering --field-trial-handle=1323587010966767005,5802407255091666809,131072 --disable-features=CookiesWithoutSameSiteMustBeSecure,SameSiteByDefaultCookies,SpareRendererForSitePerProcess --lang=en-US --enable-crash-reporter=b805848f-625c-444e-91cb-8e3eec493913,no_channel --global-crash-keys=b805848f-625c-444e-91cb-8e3eec493913,no_channel,_companyName=Microsoft,_productName=VSCode,_version=1.65.2 --user-data-dir=/home/chlenix/.config/Code --standard-schemes=vscode-webview,vscode-file --secure-schemes=vscode-webview,vscode-file --bypasscsp-schemes --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --streaming-schemes --app-path=/usr/share/code/resources/app --no-sandbox --no-zygote --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=5 --no-v8-untrusted-code-mitigations --shared-files=v8_context_snapshot_data:100 --vscode-window-config=vscode:0f75cb09-f7d3-4449-a0f0-e5b60f63d00f
+chlenix     3294  0.1  1.9 42367264 153264 ?     Sl   03:25   0:04 /usr/share/code/code --type=renderer --disable-color-correct-rendering --field-trial-handle=1323587010966767005,5802407255091666809,131072 --disable-features=CookiesWithoutSameSiteMustBeSecure,SameSiteByDefaultCookies,SpareRendererForSitePerProcess --lang=en-US --enable-crash-reporter=b805848f-625c-444e-91cb-8e3eec493913,no_channel --global-crash-keys=b805848f-625c-444e-91cb-8e3eec493913,no_channel,_companyName=Microsoft,_productName=VSCode,_version=1.65.2 --user-data-dir=/home/chlenix/.config/Code --standard-schemes=vscode-webview,vscode-file --secure-schemes=vscode-webview,vscode-file --bypasscsp-schemes --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --streaming-schemes --app-path=/usr/share/code/resources/app --no-sandbox --no-zygote --node-integration-in-worker --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=7 --no-v8-untrusted-code-mitigations --shared-files=v8_context_snapshot_data:100 --vscode-window-config=vscode:27a3419c-730d-4580-b82e-f00521e1ba5b --vscode-window-kind=shared-process
+chlenix     3311  0.1  1.4 38042328 115468 ?     Sl   03:25   0:02 /usr/share/code/code --ms-enable-electron-run-as-node --inspect-port=0 /usr/share/code/resources/app/out/bootstrap-fork --type=extensionHost --skipWorkspaceStorageLock
+chlenix     3340  0.0  0.9 38034620 75288 ?      Sl   03:25   0:00 /usr/share/code/code --ms-enable-electron-run-as-node /usr/share/code/resources/app/out/bootstrap-fork --type=ptyHost
+chlenix     3365  0.0  0.9 38040148 71592 ?      Sl   03:25   0:00 /usr/share/code/code --ms-enable-electron-run-as-node /usr/share/code/resources/app/out/bootstrap-fork --type=fileWatcher
+root        4680  0.0  0.0      0     0 ?        I    03:29   0:00 [kworker/3:0-mm_percpu_wq]
+chlenix     4740  0.0  0.1 386492 10680 ?        Sl   03:29   0:00 /usr/libexec/gvfsd-network --spawner :1.15 /org/gtk/gvfs/exec_spaw/1
+chlenix     4760  0.0  0.1 314844  8620 ?        Sl   03:29   0:00 /usr/libexec/gvfsd-dnssd --spawner :1.15 /org/gtk/gvfs/exec_spaw/3
+root        5013  0.0  0.0      0     0 ?        I    03:29   0:00 [kworker/2:0-events]
+root        5014  0.0  0.0      0     0 ?        I    03:29   0:00 [kworker/5:0-mm_percpu_wq]
+root        5015  0.0  0.0      0     0 ?        I    03:29   0:01 [kworker/u16:1-events_unbound]
+chlenix     7777  0.0  0.9 17338408 73392 ?      Sl   03:39   0:00 /opt/google/chrome/chrome --type=utility --utility-sub-type=audio.mojom.AudioService --lang=en-US --service-sandbox-type=none --enable-crashpad --crashpad-handler-pid=1441 --enable-crash-reporter=a3043f17-4474-4476-8481-9377408fc06d, --change-stack-guard-on-fork=enable --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,3721304805485717325,1191259044705144331,131072 --enable-crashpad
+chlenix     8482  0.1  1.2 517592 95360 ?        Sl   03:41   0:02 /usr/bin/qterminal
+chlenix     8488  0.2  0.0  13840  7580 pts/1    Ss   03:41   0:02 /usr/bin/zsh
+root        8860  0.0  0.0      0     0 ?        I    03:42   0:00 [kworker/5:2-events]
+root        9977  0.0  0.0      0     0 ?        I    03:45   0:00 [kworker/7:1-events]
+root        9978  0.0  0.0      0     0 ?        I    03:45   0:00 [kworker/0:0-events]
+root        9979  0.0  0.0      0     0 ?        I    03:45   0:00 [kworker/7:3-events]
+chlenix    10176  1.6  2.9 29787664 231848 ?     Sl   03:46   0:18 /opt/google/chrome/chrome --type=renderer --enable-crashpad --crashpad-handler-pid=1441 --enable-crash-reporter=a3043f17-4474-4476-8481-9377408fc06d, --display-capture-permissions-policy-allowed --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=41 --launch-time-ticks=1493355781 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,3721304805485717325,1191259044705144331,131072
+chlenix    10200  0.7  1.8 25581848 145220 ?     Sl   03:46   0:08 /opt/google/chrome/chrome --type=renderer --enable-crashpad --crashpad-handler-pid=1441 --enable-crash-reporter=a3043f17-4474-4476-8481-9377408fc06d, --display-capture-permissions-policy-allowed --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=42 --launch-time-ticks=1494865293 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,3721304805485717325,1191259044705144331,131072
+chlenix    10233  0.0  1.0 25557816 85376 ?      Sl   03:46   0:00 /opt/google/chrome/chrome --type=renderer --enable-crashpad --crashpad-handler-pid=1441 --enable-crash-reporter=a3043f17-4474-4476-8481-9377408fc06d, --display-capture-permissions-policy-allowed --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=43 --launch-time-ticks=1497576841 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,3721304805485717325,1191259044705144331,131072
+chlenix    10246  0.0  1.0 25559856 82064 ?      Sl   03:46   0:00 /opt/google/chrome/chrome --type=renderer --enable-crashpad --crashpad-handler-pid=1441 --enable-crash-reporter=a3043f17-4474-4476-8481-9377408fc06d, --display-capture-permissions-policy-allowed --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=44 --launch-time-ticks=1497689775 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,3721304805485717325,1191259044705144331,131072
+chlenix    10259  0.0  1.0 25566012 84756 ?      Sl   03:46   0:00 /opt/google/chrome/chrome --type=renderer --enable-crashpad --crashpad-handler-pid=1441 --enable-crash-reporter=a3043f17-4474-4476-8481-9377408fc06d, --display-capture-permissions-policy-allowed --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=45 --launch-time-ticks=1497983144 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,3721304805485717325,1191259044705144331,131072
+chlenix    10304  0.0  1.2 25557816 102948 ?     Sl   03:46   0:01 /opt/google/chrome/chrome --type=renderer --enable-crashpad --crashpad-handler-pid=1441 --enable-crash-reporter=a3043f17-4474-4476-8481-9377408fc06d, --display-capture-permissions-policy-allowed --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=47 --launch-time-ticks=1501472641 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,3721304805485717325,1191259044705144331,131072
+chlenix    10826  0.0  0.7 25533080 60944 ?      Sl   03:47   0:00 /opt/google/chrome/chrome --type=renderer --enable-crashpad --crashpad-handler-pid=1441 --enable-crash-reporter=a3043f17-4474-4476-8481-9377408fc06d, --display-capture-permissions-policy-allowed --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=54 --launch-time-ticks=1582661578 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,3721304805485717325,1191259044705144331,131072
+root       12419  0.0  0.0      0     0 ?        I    03:54   0:00 [kworker/u16:0-i915]
+root       13777  0.0  0.0      0     0 ?        I    03:59   0:00 [kworker/2:1-events]
+root       13779  0.0  0.0      0     0 ?        I    03:59   0:00 [kworker/4:2-events]
+root       13833  0.0  0.0      0     0 ?        I    03:59   0:00 [kworker/3:1-events]
+root       13865  0.0  0.0      0     0 ?        I    03:59   0:00 [kworker/u16:3-ext4-rsv-conversion]
+root       13874  0.0  0.0      0     0 ?        I    03:59   0:00 [kworker/1:1]
+root       14175  0.0  0.0      0     0 ?        I    04:00   0:00 [kworker/6:0-events]
+chlenix    14361  1.2  1.5 540772 123208 ?       Sl   04:01   0:02 /usr/share/code/code --type=gpu-process --field-trial-handle=1323587010966767005,5802407255091666809,131072 --disable-features=CookiesWithoutSameSiteMustBeSecure,SameSiteByDefaultCookies,SpareRendererForSitePerProcess --disable-color-correct-rendering --enable-crash-reporter=b805848f-625c-444e-91cb-8e3eec493913,no_channel --global-crash-keys=b805848f-625c-444e-91cb-8e3eec493913,no_channel,_companyName=Microsoft,_productName=VSCode,_version=1.65.2 --user-data-dir=/home/chlenix/.config/Code --gpu-preferences=UAAAAAAAAAAgAAAQAAAAAAAAAAAAAAAAAABgAAAAAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAgAAAAAAAAACAAAAAAAAAA= --shared-files
+root       14382  0.0  0.0      0     0 ?        I    04:01   0:00 [kworker/0:1-cgroup_destroy]
+root       14384  0.0  0.0      0     0 ?        I    04:01   0:00 [kworker/5:1-cgroup_destroy]
+root       14401  0.0  0.0      0     0 ?        I    04:01   0:00 [kworker/u16:4]
+root       14430  0.0  0.0      0     0 ?        I    04:01   0:00 [kworker/5:3-cgroup_destroy]
+root       14431  0.0  0.0      0     0 ?        I    04:01   0:00 [kworker/1:3-events]
+root       14432  0.0  0.0      0     0 ?        I    04:01   0:00 [kworker/0:3-events]
+root       14555  0.0  0.0      0     0 ?        I    04:02   0:00 [kworker/7:0-cgroup_destroy]
+chlenix    15368  0.0  0.0  11636  4124 pts/1    R+   04:04   0:00 ps -aux
+chlenix    15369  0.0  0.0   5796   980 pts/1    S+   04:04   0:00 less
+processor	: 0
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 126
+model name	: Intel(R) Core(TM) i5-1035G1 CPU @ 1.00GHz
+stepping	: 5
+microcode	: 0xa6
+cpu MHz		: 1206.370
+cache size	: 6144 KB
+physical id	: 0
+siblings	: 8
+core id		: 0
+cpu cores	: 4
+apicid		: 0
+initial apicid	: 0
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 27
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc cpuid aperfmperf tsc_known_freq pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch cpuid_fault epb invpcid_single ssbd ibrs ibpb stibp ibrs_enhanced tpr_shadow vnmi flexpriority ept vpid ept_ad fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid avx512f avx512dq rdseed adx smap avx512ifma clflushopt intel_pt avx512cd sha_ni avx512bw avx512vl xsaveopt xsavec xgetbv1 xsaves split_lock_detect dtherm ida arat pln pts hwp hwp_notify hwp_act_window hwp_epp hwp_pkg_req avx512vbmi umip pku ospke avx512_vbmi2 gfni vaes vpclmulqdq avx512_vnni avx512_bitalg avx512_vpopcntdq rdpid fsrm md_clear flush_l1d arch_capabilities
+vmx flags	: vnmi preemption_timer posted_intr invvpid ept_x_only ept_ad ept_1gb flexpriority apicv tsc_offset vtpr mtf vapic ept vpid unrestricted_guest vapic_reg vid ple pml ept_mode_based_exec tsc_scaling
+bugs		: spectre_v1 spectre_v2 spec_store_bypass swapgs itlb_multihit
+bogomips	: 2380.80
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 39 bits physical, 48 bits virtual
+power management:
+
+processor	: 1
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 126
+model name	: Intel(R) Core(TM) i5-1035G1 CPU @ 1.00GHz
+stepping	: 5
+microcode	: 0xa6
+cpu MHz		: 1200.000
+cache size	: 6144 KB
+physical id	: 0
+siblings	: 8
+core id		: 1
+cpu cores	: 4
+apicid		: 2
+initial apicid	: 2
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 27
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc cpuid aperfmperf tsc_known_freq pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch cpuid_fault epb invpcid_single ssbd ibrs ibpb stibp ibrs_enhanced tpr_shadow vnmi flexpriority ept vpid ept_ad fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid avx512f avx512dq rdseed adx smap avx512ifma clflushopt intel_pt avx512cd sha_ni avx512bw avx512vl xsaveopt xsavec xgetbv1 xsaves split_lock_detect dtherm ida arat pln pts hwp hwp_notify hwp_act_window hwp_epp hwp_pkg_req avx512vbmi umip pku ospke avx512_vbmi2 gfni vaes vpclmulqdq avx512_vnni avx512_bitalg avx512_vpopcntdq rdpid fsrm md_clear flush_l1d arch_capabilities
+vmx flags	: vnmi preemption_timer posted_intr invvpid ept_x_only ept_ad ept_1gb flexpriority apicv tsc_offset vtpr mtf vapic ept vpid unrestricted_guest vapic_reg vid ple pml ept_mode_based_exec tsc_scaling
+bugs		: spectre_v1 spectre_v2 spec_store_bypass swapgs itlb_multihit
+bogomips	: 2380.80
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 39 bits physical, 48 bits virtual
+power management:
+
+processor	: 2
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 126
+model name	: Intel(R) Core(TM) i5-1035G1 CPU @ 1.00GHz
+stepping	: 5
+microcode	: 0xa6
+cpu MHz		: 1200.000
+cache size	: 6144 KB
+physical id	: 0
+siblings	: 8
+core id		: 2
+cpu cores	: 4
+apicid		: 4
+initial apicid	: 4
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 27
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc cpuid aperfmperf tsc_known_freq pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch cpuid_fault epb invpcid_single ssbd ibrs ibpb stibp ibrs_enhanced tpr_shadow vnmi flexpriority ept vpid ept_ad fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid avx512f avx512dq rdseed adx smap avx512ifma clflushopt intel_pt avx512cd sha_ni avx512bw avx512vl xsaveopt xsavec xgetbv1 xsaves split_lock_detect dtherm ida arat pln pts hwp hwp_notify hwp_act_window hwp_epp hwp_pkg_req avx512vbmi umip pku ospke avx512_vbmi2 gfni vaes vpclmulqdq avx512_vnni avx512_bitalg avx512_vpopcntdq rdpid fsrm md_clear flush_l1d arch_capabilities
+vmx flags	: vnmi preemption_timer posted_intr invvpid ept_x_only ept_ad ept_1gb flexpriority apicv tsc_offset vtpr mtf vapic ept vpid unrestricted_guest vapic_reg vid ple pml ept_mode_based_exec tsc_scaling
+bugs		: spectre_v1 spectre_v2 spec_store_bypass swapgs itlb_multihit
+bogomips	: 2380.80
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 39 bits physical, 48 bits virtual
+power management:
+
+processor	: 3
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 126
+model name	: Intel(R) Core(TM) i5-1035G1 CPU @ 1.00GHz
+stepping	: 5
+microcode	: 0xa6
+cpu MHz		: 1200.000
+cache size	: 6144 KB
+physical id	: 0
+siblings	: 8
+core id		: 3
+cpu cores	: 4
+apicid		: 6
+initial apicid	: 6
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 27
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc cpuid aperfmperf tsc_known_freq pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch cpuid_fault epb invpcid_single ssbd ibrs ibpb stibp ibrs_enhanced tpr_shadow vnmi flexpriority ept vpid ept_ad fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid avx512f avx512dq rdseed adx smap avx512ifma clflushopt intel_pt avx512cd sha_ni avx512bw avx512vl xsaveopt xsavec xgetbv1 xsaves split_lock_detect dtherm ida arat pln pts hwp hwp_notify hwp_act_window hwp_epp hwp_pkg_req avx512vbmi umip pku ospke avx512_vbmi2 gfni vaes vpclmulqdq avx512_vnni avx512_bitalg avx512_vpopcntdq rdpid fsrm md_clear flush_l1d arch_capabilities
+vmx flags	: vnmi preemption_timer posted_intr invvpid ept_x_only ept_ad ept_1gb flexpriority apicv tsc_offset vtpr mtf vapic ept vpid unrestricted_guest vapic_reg vid ple pml ept_mode_based_exec tsc_scaling
+bugs		: spectre_v1 spectre_v2 spec_store_bypass swapgs itlb_multihit
+bogomips	: 2380.80
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 39 bits physical, 48 bits virtual
+power management:
+
+processor	: 4
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 126
+model name	: Intel(R) Core(TM) i5-1035G1 CPU @ 1.00GHz
+stepping	: 5
+microcode	: 0xa6
+cpu MHz		: 1238.654
+cache size	: 6144 KB
+physical id	: 0
+siblings	: 8
+core id		: 0
+cpu cores	: 4
+apicid		: 1
+initial apicid	: 1
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 27
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc cpuid aperfmperf tsc_known_freq pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch cpuid_fault epb invpcid_single ssbd ibrs ibpb stibp ibrs_enhanced tpr_shadow vnmi flexpriority ept vpid ept_ad fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid avx512f avx512dq rdseed adx smap avx512ifma clflushopt intel_pt avx512cd sha_ni avx512bw avx512vl xsaveopt xsavec xgetbv1 xsaves split_lock_detect dtherm ida arat pln pts hwp hwp_notify hwp_act_window hwp_epp hwp_pkg_req avx512vbmi umip pku ospke avx512_vbmi2 gfni vaes vpclmulqdq avx512_vnni avx512_bitalg avx512_vpopcntdq rdpid fsrm md_clear flush_l1d arch_capabilities
+vmx flags	: vnmi preemption_timer posted_intr invvpid ept_x_only ept_ad ept_1gb flexpriority apicv tsc_offset vtpr mtf vapic ept vpid unrestricted_guest vapic_reg vid ple pml ept_mode_based_exec tsc_scaling
+bugs		: spectre_v1 spectre_v2 spec_store_bypass swapgs itlb_multihit
+bogomips	: 2380.80
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 39 bits physical, 48 bits virtual
+power management:
+
+processor	: 5
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 126
+model name	: Intel(R) Core(TM) i5-1035G1 CPU @ 1.00GHz
+stepping	: 5
+microcode	: 0xa6
+cpu MHz		: 1043.140
+cache size	: 6144 KB
+physical id	: 0
+siblings	: 8
+core id		: 1
+cpu cores	: 4
+apicid		: 3
+initial apicid	: 3
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 27
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc cpuid aperfmperf tsc_known_freq pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch cpuid_fault epb invpcid_single ssbd ibrs ibpb stibp ibrs_enhanced tpr_shadow vnmi flexpriority ept vpid ept_ad fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid avx512f avx512dq rdseed adx smap avx512ifma clflushopt intel_pt avx512cd sha_ni avx512bw avx512vl xsaveopt xsavec xgetbv1 xsaves split_lock_detect dtherm ida arat pln pts hwp hwp_notify hwp_act_window hwp_epp hwp_pkg_req avx512vbmi umip pku ospke avx512_vbmi2 gfni vaes vpclmulqdq avx512_vnni avx512_bitalg avx512_vpopcntdq rdpid fsrm md_clear flush_l1d arch_capabilities
+vmx flags	: vnmi preemption_timer posted_intr invvpid ept_x_only ept_ad ept_1gb flexpriority apicv tsc_offset vtpr mtf vapic ept vpid unrestricted_guest vapic_reg vid ple pml ept_mode_based_exec tsc_scaling
+bugs		: spectre_v1 spectre_v2 spec_store_bypass swapgs itlb_multihit
+bogomips	: 2380.80
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 39 bits physical, 48 bits virtual
+power management:
+
+processor	: 6
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 126
+model name	: Intel(R) Core(TM) i5-1035G1 CPU @ 1.00GHz
+stepping	: 5
+microcode	: 0xa6
+cpu MHz		: 1200.000
+cache size	: 6144 KB
+physical id	: 0
+siblings	: 8
+core id		: 2
+cpu cores	: 4
+apicid		: 5
+initial apicid	: 5
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 27
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc cpuid aperfmperf tsc_known_freq pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch cpuid_fault epb invpcid_single ssbd ibrs ibpb stibp ibrs_enhanced tpr_shadow vnmi flexpriority ept vpid ept_ad fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid avx512f avx512dq rdseed adx smap avx512ifma clflushopt intel_pt avx512cd sha_ni avx512bw avx512vl xsaveopt xsavec xgetbv1 xsaves split_lock_detect dtherm ida arat pln pts hwp hwp_notify hwp_act_window hwp_epp hwp_pkg_req avx512vbmi umip pku ospke avx512_vbmi2 gfni vaes vpclmulqdq avx512_vnni avx512_bitalg avx512_vpopcntdq rdpid fsrm md_clear flush_l1d arch_capabilities
+vmx flags	: vnmi preemption_timer posted_intr invvpid ept_x_only ept_ad ept_1gb flexpriority apicv tsc_offset vtpr mtf vapic ept vpid unrestricted_guest vapic_reg vid ple pml ept_mode_based_exec tsc_scaling
+bugs		: spectre_v1 spectre_v2 spec_store_bypass swapgs itlb_multihit
+bogomips	: 2380.80
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 39 bits physical, 48 bits virtual
+power management:
+
+processor	: 7
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 126
+model name	: Intel(R) Core(TM) i5-1035G1 CPU @ 1.00GHz
+stepping	: 5
+microcode	: 0xa6
+cpu MHz		: 1200.000
+cache size	: 6144 KB
+physical id	: 0
+siblings	: 8
+core id		: 3
+cpu cores	: 4
+apicid		: 7
+initial apicid	: 7
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 27
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc cpuid aperfmperf tsc_known_freq pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch cpuid_fault epb invpcid_single ssbd ibrs ibpb stibp ibrs_enhanced tpr_shadow vnmi flexpriority ept vpid ept_ad fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid avx512f avx512dq rdseed adx smap avx512ifma clflushopt intel_pt avx512cd sha_ni avx512bw avx512vl xsaveopt xsavec xgetbv1 xsaves split_lock_detect dtherm ida arat pln pts hwp hwp_notify hwp_act_window hwp_epp hwp_pkg_req avx512vbmi umip pku ospke avx512_vbmi2 gfni vaes vpclmulqdq avx512_vnni avx512_bitalg avx512_vpopcntdq rdpid fsrm md_clear flush_l1d arch_capabilities
+vmx flags	: vnmi preemption_timer posted_intr invvpid ept_x_only ept_ad ept_1gb flexpriority apicv tsc_offset vtpr mtf vapic ept vpid unrestricted_guest vapic_reg vid ple pml ept_mode_based_exec tsc_scaling
+bugs		: spectre_v1 spectre_v2 spec_store_bypass swapgs itlb_multihit
+bogomips	: 2380.80
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 39 bits physical, 48 bits virtual
+power management:
+
+
+MemTotal:        7927244 kB
+MemFree:         4582672 kB
+MemAvailable:    5520416 kB
+Buffers:           83888 kB
+Cached:          1413716 kB
+SwapCached:            0 kB
+Active:           588660 kB
+Inactive:        2140620 kB
+Active(anon):       4684 kB
+Inactive(anon):  1589212 kB
+Active(file):     583976 kB
+Inactive(file):   551408 kB
+Unevictable:      277588 kB
+Mlocked:             128 kB
+SwapTotal:       1000444 kB
+SwapFree:        1000444 kB
+Dirty:                56 kB
+Writeback:             0 kB
+AnonPages:       1441004 kB
+Mapped:           618892 kB
+Shmem:            362220 kB
+KReclaimable:      60604 kB
+Slab:             150188 kB
+SReclaimable:      60604 kB
+SUnreclaim:        89584 kB
+KernelStack:       10864 kB
+PageTables:        28108 kB
+NFS_Unstable:          0 kB
+Bounce:                0 kB
+WritebackTmp:          0 kB
+CommitLimit:     4964064 kB
+Committed_AS:    7528884 kB
+VmallocTotal:   34359738367 kB
+VmallocUsed:       37976 kB
+VmallocChunk:          0 kB
+Percpu:             6336 kB
+HardwareCorrupted:     0 kB
+AnonHugePages:    399360 kB
+ShmemHugePages:        0 kB
+ShmemPmdMapped:        0 kB
+FileHugePages:         0 kB
+FilePmdMapped:         0 kB
+HugePages_Total:       0
+HugePages_Free:        0
+HugePages_Rsvd:        0
+HugePages_Surp:        0
+Hugepagesize:       2048 kB
+Hugetlb:               0 kB
+DirectMap4k:      272256 kB
+DirectMap2M:     6850560 kB
+DirectMap1G:     1048576 kB
+Generating public/private rsa key pair.
+Enter file in which to save the key (/home/chlenix/.ssh/id_rsa): 
