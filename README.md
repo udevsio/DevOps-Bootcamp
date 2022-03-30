@@ -14,7 +14,7 @@ DevOps Internship invitation task
   - 2.2 Path to git repo you have cloned earlier
   - /home/chlenix/Desktop/bootcamp/DevOps-Bootcamp
   - 2.3 uname, what is it and how we can use it?
-      -  uname is an application that provides information about the devices of this system
+      uname is an application that provides information about the devices of this system
       - 2.3.1 What is version of kernel?
             -  The kernel is the main part of this axis, the medium between the software part of the computer and the hardware part
             -  (uname -r)
@@ -33,8 +33,8 @@ DevOps Internship invitation task
    - 4.1 How to generate 4096 bit key?
         ssh-keygen -b 4096
    - 4.2 What is private/public key and how ssh authentication works?
-        private -key        In Private key, the same key is used for encryption and decryption
-        public - key        In Public key, two keys are used one key is used for encryption and another key is used for decryption.
+        private key - In Private key, the same key is used for encryption and decryption
+        public key - In Public key, two keys are used one key is used for encryption and another key is used for decryption.
         Authentication is performed with ssh asymmetric key pairs. The server encrypts the information and sends it to the client using a public key. If the client has the correct key, he can open and reuse the information.
 5. Networking - curl
    - 5.1 Explain how curl requests work - `curl google.com` (as detailed as possible)
