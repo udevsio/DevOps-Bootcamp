@@ -45,7 +45,7 @@ DevOps Internship invitation task
 ---
 Extra:
 1. Create AWS EC2 instance with Ubuntu 20.04 LTS
-  - 1.1 Add auto genrated domain of your ec2 instance to this readme - https://updateme.com
+  - 1.1 Add auto genrated domain of your ec2 instance to this readme - [http://194.195.210.192/](http://194.195.210.192/)
 2. Install Docker and run your image in it
   - 2.1 Save output of docker ps to `username_docker.out` file
 3. Install nginx and serve request to Docker container
