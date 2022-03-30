@@ -20,9 +20,9 @@ DevOps Internship invitation task
         2.3.2 What is processor architecture?
       Processor architecture - refers to its structure and mode of operation.It is a contract between software and hardware, we choose the OS that suits the processor architecture.ex (x86,amd64) (uname -m)
   - 2.4 Get list of services with systemctl
-     systemctl --type=service
+     systemctl --type=service --state=running
   - 2.5 Get list of active processes
-     ps -aux | less
+     ps aux
   - 2.6 CPU/RAM info
      cat /proc/cpuinfo
      cat /proc/meminfo

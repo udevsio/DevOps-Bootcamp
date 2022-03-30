@@ -1,0 +1,1 @@
+bash mycommands.sh >> xfirdavs_output.txt

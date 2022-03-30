@@ -1,0 +1,273 @@
+.......My local repo.......
+/home/chlenix/Desktop/bfirdavs/DevOps-Bootcamp
+.......uname.......
+Linux
+......kernel version.......
+5.15.0-kali3-amd64
+.......cpu architec.......
+x86_64
+.......list of services......
+  UNIT                      LOAD   ACTIVE SUB     DESCRIPTION
+  accounts-daemon.service   loaded active running Accounts Service
+  colord.service            loaded active running Manage, Install and Generate Color Profiles
+  cron.service              loaded active running Regular background program processing daemon
+  dbus.service              loaded active running D-Bus System Message Bus
+  docker.service            loaded active running Docker Application Container Engine
+  getty@tty1.service        loaded active running Getty on tty1
+  haveged.service           loaded active running Entropy Daemon based on the HAVEGE algorithm
+  lightdm.service           loaded active running Light Display Manager
+  ModemManager.service      loaded active running Modem Manager
+  NetworkManager.service    loaded active running Network Manager
+  polkit.service            loaded active running Authorization Manager
+  rsyslog.service           loaded active running System Logging Service
+  rtkit-daemon.service      loaded active running RealtimeKit Scheduling Policy Service
+  smartmontools.service     loaded active running Self Monitoring and Reporting Technology (SMART) Daemon
+  systemd-journald.service  loaded active running Journal Service
+  systemd-logind.service    loaded active running User Login Management
+  systemd-timesyncd.service loaded active running Network Time Synchronization
+  systemd-udevd.service     loaded active running Rule-based Manager for Device Events and Files
+  udisks2.service           loaded active running Disk Manager
+  upower.service            loaded active running Daemon for power management
+  user@1000.service         loaded active running User Manager for UID 1000
+  wpa_supplicant.service    loaded active running WPA supplicant
+
+LOAD   = Reflects whether the unit definition was properly loaded.
+ACTIVE = The high-level unit activation state, i.e. generalization of SUB.
+SUB    = The low-level unit activation state, values depend on unit type.
+22 loaded units listed.
+.......active procces.......
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root           1  0.0  0.1 166164 11480 ?        Ss   03:21   0:00 /sbin/init splash
+root           2  0.0  0.0      0     0 ?        S    03:21   0:00 [kthreadd]
+root           3  0.0  0.0      0     0 ?        I<   03:21   0:00 [rcu_gp]
+root           4  0.0  0.0      0     0 ?        I<   03:21   0:00 [rcu_par_gp]
+root           6  0.0  0.0      0     0 ?        I<   03:21   0:00 [kworker/0:0H-events_highpri]
+root           9  0.0  0.0      0     0 ?        I<   03:21   0:00 [mm_percpu_wq]
+root          10  0.0  0.0      0     0 ?        S    03:21   0:00 [rcu_tasks_rude_]
+root          11  0.0  0.0      0     0 ?        S    03:21   0:00 [rcu_tasks_trace]
+root          12  0.0  0.0      0     0 ?        S    03:21   0:00 [ksoftirqd/0]
+root          13  0.1  0.0      0     0 ?        I    03:21   0:11 [rcu_sched]
+root          14  0.0  0.0      0     0 ?        S    03:21   0:00 [migration/0]
+root          15  0.0  0.0      0     0 ?        S    03:21   0:00 [cpuhp/0]
+root          16  0.0  0.0      0     0 ?        S    03:21   0:00 [cpuhp/1]
+root          17  0.0  0.0      0     0 ?        S    03:21   0:00 [migration/1]
+root          18  0.0  0.0      0     0 ?        S    03:21   0:00 [ksoftirqd/1]
+root          20  0.0  0.0      0     0 ?        I<   03:21   0:00 [kworker/1:0H-events_highpri]
+root          21  0.0  0.0      0     0 ?        S    03:21   0:00 [cpuhp/2]
+root          22  0.0  0.0      0     0 ?        S    03:21   0:00 [migration/2]
+root          23  0.0  0.0      0     0 ?        S    03:21   0:00 [ksoftirqd/2]
+root          25  0.0  0.0      0     0 ?        I<   03:21   0:00 [kworker/2:0H-events_highpri]
+root          26  0.0  0.0      0     0 ?        S    03:21   0:00 [cpuhp/3]
+root          27  0.0  0.0      0     0 ?        S    03:21   0:00 [migration/3]
+root          28  0.0  0.0      0     0 ?        S    03:21   0:00 [ksoftirqd/3]
+root          30  0.0  0.0      0     0 ?        I<   03:21   0:00 [kworker/3:0H-events_highpri]
+root          31  0.0  0.0      0     0 ?        S    03:21   0:00 [cpuhp/4]
+root          32  0.0  0.0      0     0 ?        S    03:21   0:00 [migration/4]
+root          33  0.0  0.0      0     0 ?        S    03:21   0:00 [ksoftirqd/4]
+root          35  0.0  0.0      0     0 ?        I<   03:21   0:00 [kworker/4:0H-events_highpri]
+root          36  0.0  0.0      0     0 ?        S    03:21   0:00 [cpuhp/5]
+root          37  0.0  0.0      0     0 ?        S    03:21   0:00 [migration/5]
+root          38  0.0  0.0      0     0 ?        S    03:21   0:00 [ksoftirqd/5]
+root          40  0.0  0.0      0     0 ?        I<   03:21   0:00 [kworker/5:0H-events_highpri]
+root          41  0.0  0.0      0     0 ?        S    03:21   0:00 [cpuhp/6]
+root          42  0.0  0.0      0     0 ?        S    03:21   0:00 [migration/6]
+root          43  0.0  0.0      0     0 ?        S    03:21   0:01 [ksoftirqd/6]
+root          45  0.0  0.0      0     0 ?        I<   03:21   0:00 [kworker/6:0H-events_highpri]
+root          46  0.0  0.0      0     0 ?        S    03:21   0:00 [cpuhp/7]
+root          47  0.0  0.0      0     0 ?        S    03:21   0:00 [migration/7]
+root          48  0.0  0.0      0     0 ?        S    03:21   0:00 [ksoftirqd/7]
+root          50  0.0  0.0      0     0 ?        I<   03:21   0:00 [kworker/7:0H-events_highpri]
+root          59  0.0  0.0      0     0 ?        S    03:21   0:00 [kdevtmpfs]
+root          60  0.0  0.0      0     0 ?        I<   03:21   0:00 [netns]
+root          61  0.0  0.0      0     0 ?        I<   03:21   0:00 [inet_frag_wq]
+root          62  0.0  0.0      0     0 ?        S    03:21   0:00 [kauditd]
+root          63  0.0  0.0      0     0 ?        S    03:21   0:00 [khungtaskd]
+root          64  0.0  0.0      0     0 ?        S    03:21   0:00 [oom_reaper]
+root          65  0.0  0.0      0     0 ?        I<   03:21   0:00 [writeback]
+root          66  0.0  0.0      0     0 ?        S    03:21   0:00 [kcompactd0]
+root          67  0.0  0.0      0     0 ?        SN   03:21   0:00 [ksmd]
+root          68  0.0  0.0      0     0 ?        SN   03:21   0:00 [khugepaged]
+root          88  0.0  0.0      0     0 ?        I<   03:21   0:00 [kintegrityd]
+root          89  0.0  0.0      0     0 ?        I<   03:21   0:00 [kblockd]
+root          90  0.0  0.0      0     0 ?        I<   03:21   0:00 [blkcg_punt_bio]
+root          91  0.0  0.0      0     0 ?        I<   03:21   0:00 [tpm_dev_wq]
+root          92  0.0  0.0      0     0 ?        I<   03:21   0:00 [edac-poller]
+root          93  0.0  0.0      0     0 ?        I<   03:21   0:00 [devfreq_wq]
+root          95  0.0  0.0      0     0 ?        I<   03:21   0:00 [kworker/0:1H-kblockd]
+root          96  0.0  0.0      0     0 ?        S    03:21   0:00 [kswapd0]
+root          97  0.0  0.0      0     0 ?        I<   03:21   0:00 [kthrotld]
+root         103  0.0  0.0      0     0 ?        I<   03:21   0:00 [acpi_thermal_pm]
+root         107  0.0  0.0      0     0 ?        I<   03:21   0:00 [mld]
+root         108  0.0  0.0      0     0 ?        I<   03:21   0:00 [kworker/1:1H-events_highpri]
+root         109  0.0  0.0      0     0 ?        I<   03:21   0:00 [ipv6_addrconf]
+root         118  0.0  0.0      0     0 ?        I<   03:21   0:00 [kstrp]
+root         121  0.0  0.0      0     0 ?        I<   03:21   0:00 [zswap-shrink]
+root         122  0.2  0.0      0     0 ?        I<   03:21   0:21 [kworker/u17:0-i915_flip]
+root         152  0.0  0.0      0     0 ?        I<   03:21   0:00 [kworker/3:1H-events_highpri]
+root         172  0.0  0.0      0     0 ?        I<   03:21   0:00 [kworker/4:1H-events_highpri]
+root         189  0.0  0.0      0     0 ?        I<   03:21   0:00 [ata_sff]
+root         192  0.0  0.0      0     0 ?        I<   03:21   0:00 [kworker/6:1H-events_highpri]
+root         193  0.0  0.0      0     0 ?        I<   03:21   0:00 [nvme-wq]
+root         194  0.0  0.0      0     0 ?        I<   03:21   0:00 [cryptd]
+root         195  0.0  0.0      0     0 ?        S    03:21   0:00 [scsi_eh_0]
+root         197  0.0  0.0      0     0 ?        I<   03:21   0:00 [scsi_tmf_0]
+root         201  0.0  0.0      0     0 ?        S    03:21   0:00 [scsi_eh_1]
+root         205  0.0  0.0      0     0 ?        I<   03:21   0:00 [nvme-reset-wq]
+root         207  0.0  0.0      0     0 ?        I<   03:21   0:00 [nvme-delete-wq]
+root         215  0.0  0.0      0     0 ?        I<   03:21   0:00 [scsi_tmf_1]
+root         239  0.0  0.0      0     0 ?        S    03:21   0:00 [card0-crtc0]
+root         240  0.0  0.0      0     0 ?        S    03:21   0:00 [card0-crtc1]
+root         241  0.0  0.0      0     0 ?        S    03:21   0:00 [card0-crtc2]
+root         260  0.0  0.0      0     0 ?        I<   03:21   0:00 [kworker/7:1H-events_highpri]
+root         261  0.0  0.0      0     0 ?        I<   03:21   0:00 [kworker/5:1H-events_highpri]
+root         264  0.0  0.0      0     0 ?        I<   03:21   0:00 [kworker/2:1H-events_highpri]
+root         306  0.0  0.0      0     0 ?        S    03:21   0:01 [jbd2/nvme0n1p2-]
+root         307  0.0  0.0      0     0 ?        I<   03:21   0:00 [ext4-rsv-conver]
+root         364  0.0  0.3  56548 24072 ?        Ss   03:21   0:00 /lib/systemd/systemd-journald
+root         373  0.0  0.0      0     0 ?        I<   03:21   0:00 [rpciod]
+root         374  0.0  0.0      0     0 ?        I<   03:21   0:00 [xprtiod]
+root         380  0.0  0.0  24264  6868 ?        Ss   03:21   0:00 /lib/systemd/systemd-udevd
+root         436  0.0  0.0      0     0 ?        S    03:21   0:00 [watchdogd]
+root         440  0.0  0.0      0     0 ?        S    03:21   0:00 [irq/138-mei_me]
+root         452  0.0  0.0      0     0 ?        I<   03:21   0:00 [cfg80211]
+root         536  0.0  0.0   8232  6044 ?        Ss   03:21   0:00 /usr/sbin/haveged --Foreground --verbose=1
+systemd+     537  0.0  0.0  89000  6132 ?        Ssl  03:21   0:00 /lib/systemd/systemd-timesyncd
+root         579  0.0  0.0      0     0 ?        I<   03:21   0:00 [ath10k_wq]
+root         580  0.0  0.0      0     0 ?        I<   03:21   0:00 [ath10k_aux_wq]
+root         581  0.0  0.0      0     0 ?        I<   03:21   0:00 [ath10k_tx_compl]
+root         582  0.0  0.1 238120  7980 ?        Ssl  03:21   0:00 /usr/libexec/accounts-daemon
+root         583  0.0  0.0   6792  2820 ?        Ss   03:21   0:00 /usr/sbin/cron -f
+message+     584  0.0  0.0  11372  6276 ?        Ss   03:21   0:01 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+root         586  0.0  0.2 259908 21544 ?        Ssl  03:21   0:01 /usr/sbin/NetworkManager --no-daemon
+root         590  0.0  0.1 240956 11004 ?        Ssl  03:21   0:01 /usr/libexec/polkitd --no-debug
+root         591  0.0  0.0 222444  4872 ?        Ssl  03:21   0:00 /usr/sbin/rsyslogd -n -iNONE
+root         592  0.0  0.0  11676  5404 ?        Ss   03:21   0:00 /usr/sbin/smartd -n
+root         596  0.0  0.1 311072  8304 ?        Ss   03:21   0:00 /lib/systemd/systemd-logind
+root         621  0.0  0.1 317548 11792 ?        Ssl  03:21   0:00 /usr/sbin/ModemManager
+root         627  0.0  0.1 309532  9680 ?        SLsl 03:21   0:00 /usr/sbin/lightdm
+root         639  0.0  0.0      0     0 ?        I<   03:21   0:00 [kworker/u17:1-hci0]
+root         660  4.4  1.2 651452 100684 tty7    Rsl+ 03:21   6:16 /usr/lib/xorg/Xorg :0 -seat seat0 -auth /var/run/lightdm/root/:0 -nolisten tcp vt7 -novtswitch
+root         668  0.0  0.0   5824   816 tty1     Ss+  03:21   0:00 /sbin/agetty -o -p -- \u --noclear - linux
+root         699  0.0  0.1  15300  9520 ?        Ss   03:21   0:00 /sbin/wpa_supplicant -u -s -O /run/wpa_supplicant
+rtkit        727  0.0  0.0 154016  3144 ?        SNsl 03:21   0:00 /usr/libexec/rtkit-daemon
+root         780  0.0  0.1 165288 11100 ?        Sl   03:21   0:00 lightdm --session-child 12 21
+root         806  0.0  1.1 1898448 93576 ?       Ssl  03:21   0:02 /usr/sbin/dockerd -H fd://
+root         862  0.3  0.6 1711252 49072 ?       Ssl  03:21   0:32 containerd --config /var/run/docker/containerd/containerd.toml --log-level info
+chlenix     1057  0.0  0.1  17660 10156 ?        Ss   03:21   0:00 /lib/systemd/systemd --user
+chlenix     1058  0.0  0.0 169264  5360 ?        S    03:21   0:00 (sd-pam)
+chlenix     1073  0.0  0.1  52288 14216 ?        S<sl 03:21   0:00 /usr/bin/pipewire
+chlenix     1074  0.0  0.3 169076 27956 ?        Ssl  03:21   0:02 /usr/bin/pipewire-media-session
+chlenix     1075  0.4  0.3 1163020 29392 ?       S<sl 03:21   0:37 /usr/bin/pulseaudio --daemonize=no --log-target=journal
+chlenix     1078  0.0  0.1 312624  8032 ?        Sl   03:21   0:00 /usr/bin/gnome-keyring-daemon --daemonize --login
+chlenix     1082  0.0  0.0  10588  5780 ?        Ss   03:21   0:05 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+chlenix     1083  0.0  0.3 270484 27924 ?        Ssl  03:21   0:04 xfce4-session
+chlenix     1133  0.0  0.0   6100   480 ?        Ss   03:21   0:00 /usr/bin/ssh-agent x-session-manager
+chlenix     1143  0.0  0.1 312320 10164 ?        Ssl  03:21   0:00 /usr/libexec/at-spi-bus-launcher
+chlenix     1149  0.0  0.0   9920  4944 ?        S    03:21   0:00 /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 3
+chlenix     1153  0.0  0.0 231476  6376 ?        Sl   03:21   0:00 /usr/lib/x86_64-linux-gnu/xfce4/xfconf/xfconfd
+chlenix     1159  0.0  0.1 167512  8356 ?        Sl   03:21   0:03 /usr/libexec/at-spi2-registryd --use-gnome-session
+chlenix     1169  0.0  0.0  81256  3428 ?        SLs  03:21   0:00 /usr/bin/gpg-agent --supervised
+chlenix     1171  0.9  1.3 653124 106608 ?       Sl   03:21   1:22 xfwm4 --display :0.0 --sm-client-id 2512fe008-71d4-4caf-b37d-85c37037be4e
+chlenix     1174  0.0  0.1 238512  8116 ?        Ssl  03:21   0:00 /usr/libexec/gvfsd
+chlenix     1179  0.0  0.1 381420 10904 ?        Sl   03:21   0:00 /usr/libexec/gvfsd-fuse /run/user/1000/gvfs -f
+chlenix     1193  0.0  0.3 231448 27064 ?        Sl   03:21   0:02 xfsettingsd --display :0.0 --sm-client-id 2a8d60916-9687-4bb6-868e-16bb8bd5f1d5
+root        1197  0.0  0.1 239220  8716 ?        Ssl  03:21   0:00 /usr/libexec/upowerd
+chlenix     1203  0.2  0.5 469128 46288 ?        Sl   03:21   0:21 xfce4-panel --display :0.0 --sm-client-id 2ffae4288-973a-46b4-8ab0-f7abffe9746c
+chlenix     1207  0.0  0.6 487024 52804 ?        Sl   03:21   0:01 Thunar --sm-client-id 2b8609cd7-7364-421f-89fc-7d0c9aae8dde --daemon
+chlenix     1212  0.0  0.9 497024 74764 ?        Sl   03:21   0:05 xfdesktop --display :0.0 --sm-client-id 2110b46b0-98a9-408a-a9b1-090d83d5eadb
+chlenix     1215  0.0  0.6 470520 51228 ?        Sl   03:21   0:04 /usr/lib/x86_64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/x86_64-linux-gnu/xfce4/panel/plugins/libwhiskermenu.so 1 16777223 whiskermenu Whisker Menu Show a menu to easily access installed applications
+chlenix     1216  0.0  0.3 343136 24992 ?        Sl   03:21   0:00 /usr/lib/x86_64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/x86_64-linux-gnu/xfce4/panel/plugins/libsystray.so 14 16777224 systray Status Tray Plugin Provides status notifier items (application indicators) and legacy systray items
+chlenix     1217  0.3  0.3 353216 28864 ?        Sl   03:21   0:28 /usr/lib/x86_64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/x86_64-linux-gnu/xfce4/panel/plugins/libgenmon.so 15 16777225 genmon Generic Monitor Show output of a command.
+chlenix     1218  0.1  0.5 660484 47504 ?        Sl   03:21   0:14 /usr/lib/x86_64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/x86_64-linux-gnu/xfce4/panel/plugins/libpulseaudio-plugin.so 16 16777226 pulseaudio PulseAudio Plugin Adjust the audio volume of the PulseAudio sound system
+chlenix     1219  0.0  0.5 327004 43704 ?        Sl   03:21   0:00 /usr/lib/x86_64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/x86_64-linux-gnu/xfce4/panel/plugins/libnotification-plugin.so 17 16777227 notification-plugin Notification Plugin Notification plugin for the Xfce panel
+chlenix     1222  0.0  0.5 327236 43440 ?        Sl   03:21   0:01 /usr/lib/x86_64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/x86_64-linux-gnu/xfce4/panel/plugins/libxfce4powermanager.so 18 16777228 power-manager-plugin Power Manager Plugin Display the battery levels of your devices and control the brightness of your display
+chlenix     1223  0.0  0.5 392600 43848 ?        Sl   03:21   0:00 /usr/lib/x86_64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/x86_64-linux-gnu/xfce4/panel/plugins/libactions.so 22 16777229 actions Action Buttons Log out, lock or other system actions
+chlenix     1254  0.0  0.5 464788 42048 ?        Ssl  03:21   0:00 /usr/lib/x86_64-linux-gnu/xfce4/notifyd/xfce4-notifyd
+chlenix     1271  0.0  0.3 195760 24736 ?        Sl   03:21   0:00 xfce4-power-manager --restart --sm-client-id 297c8db3f-343c-4309-965f-cfb4e7bbd5ff
+chlenix     1281  0.0  0.0 235076  7084 ?        Sl   03:21   0:00 /usr/libexec/geoclue-2.0/demos/agent
+chlenix     1282  0.0  0.0  16872  1936 ?        Ssl  03:21   0:01 xcape -e Super_L Control_L Escape
+chlenix     1303  0.0  0.0 157496  5932 ?        Ssl  03:21   0:00 /usr/libexec/dconf-service
+chlenix     1307  0.0  0.6 376676 53268 ?        Sl   03:21   0:00 /usr/bin/python3 /usr/bin/blueman-applet
+chlenix     1309  0.0  0.3 492360 30832 ?        Sl   03:21   0:00 light-locker
+chlenix     1310  0.0  0.6 552552 51496 ?        Sl   03:21   0:01 nm-applet
+chlenix     1311  0.0  0.2 189280 17108 ?        Sl   03:21   0:00 /usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1
+chlenix     1312  0.0  0.1 312700  8604 ?        Sl   03:21   0:00 xiccd
+colord      1329  0.0  0.1 243476 13204 ?        Ssl  03:21   0:00 /usr/libexec/colord
+chlenix     1336  0.0  0.1 349668 12068 ?        Ssl  03:21   0:00 /usr/libexec/gvfs-udisks2-volume-monitor
+root        1341  0.0  0.1 394052 14380 ?        Ssl  03:21   0:00 /usr/libexec/udisks2/udisksd
+chlenix     1362  0.0  0.0 234540  6640 ?        Ssl  03:21   0:00 /usr/libexec/gvfs-goa-volume-monitor
+chlenix     1366  0.0  0.1 311744  9912 ?        Ssl  03:21   0:00 /usr/libexec/gvfs-afc-volume-monitor
+chlenix     1374  0.0  0.0 234368  6476 ?        Ssl  03:21   0:00 /usr/libexec/gvfs-mtp-volume-monitor
+chlenix     1381  0.0  0.0 235448  7128 ?        Ssl  03:21   0:00 /usr/libexec/gvfs-gphoto2-volume-monitor
+chlenix     1397  0.0  0.1 312612 10208 ?        Sl   03:21   0:00 /usr/libexec/gvfsd-trash --spawner :1.15 /org/gtk/gvfs/exec_spaw/0
+chlenix     1402  0.0  0.0 160952  6620 ?        Ssl  03:21   0:00 /usr/libexec/gvfsd-metadata
+chlenix     1415  0.0  0.0  45748  6928 ?        Ss   03:21   0:00 /usr/libexec/bluetooth/obexd
+chlenix     1434  4.1  3.6 17394024 287048 ?     SLl  03:21   5:50 /opt/google/chrome/chrome --enable-crashpad
+chlenix     1438  0.0  0.0   5560   692 ?        S    03:21   0:00 cat
+chlenix     1439  0.0  0.0   5560   752 ?        S    03:21   0:00 cat
+chlenix     1441  0.0  0.0 16799680 3208 ?       Sl   03:21   0:00 /opt/google/chrome/chrome_crashpad_handler --monitor-self --monitor-self-annotation=ptype=crashpad-handler --database=/home/chlenix/.config/google-chrome/Crash Reports --metrics-dir=/home/chlenix/.config/google-chrome --url=https://clients2.google.com/cr/report --annotation=channel= --annotation=lsb-release=Kali GNU/Linux Rolling --annotation=plat=Linux --annotation=prod=Chrome_Linux --annotation=ver=99.0.4844.51 --initial-client-fd=5 --shared-client-connection
+chlenix     1443  0.0  0.0 16790444 1432 ?       Sl   03:21   0:00 /opt/google/chrome/chrome_crashpad_handler --no-periodic-tasks --monitor-self-annotation=ptype=crashpad-handler --database=/home/chlenix/.config/google-chrome/Crash Reports --url=https://clients2.google.com/cr/report --annotation=channel= --annotation=lsb-release=Kali GNU/Linux Rolling --annotation=plat=Linux --annotation=prod=Chrome_Linux --annotation=ver=99.0.4844.51 --initial-client-fd=4 --shared-client-connection
+chlenix     1449  0.0  0.7 17043272 57044 ?      S    03:21   0:00 /opt/google/chrome/chrome --type=zygote --no-zygote-sandbox --enable-crashpad --crashpad-handler-pid=1441 --enable-crash-reporter=a3043f17-4474-4476-8481-9377408fc06d, --change-stack-guard-on-fork=enable --enable-crashpad
+chlenix     1450  0.0  0.7 17043264 59152 ?      S    03:21   0:00 /opt/google/chrome/chrome --type=zygote --enable-crashpad --crashpad-handler-pid=1441 --enable-crash-reporter=a3043f17-4474-4476-8481-9377408fc06d, --change-stack-guard-on-fork=enable --enable-crashpad
+chlenix     1451  0.0  0.0 16786092 4228 ?       S    03:21   0:00 /opt/google/chrome/nacl_helper
+chlenix     1454  0.0  0.2 17043288 18108 ?      S    03:21   0:00 /opt/google/chrome/chrome --type=zygote --enable-crashpad --crashpad-handler-pid=1441 --enable-crash-reporter=a3043f17-4474-4476-8481-9377408fc06d, --change-stack-guard-on-fork=enable --enable-crashpad
+chlenix     1472  0.0  0.1 474632 15840 ?        Ssl  03:21   0:00 /usr/libexec/xdg-desktop-portal
+chlenix     1476  5.0  2.7 17462912 215768 ?     Sl   03:21   7:10 /opt/google/chrome/chrome --type=gpu-process --enable-crashpad --crashpad-handler-pid=1441 --enable-crash-reporter=a3043f17-4474-4476-8481-9377408fc06d, --change-stack-guard-on-fork=enable --gpu-preferences=UAAAAAAAAAAgAAAIAAAAAAAAAAAAAAAAAABgAAAAAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAABgAAAAAAAAAGAAAAAAAAAAIAAAAAAAAAAgAAAAAAAAACAAAAAAAAAA= --shared-files --field-trial-handle=0,i,3721304805485717325,1191259044705144331,131072
+chlenix     1479  1.3  1.3 17117236 110840 ?     Sl   03:21   1:57 /opt/google/chrome/chrome --type=utility --utility-sub-type=network.mojom.NetworkService --lang=en-US --service-sandbox-type=none --enable-crashpad --crashpad-handler-pid=1441 --enable-crash-reporter=a3043f17-4474-4476-8481-9377408fc06d, --change-stack-guard-on-fork=enable --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,3721304805485717325,1191259044705144331,131072 --enable-crashpad
+chlenix     1482  0.0  0.0 456124  6668 ?        Ssl  03:21   0:00 /usr/libexec/xdg-document-portal
+chlenix     1484  0.0  0.0 238628  7864 ?        Sl   03:21   0:00 /usr/bin/gnome-keyring-daemon --start --foreground --components=secrets
+chlenix     1488  0.0  0.0 234276  5304 ?        Ssl  03:21   0:00 /usr/libexec/xdg-permission-store
+root        1496  0.0  0.0   2524  1840 ?        Ss   03:21   0:00 fusermount -o rw,nosuid,nodev,fsname=portal,auto_unmount,subtype=portal -- /run/user/1000/doc
+chlenix     1502  0.0  0.2 339100 19852 ?        Ssl  03:21   0:00 /usr/libexec/xdg-desktop-portal-gtk
+chlenix     1518  0.0  0.6 17092864 48576 ?      Sl   03:21   0:01 /opt/google/chrome/chrome --type=utility --utility-sub-type=storage.mojom.StorageService --lang=en-US --service-sandbox-type=utility --enable-crashpad --crashpad-handler-pid=1441 --enable-crash-reporter=a3043f17-4474-4476-8481-9377408fc06d, --change-stack-guard-on-fork=enable --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,3721304805485717325,1191259044705144331,131072
+root        4680  0.0  0.0      0     0 ?        I    03:29   0:01 [kworker/3:0-events]
+chlenix     4740  0.0  0.1 386492 10688 ?        Sl   03:29   0:00 /usr/libexec/gvfsd-network --spawner :1.15 /org/gtk/gvfs/exec_spaw/1
+chlenix     4760  0.0  0.1 314844  8620 ?        Sl   03:29   0:00 /usr/libexec/gvfsd-dnssd --spawner :1.15 /org/gtk/gvfs/exec_spaw/3
+root        5014  0.0  0.0      0     0 ?        I    03:29   0:00 [kworker/5:0-mm_percpu_wq]
+chlenix     7777  0.1  0.9 17608760 76696 ?      Sl   03:39   0:12 /opt/google/chrome/chrome --type=utility --utility-sub-type=audio.mojom.AudioService --lang=en-US --service-sandbox-type=none --enable-crashpad --crashpad-handler-pid=1441 --enable-crash-reporter=a3043f17-4474-4476-8481-9377408fc06d, --change-stack-guard-on-fork=enable --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,3721304805485717325,1191259044705144331,131072 --enable-crashpad
+root       14175  0.0  0.0      0     0 ?        I    04:00   0:05 [kworker/6:0-events]
+root       14431  0.0  0.0      0     0 ?        I    04:01   0:01 [kworker/1:3-events]
+root       23125  0.0  0.0      0     0 ?        I    04:25   0:00 [kworker/2:2-events]
+root       23839  0.0  0.0      0     0 ?        I    04:28   0:00 [kworker/4:0-events]
+root       23841  0.0  0.0      0     0 ?        I    04:28   0:00 [kworker/1:1]
+chlenix    26867  0.1  0.7 479020 58328 ?        Sl   04:38   0:04 mousepad
+root       29658  0.0  0.0      0     0 ?        I    04:45   0:03 [kworker/u16:2-i915]
+root       30554  0.3  0.0      0     0 ?        I    04:47   0:12 [kworker/6:1-events]
+chlenix    31244  2.0  2.2 29804452 174896 ?     Sl   04:49   1:06 /opt/google/chrome/chrome --type=renderer --enable-crashpad --crashpad-handler-pid=1441 --enable-crash-reporter=a3043f17-4474-4476-8481-9377408fc06d, --display-capture-permissions-policy-allowed --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=133 --launch-time-ticks=5271994105 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,3721304805485717325,1191259044705144331,131072
+root       31843  0.0  0.0      0     0 ?        I    04:51   0:00 [kworker/4:2]
+root       31856  0.0  0.0      0     0 ?        I    04:51   0:00 [kworker/7:2-events]
+chlenix    32448  0.1  1.2 517544 98080 ?        Sl   04:53   0:04 /usr/bin/qterminal
+chlenix    32451  0.1  0.0  13752  7488 pts/0    Ss+  04:53   0:03 /usr/bin/zsh
+chlenix    32627  1.8  2.5 42547320 199236 ?     SLsl 04:53   0:56 /usr/share/code/code .
+chlenix    32631  0.0  0.5 197648 43160 ?        S    04:53   0:00 /usr/share/code/code --type=zygote --no-zygote-sandbox
+chlenix    32632  0.0  0.5 197648 43588 ?        S    04:53   0:00 /usr/share/code/code --type=zygote
+chlenix    32634  0.0  0.0 197648  7408 ?        S    04:53   0:00 /usr/share/code/code --type=zygote
+chlenix    32663  3.3  1.7 707392 137572 ?       Sl   04:53   1:41 /usr/share/code/code --type=gpu-process --field-trial-handle=17971332953615331769,10279144185919629918,131072 --disable-features=CookiesWithoutSameSiteMustBeSecure,SameSiteByDefaultCookies,SpareRendererForSitePerProcess --disable-color-correct-rendering --enable-crash-reporter=b805848f-625c-444e-91cb-8e3eec493913,no_channel --global-crash-keys=b805848f-625c-444e-91cb-8e3eec493913,no_channel,_companyName=Microsoft,_productName=VSCode,_version=1.65.2 --user-data-dir=/home/chlenix/.config/Code --gpu-preferences=UAAAAAAAAAAgAAAQAAAAAAAAAAAAAAAAAABgAAAAAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAgAAAAAAAAACAAAAAAAAAA= --shared-files
+chlenix    32667  0.0  0.7 265528 58620 ?        Sl   04:53   0:00 /usr/share/code/code --type=utility --utility-sub-type=network.mojom.NetworkService --field-trial-handle=17971332953615331769,10279144185919629918,131072 --disable-features=CookiesWithoutSameSiteMustBeSecure,SameSiteByDefaultCookies,SpareRendererForSitePerProcess --lang=en-US --service-sandbox-type=none --enable-crash-reporter=b805848f-625c-444e-91cb-8e3eec493913,no_channel --global-crash-keys=b805848f-625c-444e-91cb-8e3eec493913,no_channel,_companyName=Microsoft,_productName=VSCode,_version=1.65.2 --user-data-dir=/home/chlenix/.config/Code --standard-schemes=vscode-webview,vscode-file --secure-schemes=vscode-webview,vscode-file --bypasscsp-schemes --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --streaming-schemes --shared-files=v8_context_snapshot_data:100
+chlenix    32692  7.9  4.1 52918440 329780 ?     Sl   04:53   3:56 /usr/share/code/code --type=renderer --disable-color-correct-rendering --field-trial-handle=17971332953615331769,10279144185919629918,131072 --disable-features=CookiesWithoutSameSiteMustBeSecure,SameSiteByDefaultCookies,SpareRendererForSitePerProcess --lang=en-US --enable-crash-reporter=b805848f-625c-444e-91cb-8e3eec493913,no_channel --global-crash-keys=b805848f-625c-444e-91cb-8e3eec493913,no_channel,_companyName=Microsoft,_productName=VSCode,_version=1.65.2 --user-data-dir=/home/chlenix/.config/Code --standard-schemes=vscode-webview,vscode-file --secure-schemes=vscode-webview,vscode-file --bypasscsp-schemes --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --streaming-schemes --app-path=/usr/share/code/resources/app --no-sandbox --no-zygote --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=5 --no-v8-untrusted-code-mitigations --shared-files=v8_context_snapshot_data:100 --vscode-window-config=vscode:2a2c9640-1dd3-469f-84fc-6fc3a5860f34
+chlenix    32720  0.4  1.9 42369312 155892 ?     Sl   04:53   0:13 /usr/share/code/code --type=renderer --disable-color-correct-rendering --field-trial-handle=17971332953615331769,10279144185919629918,131072 --disable-features=CookiesWithoutSameSiteMustBeSecure,SameSiteByDefaultCookies,SpareRendererForSitePerProcess --lang=en-US --enable-crash-reporter=b805848f-625c-444e-91cb-8e3eec493913,no_channel --global-crash-keys=b805848f-625c-444e-91cb-8e3eec493913,no_channel,_companyName=Microsoft,_productName=VSCode,_version=1.65.2 --user-data-dir=/home/chlenix/.config/Code --standard-schemes=vscode-webview,vscode-file --secure-schemes=vscode-webview,vscode-file --bypasscsp-schemes --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --streaming-schemes --app-path=/usr/share/code/resources/app --no-sandbox --no-zygote --node-integration-in-worker --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=7 --no-v8-untrusted-code-mitigations --shared-files=v8_context_snapshot_data:100 --vscode-window-config=vscode:22090274-15cc-4edb-a89c-8c1e5c81d364 --vscode-window-kind=shared-process
+chlenix    32739  0.3  1.6 38050380 131608 ?     Sl   04:53   0:10 /usr/share/code/code --ms-enable-electron-run-as-node --inspect-port=0 /usr/share/code/resources/app/out/bootstrap-fork --type=extensionHost --skipWorkspaceStorageLock
+chlenix    32756  0.2  1.0 38069452 85128 ?      Sl   04:53   0:07 /usr/share/code/code --ms-enable-electron-run-as-node /usr/share/code/resources/app/out/bootstrap-fork --type=ptyHost
+chlenix    32834  0.1  1.6 1681084 134300 ?      Sl   04:53   0:05 /home/chlenix/go/bin/gopls -mode=stdio
+chlenix    32849  0.0  0.9 38040148 71440 ?      Sl   04:53   0:00 /usr/share/code/code --ms-enable-electron-run-as-node /usr/share/code/resources/app/out/bootstrap-fork --type=fileWatcher
+root       33823  0.0  0.0      0     0 ?        I    04:54   0:00 [kworker/5:1-cgroup_destroy]
+root       34377  0.0  0.0      0     0 ?        I    04:55   0:01 [kworker/2:3-events]
+root       34378  0.0  0.0      0     0 ?        I    04:55   0:00 [kworker/0:2-mm_percpu_wq]
+root       38253  0.0  0.0      0     0 ?        I    05:05   0:01 [kworker/u16:1-i915]
+root       40250  0.0  0.0      0     0 ?        I    05:11   0:00 [kworker/7:1]
+chlenix    41066  0.6  1.8 25570600 143128 ?     Sl   05:13   0:10 /opt/google/chrome/chrome --type=renderer --enable-crashpad --crashpad-handler-pid=1441 --enable-crash-reporter=a3043f17-4474-4476-8481-9377408fc06d, --display-capture-permissions-policy-allowed --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=163 --launch-time-ticks=6741865256 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,3721304805485717325,1191259044705144331,131072
+chlenix    43234  0.0  0.0  10144  6000 pts/2    Ss   05:20   0:00 /usr/bin/bash
+root       45797  0.0  0.0      0     0 ?        I    05:29   0:00 [kworker/0:0-mm_percpu_wq]
+chlenix    45890 25.9  3.9 29847120 310844 ?     Sl   05:29   3:30 /opt/google/chrome/chrome --type=renderer --enable-crashpad --crashpad-handler-pid=1441 --enable-crash-reporter=a3043f17-4474-4476-8481-9377408fc06d, --extension-process --display-capture-permissions-policy-allowed --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=170 --launch-time-ticks=7701627877 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,3721304805485717325,1191259044705144331,131072
+root       45997  0.0  0.0      0     0 ?        I    05:30   0:00 [kworker/3:1-events]
+root       47459  0.0  0.0      0     0 ?        I    05:35   0:00 [kworker/u16:0-ext4-rsv-conversion]
+root       49147  0.0  0.0      0     0 ?        I    05:39   0:00 [kworker/5:2]
+root       49148  0.0  0.0      0     0 ?        I    05:39   0:00 [kworker/2:0]
+chlenix    49613  1.5  1.7 25582516 139360 ?     Sl   05:40   0:03 /opt/google/chrome/chrome --type=renderer --enable-crashpad --crashpad-handler-pid=1441 --enable-crash-reporter=a3043f17-4474-4476-8481-9377408fc06d, --display-capture-permissions-policy-allowed --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=195 --launch-time-ticks=8312920194 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,3721304805485717325,1191259044705144331,131072
+chlenix    49939  2.9  1.9 25603128 155780 ?     Sl   05:41   0:03 /opt/google/chrome/chrome --type=renderer --enable-crashpad --crashpad-handler-pid=1441 --enable-crash-reporter=a3043f17-4474-4476-8481-9377408fc06d, --display-capture-permissions-policy-allowed --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=196 --launch-time-ticks=8380986690 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,3721304805485717325,1191259044705144331,131072
+chlenix    49985  1.1  1.5 25570660 121156 ?     Sl   05:41   0:01 /opt/google/chrome/chrome --type=renderer --enable-crashpad --crashpad-handler-pid=1441 --enable-crash-reporter=a3043f17-4474-4476-8481-9377408fc06d, --display-capture-permissions-policy-allowed --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=197 --launch-time-ticks=8387549853 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,3721304805485717325,1191259044705144331,131072
+chlenix    50090  0.0  0.7 25533080 60460 ?      Sl   05:41   0:00 /opt/google/chrome/chrome --type=renderer --enable-crashpad --crashpad-handler-pid=1441 --enable-crash-reporter=a3043f17-4474-4476-8481-9377408fc06d, --display-capture-permissions-policy-allowed --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=199 --launch-time-ticks=8401830261 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,3721304805485717325,1191259044705144331,131072
+chlenix    50932  0.0  0.0   6872  3236 pts/2    S+   05:43   0:00 bash runcmd.sh
+chlenix    50933  0.0  0.0   7004  3668 pts/2    S+   05:43   0:00 bash mycommands.sh
+chlenix    50938  0.0  0.0  10072  3488 pts/2    R+   05:43   0:00 ps aux
+.......Thanks a lot.......
