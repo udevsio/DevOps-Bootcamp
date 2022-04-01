@@ -1,6 +1,7 @@
 *
-!Dockerfile
-!mycommands.sh
+*.mod
+Dockerfile
+*.sh
 !README.md
-!runcmd.sh
-!xfirdavs_output.txt
+*.sh
+*.txt
