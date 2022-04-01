@@ -17,4 +17,4 @@ jobs:
     - name: Build the Docker image
       run: docker build . --file Dockerfile --tag xfirdavs_forUDEVS:latest
     - name: Pushing Docker image
-      run: docker login -u xfirdavs -p $((secrets.DOCKER_TOKEN)) && docker push xfirdavs/xfirdavs_forUDEVS:latest
+      run: docker login -u xfirdavs -p ${{secrets.DOCKER_TOKEN}} && docker push xfirdavs/xfirdavs_forUDEVS:latest
