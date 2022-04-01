@@ -1,7 +1,5 @@
 *
 !Dockerfile
-!main.go
-!go.mod
 !mycommands.sh
 !README.md
 !runcmd.sh
