@@ -15,12 +15,12 @@ DevOps Internship invitation task
   `../../../example` - this is an example of relative path* </br>
 - 2.2 Path to git repo you have cloned earlier
   `/c/Users/Tension/Desktop/Workspace/DevOps-Bootcamp`
-- 2.3 uname, what is it and how we can use it?
-  - 2.3.1 What is version of kernel?
-  - 2.3.2 What is processor architecture?
-- 2.4 Get list of services with systemctl
-- 2.5 Get list of active processes
-- 2.6 CPU/RAM info
+- 2.3 uname, what is it and how we can use it? <br /> uname prints information about the operating system
+  - 2.3.1 What is version of kernel? <br /> uname -v
+  - 2.3.2 What is processor architecture? <br /> uname -p 
+- 2.4 Get list of services with systemctl <br /> ```systemctl list-units --type=service```
+- 2.5 Get list of active processes <br /> ```systemctl list-units --type=service --state=active```
+- 2.6 CPU/RAM info <br/> ```ps, top, htop, neofetch```
 
 3. Combine every used command into script file. Script should be global - explain how to do it?
 4. What is SSH?
