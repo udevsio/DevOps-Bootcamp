@@ -14,14 +14,14 @@
         
         2.3.2            uname -a     ||    getconf LONG_BIT     ||     grep -o -w 'lm' /proc/cpuinfo
 
-2.4         systemctl list-units --all
+2.4         systemctl list-unit-files --type=service
 
 2.5         ps aux
 
 2.6         cat  /proc/cpuinfo    ||  lscpu
             cat  /proc/meminfo    ||  free
 
-3.          chmod +x ./script
+3.          chmod +x script.sh
             bash script.sh >> eldor_output.txt 
 
 
