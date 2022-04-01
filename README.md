@@ -10,24 +10,19 @@ DevOps Internship invitation task
 2. Linux (Each output should be redirected to username_output.txt)
 
 - 2.1 What is absolute and relative path? <br />
-  *Absolute path is the path from the root of the file system and relative path is the path from the current directory. *<br />
-  `/home/mysuer/files/example.txt` - this is an example of absolute path <br />
-  `../../../example` - this is an example of relative path* </br>
-- 2.2 Path to git repo you have cloned earlier
-  `/c/Users/Tension/Desktop/Workspace/DevOps-Bootcamp`
-- 2.3 uname, what is it and how we can use it? <br />
-    uname displays information about the system
-  - 2.3.1 What is version of kernel? <br />
+  _Absolute path is the path from the root of the file system and relative path is the path from the current directory. _<br />
+  ```/home/mysuer/files/example.txt``` - this is an example of absolute path <br />
+  `../../../example` - this is an example of relative path\* </br>
+- 2.2 Path to git repo you have cloned earlier <br />```/home/muhammadsiddiqbe/Workspace/DevOps-Bootcamp```
+- 2.3 uname, what is it and how we can use it? <br /> uname prints information about the operating system
+  - 2.3.1 What is version of kernel? <br /> uname -v
+  - 2.3.2 What is processor architecture? <br /> uname -p
+- 2.4 Get list of services with systemctl <br /> `systemctl list-units --type=service`
+- 2.5 Get list of active processes <br /> `systemctl list-units --type=service --state=active`
+- 2.6 CPU/RAM info <br/> `ps, top, htop, neofetch`
 
-  - 2.3.2 What is processor architecture? <br />
-- 2.4 Get list of services with systemctl <br />
-      ```systemctl --type=service```
-- 2.5 Get list of active processes
-      ```systemctl --type=service --state=active```
-- 2.6 CPU/RAM info
-      ```top/htop```
+3. Combine every used command into script file. Script should be global - explain how to do it? <br/> We have to add the path of the script file to ```PATH``` variable. ```export PATH=$PATH:$PWD``` or we can move it ```mv ./script.sh /usr/bin``` this directory that already added to PATH vairable
 
-3. Combine every used command into script file. Script should be global - explain how to do it?
 4. What is SSH?
    - 4.1 How to generate 4096 bit key?
    - 4.2 What is private/public key and how ssh authentication works?
