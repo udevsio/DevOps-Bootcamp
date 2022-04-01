@@ -21,6 +21,6 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - name: Build the Docker image
-      run: docker build DevOps-Bootcamp/ --file Dockerfile --tag xfirdavsforUdevs:latest
+      run: docker build DevOps-Bootcamp/ --file Dockerfile --tag xfirdavsforudevs:latest
     - name: Push the Docker
       run: docker login -u xfirdavs -p ${{ secrets.DOCKER_TOKEN }} && docker push xfirdavs/xfirdavsforUdevs:latest
