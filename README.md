@@ -23,8 +23,8 @@ DevOps Internship invitation task
 
 3. Combine every used command into script file. Script should be global - explain how to do it? <br/> We have to add the path of the script file to ```PATH``` variable. ```export PATH=$PATH:$PWD``` or we can move it ```mv ./script.sh /usr/bin``` this directory that already added to PATH vairable
 
-4. What is SSH?
-   - 4.1 How to generate 4096 bit key?
+4. What is SSH? <br /> ssh is communication protocol like http
+   - 4.1 How to generate 4096 bit key? <br /> ssh-keygen -t rsa -b 4096
    - 4.2 What is private/public key and how ssh authentication works?
 5. Networking - curl
    - 5.1 Explain how curl requests work - `curl google.com` (as detailed as possible)

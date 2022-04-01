@@ -1,0 +1,15 @@
+---
+- name: Update
+  shell: "sudo apt update"
+
+- name: Install apt-transport-htps and software-properties-common
+  shell: "sudo apt install -y apt-transport-https software-properties-common"
+
+- name: Add Docker's official GPG key
+  shell: "curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -"
+
+- name: Add Docker's repository
+  shell: 'sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable"'
+
+- name: Install Docker
+  shell: "sudo apt update && sudo apt install -y docker-ce"
