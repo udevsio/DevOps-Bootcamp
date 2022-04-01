@@ -2,8 +2,8 @@ FROM golang:1.16-alpine3.13
 
 WORKDIR /app
 
-COPY go.mod ./
-COPY *.go ./
+COPY go.mod ./app
+COPY *.go ./app
 
 RUN go mod download 
 
