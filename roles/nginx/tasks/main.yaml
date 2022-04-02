@@ -12,13 +12,16 @@
   shell: 'sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable"'
 
 - name: Install Docker
-  shell: |
-    "sudo apt update && sudo apt install -y docker-ce"
-    "sudo groupadd docker"
-    "sudo usermod -aG docker $USER"
-    "sudo chown root:docker /var/run/docker.sock"
-    "sudo chown -R root:docker /var/run/docker"
-    "docker run hello-world"
+  shell: 'sudo apt update && sudo apt install -y docker-ce'
+
+  name: create docker group
+  shell: 'sudo usermod -aG docker $USER'
+
+  name: give access to docker group to files of docker
+  shell: 'sudo chown root:docker /var/run/docker.sock && sudo chown -R root:docker /var/run/docker'
+
+  name: Run hello world image
+  shell: 'docker run hello-world'
 
 - name: Install Nginx
   shell: "sudo apt install nginx"
