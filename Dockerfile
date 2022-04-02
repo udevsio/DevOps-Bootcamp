@@ -1,10 +1,11 @@
 FROM golang:latest
+RUN mkdir /app
 
-WORKDIR /app
 
-COPY go.mod ./
+COPY go.mod ./app
 RUN go mod download 
-COPY *.go ./
+COPY *.go ./app
+WORKDIR /app
 
 RUN go build -o main main.go
 
