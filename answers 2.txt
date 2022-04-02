@@ -1,0 +1,21 @@
+4. SSH is a network protocol that gives users, particularly system administrators, 
+   a secure way to access a computer over an unsecured network.
+   SSH refers to the suite of utilities that implement the SSH protocol. It provides 
+   strong password authentication and public key authentication, as well as encrypted 
+   data communications between two computers connecting over an open network, such as the internet.
+
+ 4.1 ssh-keygen -t rsa -b 4096 > username_output.txt
+
+ 4.2 The private key is secret, known only to the user, and should be encrypted and stored safely. 
+     The public key can be shared freely with any SSH server to which the user wishes to connect.
+     To use SSH you should enter SSH command in the terminal "ssh {user}@{host}". {user} represents the account you want to access. 
+     {host} refers to the computer you want to access. Then you should you hit enter and write the password of requested account,
+     then hit the enter. If the password is correct, you will be greeted with a remote terminal window.
+     [In reply to Элейн]
+     You can define your own configuration and rules to establish ssh tunnel. In the sshd_config file all the configs are present 
+     you just need to change them according to your needs e.g. Port, PermitRootLogin, PasswordAuth etc…
+
+5.1 cUrl is developers tool to transmit the data from client to server and server to client, by showing the data collected in server.
+    cURL supports HTTP, HTTPS, FTP and etc.
+    In google.com requests, while user is finding something on the google, curl is collecting the data containing the requested answeers from server and then showing the results to the user.
+

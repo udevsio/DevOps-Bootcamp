@@ -1,0 +1,10 @@
+2.1 Absolute path is defined as specifying the location of a file or directory from the root directory(/)
+    Relative path is defined as the path related to the present working directly(pwd). It starts at your current directory.
+2.2 pwd > usernname_output.txt
+2.3 uname is a command-line utility that prints basic information about the operating system name and system hardware. The uname tool is most commonly used to determine the processor architecture, the system hostname and the version of the kernel running on the system.
+ 2.3.1 The kernel is the core component of an operating system. It manages the system’s resources, and it is a bridge between your computer’s hardware and software. We can find kernel version by uname -r > username_output.txt.
+ 2.3.2 The architecture of the processor is a set of the main principles of its design, the general layout of parts on a silicon chip and the scheme of interaction of the software with the chip. To put it even more simply, the architecture is the scheme according to which the processor is arranged. We can find it by $ uname -a > username_output.txt
+2.4 $ systemctl list-units --type=service > username_output.txt
+2.5 # ps -aux | less > username_output.txt
+2.6 CPU info: cat /proc/cpuinfo > username_output.txt
+    RAM info: cat /proc/meminfo > username_output.txt
