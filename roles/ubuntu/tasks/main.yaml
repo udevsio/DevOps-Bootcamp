@@ -30,7 +30,7 @@
   shell: "sudo systemctl status nginx"
 
 - name: "Configure nginx"
-  copy: "src=nginx.conf dest=/etc/nginx/sites-enabled"
+  copy: "src=nginx.conf dest=/etc/nginx/sites-available/default"
 
 
 - name: rm old containers
