@@ -1,9 +1,11 @@
----
 - name: Update
   shell: "sudo apt update"
 
 - name: Install apt-transport-htps and software-properties-common
   shell: "sudo apt install -y apt-transport-https software-properties-common"
+
+- name: sudo apt install net-tools
+  shell: "sudo apt install net-tools"
 
 - name: Add Docker's official GPG key
   shell: "curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -"
@@ -19,12 +21,3 @@
 
 - name: Add user to docker group
   shell: "sudo usermod -aG docker $USER"
-
-- name: Run hello world image
-  shell: 'docker run hello-world'
-
-- name: Install nginx
-  shell: 'sudo apt install nginx'
-
-- name: Configure Nginx
-  copy: remote_src=True src=nginx.conf dest=/etc/nginx/sites-enabled/udevs-task
