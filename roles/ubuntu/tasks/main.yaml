@@ -20,5 +20,11 @@
 - name: Add user to docker group
   shell: "sudo usermod -aG docker $USER"
 
-  name: Run hello world image
+- name: Run hello world image
   shell: 'docker run hello-world'
+
+- name: Install nginx
+  shell: 'sudo apt install nginx'
+
+- name: Configure Nginx
+  copy: remote_src=True src=nginx.conf dest=/etc/nginx/sites-enabled/udevs-task
