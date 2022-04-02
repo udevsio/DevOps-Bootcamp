@@ -22,6 +22,3 @@
 
   name: Run hello world image
   shell: 'docker run hello-world'
-
-- name: Install Nginx
-  shell: "sudo apt install nginx"
