@@ -1,0 +1,215 @@
+2.1     What is absolute and relative path?
+	Relative path is used when we input from current directory
+	for example:
+
+	For absolute path:
+	[manjaro@manjaro Downloads]$ pwd
+	/home/manjaro/Downloads
+	[manjaro@manjaro Downloads]$ cd /home/manjaro/Documents/
+	[manjaro@manjaro Documents]$ 
+
+	For relative path:
+	[manjaro@manjaro bootcamp]$ pwd
+	/home/manjaro/bootcamp
+	[manjaro@manjaro bootcamp]$ cd ../Downloads/
+	[manjaro@manjaro Downloads]$
+
+2.2     [manjaro@manjaro go-exercises]$ pwd
+	/home/manjaro/git-repo/go-exercises
+2.3 	uname  - is used to display system information, for example, 	kernel version, operation system information
+	We can use uname with man command and see its attributes
+
+
+       -v, --kernel-version
+              print the kernel version
+
+       -m, --machine
+              print the machine hardware name
+
+       -p, --processor
+              print the processor type (non-portable)
+
+       -i, --hardware-platform
+              print the hardware platform (non-portable)
+
+       -o, --operating-system
+              print the operating system
+
+       --help display this help and exit
+
+       --version
+              output version information
+2.3.1 	Version of kernel is defined as a newer or older version of 	linux kernel which based on current linux distribution
+
+2.4 	Get list of services with systemctl: systemctl list-units
+	 UNIT                                                                                     LOAD   ACTIVE SUB       DESCRIPTION
+  proc-sys-fs-binfmt_misc.automount                                                        loaded active waiting   Arbitrary Executable File Formats File System Automount Point
+  sys-devices-pci0000:00-0000:00:01.1-ata3-host2-target2:0:0-2:0:0:0-block-sr0.device      loaded active plugged   VBOX_CD-ROM
+  sys-devices-pci0000:00-0000:00:03.0-net-enp0s3.device                                    loaded active plugged   82540EM Gigabit Ethernet Controller (PRO/1000 MT Desktop Adapter)
+  sys-devices-pci0000:00-0000:00:05.0-sound-card0-controlC0.device                         loaded active plugged   /sys/devices/pci0000:00/0000:00:05.0/sound/card0/controlC0
+  sys-devices-pci0000:00-0000:00:0d.0-ata1-host0-target0:0:0-0:0:0:0-block-sda-sda1.device loaded active plugged   VBOX_HARDDISK 1
+  sys-devices-pci0000:00-0000:00:0d.0-ata1-host0-target0:0:0-0:0:0:0-block-sda.device      loaded active plugged   VBOX_HARDDISK
+  sys-devices-platform-serial8250-tty-ttyS0.device                                         loaded active plugged   /sys/devices/platform/serial8250/tty/ttyS0
+  sys-devices-platform-serial8250-tty-ttyS1.device                                         loaded active plugged   /sys/devices/platform/serial8250/tty/ttyS1
+  sys-devices-platform-serial8250-tty-ttyS10.device                                        loaded active plugged   /sys/devices/platform/serial8250/tty/ttyS10
+  sys-devices-platform-serial8250-tty-ttyS11.device                                        loaded active plugged   /sys/devices/platform/serial8250/tty/ttyS11
+  sys-devices-platform-serial8250-tty-ttyS12.device                                        loaded active plugged   /sys/devices/platform/serial8250/tty/ttyS12
+  sys-devices-platform-serial8250-tty-ttyS13.device                                        loaded active plugged   /sys/devices/platform/serial8250/tty/ttyS13
+  sys-devices-platform-serial8250-tty-ttyS14.device                                        loaded active plugged   /sys/devices/platform/serial8250/tty/ttyS14
+  sys-devices-platform-serial8250-tty-ttyS15.device                                        loaded active plugged   /sys/devices/platform/serial8250/tty/ttyS15
+  sys-devices-platform-serial8250-tty-ttyS16.device                                        loaded active plugged   /sys/devices/platform/serial8250/tty/ttyS16
+  sys-devices-platform-serial8250-tty-ttyS17.device                                        loaded active plugged   /sys/devices/platform/serial8250/tty/ttyS17
+  sys-devices-platform-serial8250-tty-ttyS18.device                                        loaded active plugged   /sys/devices/platform/serial8250/tty/ttyS18
+  sys-devices-platform-serial8250-tty-ttyS19.device                                        loaded active plugged   /sys/devices/platform/serial8250/tty/ttyS19
+  sys-devices-platform-serial8250-tty-ttyS2.device                                         loaded active plugged   /sys/devices/platform/serial8250/tty/ttyS2
+  sys-devices-platform-serial8250-tty-ttyS20.device                                        loaded active plugged   /sys/devices/platform/serial8250/tty/ttyS20
+  sys-devices-platform-serial8250-tty-ttyS21.device                                        loaded active plugged   /sys/devices/platform/serial8250/tty/ttyS21
+  sys-devices-platform-serial8250-tty-ttyS22.device                                        loaded active plugged   /sys/devices/platform/serial8250/tty/ttyS22
+  sys-devices-platform-serial8250-tty-ttyS23.device                                        loaded active plugged   /sys/devices/platform/serial8250/tty/ttyS23
+  sys-devices-platform-serial8250-tty-ttyS24.device                                        loaded active plugged   /sys/devices/platform/serial8250/tty/ttyS24
+  sys-devices-platform-serial8250-tty-ttyS25.device                                        loaded active plugged   /sys/devices/platform/serial8250/tty/ttyS25
+  sys-devices-platform-serial8250-tty-ttyS26.device                                        loaded active plugged   /sys/devices/platform/serial8250/tty/ttyS26
+  sys-devices-platform-serial8250-tty-ttyS27.device                                        loaded active plugged   /sys/devices/platform/serial8250/tty/ttyS27
+  sys-devices-platform-serial8250-tty-ttyS28.device                                        loaded active plugged   /sys/devices/platform/serial8250/tty/ttyS28
+  sys-devices-platform-serial8250-tty-ttyS29.device                                        loaded active plugged   /sys/devices/platform/serial8250/tty/ttyS29
+  sys-devices-platform-serial8250-tty-ttyS3.device                                         loaded active plugged   /sys/devices/platform/serial8250/tty/ttyS3
+  sys-devices-platform-serial8250-tty-ttyS30.device                                        loaded active plugged   /sys/devices/platform/serial8250/tty/ttyS30
+  sys-devices-platform-serial8250-tty-ttyS31.device                                        loaded active plugged   /sys/devices/platform/serial8250/tty/ttyS31
+  sys-devices-platform-serial8250-tty-ttyS4.device                                         loaded active plugged   /sys/devices/platform/serial8250/tty/ttyS4
+  sys-devices-platform-serial8250-tty-ttyS5.device                                         loaded active plugged   /sys/devices/platform/serial8250/tty/ttyS5
+  sys-devices-platform-serial8250-tty-ttyS6.device                                         loaded active plugged   /sys/devices/platform/serial8250/tty/ttyS6
+  sys-devices-platform-serial8250-tty-ttyS7.device                                         loaded active plugged   /sys/devices/platform/serial8250/tty/ttyS7
+  sys-devices-platform-serial8250-tty-ttyS8.device                                         loaded active plugged   /sys/devices/platform/serial8250/tty/ttyS8
+  sys-devices-platform-serial8250-tty-ttyS9.device                                         loaded active plugged   /sys/devices/platform/serial8250/tty/ttyS9
+  sys-devices-virtual-misc-rfkill.device                                                   loaded active plugged   /sys/devices/virtual/misc/rfkill
+  sys-module-configfs.device                                                               loaded active plugged   /sys/module/configfs
+  sys-module-fuse.device                                                                   loaded active plugged   /sys/module/fuse
+  sys-subsystem-net-devices-enp0s3.device                                                  loaded active plugged   82540EM Gigabit Ethernet Controller (PRO/1000 MT Desktop Adapter)
+  -.mount                                                                                  loaded active mounted   Root Mount
+  dev-hugepages.mount                                                                      loaded active mounted   Huge Pages File System
+  dev-mqueue.mount                                                                         loaded active mounted   POSIX Message Queue File System
+  run-credentials-systemd\x2dsysusers.service.mount                                        loaded active mounted   /run/credentials/systemd-sysusers.service
+  run-user-1000-doc.mount                                                                  loaded active mounted   /run/user/1000/doc
+  run-user-1000-gvfs.mount                                                                 loaded active mounted   /run/user/1000/gvfs
+  run-user-1000.mount                                                                      loaded active mounted   /run/user/1000
+  sys-fs-fuse-connections.mount                                                            loaded active mounted   FUSE Control File System
+  sys-kernel-config.mount                                                                  loaded active mounted   Kernel Configuration File System
+  sys-kernel-debug.mount                                                                   loaded active mounted   Kernel Debug File System
+  sys-kernel-tracing.mount                                                                 loaded active mounted   Kernel Trace File System
+  tmp.mount                                                                                loaded active mounted   Temporary Directory /tmp
+  cups.path                                                                                loaded active running   CUPS Scheduler
+  systemd-ask-password-console.path                                                        loaded active waiting   Dispatch Password Requests to Console Directory Watch
+  systemd-ask-password-wall.path                                                           loaded active waiting   Forward Password Requests to Wall Directory Watch
+  vboxdrmclient.path                                                                       loaded active running   VirtualBox Guest VMSVGA resize client
+  init.scope                                                                               loaded active running   System and Service Manager
+  session-2.scope                                                                          loaded active running   Session 2 of User manjaro
+  session-6.scope                                                                          loaded active running   Session 6 of User manjaro
+  session-7.scope                                                                          loaded active running   Session 7 of User manjaro
+  accounts-daemon.service                                                                  loaded active running   Accounts Service
+  alsa-restore.service                                                                     loaded active exited    Save/Restore Sound Card State
+  apparmor.service                                                                         loaded active exited    Load AppArmor profiles
+  avahi-daemon.service                                                                     loaded active running   Avahi mDNS/DNS-SD Stack
+  colord.service                                                                           loaded active running   Manage, Install and Generate Color Profiles
+  cronie.service                                                                           loaded active running   Periodic Command Scheduler
+  cups.service                                                                             loaded active running   CUPS Scheduler
+  dbus.service                                                                             loaded active running   D-Bus System Message Bus
+  kmod-static-nodes.service                                                                loaded active exited    Create List of Static Device Nodes
+  ldconfig.service                                                                         loaded active exited    Rebuild Dynamic Linker Cache
+  lightdm.service                                                                          loaded active running   Light Display Manager
+  lvm2-monitor.service                                                                     loaded active exited    Monitoring of LVM2 mirrors, snapshots etc. using dmeventd or progress polling
+  ModemManager.service                                                                     loaded active running   Modem Manager
+  NetworkManager-wait-online.service                                                       loaded active exited    Network Manager Wait Online
+  NetworkManager.service                                                                   loaded active running   Network Manager
+  polkit.service                                                                           loaded active running   Authorization Manager
+  rtkit-daemon.service                                                                     loaded active running   RealtimeKit Scheduling Policy Service
+
+2.5 	Get list of active processes:
+[manjaro@manjaro bootcamp]$ top
+top - 23:52:18 up  4:21,  3 users,  load average: 0.03, 0.08, 0.05
+Tasks: 170 total,   1 running, 169 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.0 us,  0.0 sy,  0.0 ni,100.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+MiB Mem :   2477.5 total,    415.0 free,    595.2 used,   1467.3 buff/cache
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.   1633.6 avail Mem
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   3206 root      20   0       0      0      0 I   0.3   0.0   0:00.08 kworker/u4:0-events_unbound
+      1 root      20   0  102012  13172   9012 S   0.0   0.5   0:06.94 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.01 kthreadd
+      3 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 rcu_gp
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 rcu_par_gp
+      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker/0:0H-events_highpri
+      8 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 mm_percpu_wq
+     10 root      20   0       0      0      0 S   0.0   0.0   0:00.00 rcu_tasks_kthre
+     11 root      20   0       0      0      0 S   0.0   0.0   0:00.00 rcu_tasks_rude_
+     12 root      20   0       0      0      0 S   0.0   0.0   0:00.00 rcu_tasks_trace
+     13 root      20   0       0      0      0 S   0.0   0.0   0:00.27 ksoftirqd/0
+     14 root      -2   0       0      0      0 I   0.0   0.0   0:02.46 rcu_preempt
+     15 root      -2   0       0      0      0 S   0.0   0.0   0:00.00 rcub/0
+     16 root      -2   0       0      0      0 S   0.0   0.0   0:00.00 rcuc/0
+     17 root      rt   0       0      0      0 S   0.0   0.0   0:00.90 migration/0
+     18 root     -51   0       0      0      0 S   0.0   0.0   0:00.00 idle_inject/0
+     20 root      20   0       0      0      0 S   0.0   0.0   0:00.00 cpuhp/0
+     21 root      20   0       0      0      0 S   0.0   0.0   0:00.00 cpuhp/1
+     22 root     -51   0       0      0      0 S   0.0   0.0   0:00.00 idle_inject/1
+     23 root      rt   0       0      0      0 S   0.0   0.0   0:00.29 migration/1
+     24 root      -2   0       0      0      0 S   0.0   0.0   0:00.00 rcuc/1
+     25 root      20   0       0      0      0 S   0.0   0.0   0:03.35 ksoftirqd/1
+     27 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker/1:0H-kblockd
+     28 root      20   0       0      0      0 S   0.0   0.0   0:00.02 kdevtmpfs
+     29 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 netns
+     30 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 inet_frag_wq
+     31 root      20   0       0      0      0 S   0.0   0.0   0:00.00 kauditd
+     32 root      20   0       0      0      0 S   0.0   0.0   0:00.02 khungtaskd
+     33 root      20   0       0      0      0 S   0.0   0.0   0:00.00 oom_reaper
+     34 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 writeback
+     35 root      20   0       0      0      0 S   0.0   0.0   0:00.36 kcompactd0
+     36 root      25   5       0      0      0 S   0.0   0.0   0:00.00 ksmd
+     37 root      39  19       0      0      0 S   0.0   0.0   0:00.00 khugepaged
+     82 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kintegrityd
+     83 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kblockd
+     84 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 blkcg_punt_bio
+     85 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 ata_sff
+     86 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 edac-poller
+     87 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 devfreq_wq
+     88 root     -51   0       0      0      0 S   0.0   0.0   0:00.00 watchdogd
+     89 root       0 -20       0      0      0 I   0.0   0.0   0:00.59 kworker/0:1H-kblockd
+     90 root      20   0       0      0      0 S   0.0   0.0   0:00.00 kswapd0
+     93 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kthrotld
+     94 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 acpi_thermal_pm
+     95 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 nvme-wq
+     96 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 nvme-reset-wq
+     97 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 nvme-delete-wq
+     98 root      20   0       0      0      0 S   0.0   0.0   0:00.00 scsi_eh_0
+     99 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 scsi_tmf_0
+    100 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 mld
+    101 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 ipv6_addrconf
+    110 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kstrp
+    111 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 zswap1
+    112 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 zswap1
+    113 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 zswap-shrink
+    114 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker/u5:0
+    115 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 charger_manager
+    117 root       0 -20       0      0      0 I   0.0   0.0   0:00.45 kworker/1:1H-kblockd
+    151 root      20   0       0      0      0 S   0.0   0.0   0:00.02 scsi_eh_1
+    153 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 scsi_tmf_1
+    154 root      20   0       0      0      0 S   0.0   0.0   0:00.01 scsi_eh_2
+    155 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 scsi_tmf_2
+    171 root      20   0       0      0      0 S   0.0   0.0   0:00.16 jbd2/sda1-8
+    172 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 ext4-rsv-conver
+    246 root      20   0   48368  16976  15792 S   0.0   0.7   0:00.32 systemd-journal
+    247 root      20   0   32868  10732   7440 S   0.0   0.4   0:00.15 systemd-udevd
+    274 avahi     20   0    8584   4224   3808 S   0.0   0.2   0:00.30 avahi-daemon
+    276 root      20   0    6860   2812   2484 S   0.0   0.1   0:00.02 crond
+    279 dbus      20   0    9892   6160   4284 S   0.0   0.2   0:01.79 dbus-daemon
+    280 polkitd   20   0 2506384  22116  17268 S   0.0   0.9   0:00.30 polkitd
+    282 root      20   0   24296   8152   7144 S   0.0   0.3   0:00.13 systemd-logind
+    293 avahi     20   0    8584    416      0 S   0.0   0.0   0:00.00 avahi-daemon
+    305 root      20   0  405304  19716  16812 S   0.0   0.8   0:00.75 NetworkManager
+    325 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 ttm_swap
+
+2.6	CPU/RAM info: free - m
+
+[manjaro@manjaro ~]$ free -m
+               total        used        free      shared  buff/cache   available
+Mem:            2477         593         416          63        1467        1635
+
