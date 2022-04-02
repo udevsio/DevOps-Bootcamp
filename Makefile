@@ -2,7 +2,7 @@ NAME=go-backend
 PORT=8080
 REPO=muhammadsiddiqbe/udevs
 TAG=latest
-SERVER_IP=100.24.28.234
+SERVER_IP=3.87.103.151
 
 login:
 	docker login -u ${DOCKER_USER} -p ${DOCKER_PASSWORD}
@@ -12,6 +12,7 @@ build:
 
 run:
 	docker run -p ${PORT}:8080 -d ${NAME}
+	docker ps > muhammadsiddiq_docker.out
 
 push-image:
 	docker tag ${NAME}:${TAG} ${REPO}:${TAG}
