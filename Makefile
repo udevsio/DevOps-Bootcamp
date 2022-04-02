@@ -15,3 +15,6 @@ run:
 push-image:
 	docker tag ${NAME}:${TAG} ${REPO}:${TAG}
 	docker push ${REPO}:${TAG}
+
+apply:
+	terraform apply
