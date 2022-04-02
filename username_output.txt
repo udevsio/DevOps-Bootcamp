@@ -1,0 +1,558 @@
+2.1 An absolute path is defined as the location of a file or directory relative to the root directory and is designated by a forward slash ( / ).
+A relative path refers to the location of a file or directory relative to the current working directory rather than the root directory.
+
+
+2.2 /home/dor/udevs/DevOps-Bootcamp
+
+2.3 The uname tool is most commonly used to determine the processor architecture, the system hostname and the version of the kernel running on the system.
+    2.3.1 #42~20.04.1-Ubuntu SMP Tue Mar 15 15:44:28 UTC 2022
+    2.3.2 x86_64
+
+2.4 
+proc-sys-fs-binfmt_misc.automount
+dev-fuse.device
+sys-bus-pci-drivers-nvidia.device
+sys-devices-pci0000:00-0000:00:02.0-drm-card0-card0\x2deDP\x2d1-intel_backlight.device
+sys-devices-pci0000:00-0000:00:14.0-usb1-1\x2d5-1\x2d5:1.0-bluetooth-hci0.device
+sys-devices-pci0000:00-0000:00:17.0-ata1-host0-target0:0:0-0:0:0:0-block-sda-sda1.device
+sys-devices-pci0000:00-0000:00:17.0-ata1-host0-target0:0:0-0:0:0:0-block-sda-sda2.device
+sys-devices-pci0000:00-0000:00:17.0-ata1-host0-target0:0:0-0:0:0:0-block-sda.device
+sys-devices-pci0000:00-0000:00:17.0-ata2-host1-target1:0:0-1:0:0:0-block-sr0.device
+sys-devices-pci0000:00-0000:00:1d.2-0000:03:00.0-net-wlp3s0.device
+sys-devices-pci0000:00-0000:00:1d.3-0000:04:00.1-net-enp4s0f1.device
+sys-devices-pci0000:00-0000:00:1f.3-sound-card0.device
+sys-devices-platform-serial8250-tty-ttyS0.device
+sys-devices-platform-serial8250-tty-ttyS1.device
+sys-devices-platform-serial8250-tty-ttyS10.device
+sys-devices-platform-serial8250-tty-ttyS11.device
+sys-devices-platform-serial8250-tty-ttyS12.device
+sys-devices-platform-serial8250-tty-ttyS13.device
+sys-devices-platform-serial8250-tty-ttyS14.device
+sys-devices-platform-serial8250-tty-ttyS15.device
+sys-devices-platform-serial8250-tty-ttyS16.device
+sys-devices-platform-serial8250-tty-ttyS17.device
+sys-devices-platform-serial8250-tty-ttyS18.device
+sys-devices-platform-serial8250-tty-ttyS19.device
+sys-devices-platform-serial8250-tty-ttyS2.device
+sys-devices-platform-serial8250-tty-ttyS20.device
+sys-devices-platform-serial8250-tty-ttyS21.device
+sys-devices-platform-serial8250-tty-ttyS22.device
+sys-devices-platform-serial8250-tty-ttyS23.device
+sys-devices-platform-serial8250-tty-ttyS24.device
+sys-devices-platform-serial8250-tty-ttyS25.device
+sys-devices-platform-serial8250-tty-ttyS26.device
+sys-devices-platform-serial8250-tty-ttyS27.device
+sys-devices-platform-serial8250-tty-ttyS28.device
+sys-devices-platform-serial8250-tty-ttyS29.device
+sys-devices-platform-serial8250-tty-ttyS3.device
+sys-devices-platform-serial8250-tty-ttyS30.device
+sys-devices-platform-serial8250-tty-ttyS31.device
+sys-devices-platform-serial8250-tty-ttyS4.device
+sys-devices-platform-serial8250-tty-ttyS5.device
+sys-devices-platform-serial8250-tty-ttyS6.device
+sys-devices-platform-serial8250-tty-ttyS7.device
+sys-devices-platform-serial8250-tty-ttyS8.device
+sys-devices-platform-serial8250-tty-ttyS9.device
+sys-devices-virtual-block-loop0.device
+sys-devices-virtual-block-loop1.device
+sys-devices-virtual-block-loop10.device
+sys-devices-virtual-block-loop11.device
+sys-devices-virtual-block-loop12.device
+sys-devices-virtual-block-loop13.device
+sys-devices-virtual-block-loop14.device
+sys-devices-virtual-block-loop15.device
+sys-devices-virtual-block-loop16.device
+sys-devices-virtual-block-loop17.device
+sys-devices-virtual-block-loop18.device
+sys-devices-virtual-block-loop2.device
+sys-devices-virtual-block-loop3.device
+sys-devices-virtual-block-loop4.device
+sys-devices-virtual-block-loop5.device
+sys-devices-virtual-block-loop6.device
+sys-devices-virtual-block-loop7.device
+sys-devices-virtual-block-loop8.device
+sys-devices-virtual-block-loop9.device
+sys-devices-virtual-misc-rfkill.device
+sys-devices-virtual-net-br\x2dece887cd1ae2.device
+sys-devices-virtual-net-docker0.device
+sys-devices-virtual-net-vethabeeece.device
+sys-devices-virtual-net-vethb7d257e.device
+sys-devices-virtual-tty-ttyprintk.device
+sys-module-configfs.device
+sys-module-fuse.device
+sys-subsystem-bluetooth-devices-hci0.device
+sys-subsystem-net-devices-br\x2dece887cd1ae2.device
+sys-subsystem-net-devices-docker0.device
+sys-subsystem-net-devices-enp4s0f1.device
+sys-subsystem-net-devices-vethabeeece.device
+sys-subsystem-net-devices-vethb7d257e.device
+sys-subsystem-net-devices-wlp3s0.device
+-.mount
+boot-efi.mount
+dev-hugepages.mount
+dev-mqueue.mount
+run-docker-netns-3c55a5bfb600.mount
+run-docker-netns-a3ceeb2edf0d.mount
+run-snapd-ns-snap\x2dstore.mnt.mount
+run-snapd-ns.mount
+run-user-1000-doc.mount
+run-user-1000-gvfs.mount
+run-user-1000.mount
+run-user-125-gvfs.mount
+run-user-125.mount
+snap-bare-5.mount
+snap-code-90.mount
+snap-code-91.mount
+snap-core-12725.mount
+snap-core-12821.mount
+snap-core18-2284.mount
+snap-core18-2344.mount
+snap-core20-1361.mount
+snap-core20-1376.mount
+snap-gnome\x2d3\x2d34\x2d1804-72.mount
+snap-gnome\x2d3\x2d34\x2d1804-77.mount
+snap-gnome\x2d3\x2d38\x2d2004-99.mount
+snap-gtk\x2dcommon\x2dthemes-1515.mount
+snap-gtk\x2dcommon\x2dthemes-1519.mount
+snap-libreoffice-247.mount
+snap-snap\x2dstore-547.mount
+snap-snap\x2dstore-558.mount
+snap-snapd-14978.mount
+snap-snapd-15177.mount
+sys-fs-fuse-connections.mount
+sys-kernel-config.mount
+sys-kernel-debug.mount
+sys-kernel-tracing.mount
+var-lib-docker-containers-01c0e412cd7d2300215e2567f0181a3c43b7c3b32412c5c64a57186ccf6a581e-mounts-shm.mount
+var-lib-docker-containers-1217a4b00efd02e75ba325dd573dc3d33509376653106db4baf10d3b48486f0b-mounts-shm.mount
+var-lib-docker-overlay2-da869992d4fe6a23ab2eb6b14b16238fcc27d1bb022437e92c1014dc4e67f0b8-merged.mount
+var-lib-docker-overlay2-e8ecc621c787edb49c52a203afeef1d025d8d5ce1c7c1124361306fdbfe689cc-merged.mount
+acpid.path
+cups.path
+systemd-ask-password-plymouth.path
+systemd-ask-password-wall.path
+ua-license-check.path
+init.scope
+session-2.scope
+session-c1.scope
+accounts-daemon.service
+acpid.service
+alsa-restore.service
+apparmor.service
+apport.service
+avahi-daemon.service
+bluetooth.service
+colord.service
+console-setup.service
+containerd.service
+cron.service
+cups-browsed.service
+cups.service
+dbus.service
+docker.service
+●
+gdm.service
+irqbalance.service
+kerneloops.service
+keyboard-setup.service
+kmod-static-nodes.service
+kubelet.service
+ModemManager.service
+networkd-dispatcher.service
+NetworkManager-wait-online.service
+NetworkManager.service
+nvidia-persistenced.service
+openvpn.service
+polkit.service
+postgresql.service
+postgresql@12-main.service
+rsyslog.service
+rtkit-daemon.service
+setvtrgb.service
+snapd.apparmor.service
+snapd.seeded.service
+snapd.service
+switcheroo-control.service
+sysstat.service
+systemd-backlight@backlight:intel_backlight.service
+systemd-fsck@dev-disk-by\x2duuid-A216\x2d04D2.service
+systemd-journal-flush.service
+systemd-journald.service
+systemd-logind.service
+systemd-modules-load.service
+systemd-random-seed.service
+systemd-remount-fs.service
+systemd-resolved.service
+systemd-sysctl.service
+systemd-sysusers.service
+systemd-timesyncd.service
+systemd-tmpfiles-setup-dev.service
+systemd-tmpfiles-setup.service
+systemd-udev-trigger.service
+systemd-udevd.service
+systemd-update-utmp.service
+systemd-user-sessions.service
+thermald.service
+udisks2.service
+ufw.service
+unattended-upgrades.service
+upower.service
+user-runtime-dir@1000.service
+user-runtime-dir@125.service
+user@1000.service
+user@125.service
+whoopsie.service
+wpa_supplicant.service
+-.slice
+system-getty.slice
+system-modprobe.slice
+system-postgresql.slice
+system-systemd\x2dbacklight.slice
+system-systemd\x2dfsck.slice
+system.slice
+user-1000.slice
+user-125.slice
+user.slice
+acpid.socket
+avahi-daemon.socket
+cups.socket
+dbus.socket
+docker.socket
+snapd.socket
+syslog.socket
+systemd-fsckd.socket
+systemd-initctl.socket
+systemd-journald-audit.socket
+systemd-journald-dev-log.socket
+systemd-journald.socket
+systemd-rfkill.socket
+systemd-udevd-control.socket
+systemd-udevd-kernel.socket
+uuidd.socket
+swapfile.swap
+basic.target
+bluetooth.target
+cryptsetup.target
+getty.target
+graphical.target
+local-fs-pre.target
+local-fs.target
+multi-user.target
+network-online.target
+network.target
+nss-lookup.target
+nss-user-lookup.target
+paths.target
+remote-fs.target
+slices.target
+sockets.target
+sound.target
+swap.target
+sysinit.target
+time-set.target
+time-sync.target
+timers.target
+anacron.timer
+apt-daily-upgrade.timer
+apt-daily.timer
+e2scrub_all.timer
+fstrim.timer
+fwupd-refresh.timer
+logrotate.timer
+man-db.timer
+motd-news.timer
+systemd-tmpfiles-clean.timer
+ua-timer.timer
+
+2.5 
+/usr/lib/gdm3/gdm-x-session
+/usr/lib/xorg/Xorg
+dbus-run-session
+dbus-daemon
+/usr/libexec/gnome-session-binary
+/usr/libexec/at-spi-bus-launcher
+/usr/bin/dbus-daemon
+/usr/bin/gnome-shell
+ibus-daemon
+/usr/libexec/ibus-memconf
+/usr/libexec/ibus-x11
+/usr/libexec/ibus-portal
+/usr/libexec/at-spi2-registryd
+/usr/libexec/xdg-permission-store
+/usr/bin/gjs
+/usr/libexec/gsd-sharing
+/usr/libexec/gsd-wacom
+/usr/libexec/gsd-color
+/usr/libexec/gsd-keyboard
+/usr/libexec/gsd-print-notifications
+/usr/libexec/gsd-rfkill
+/usr/libexec/gsd-smartcard
+/usr/libexec/gsd-datetime
+/usr/libexec/gsd-media-keys
+/usr/libexec/gsd-screensaver-proxy
+/usr/libexec/gsd-sound
+/usr/libexec/gsd-a11y-settings
+/usr/libexec/gsd-housekeeping
+/usr/libexec/gsd-power
+/usr/libexec/ibus-engine-simple
+/usr/libexec/gsd-printer
+/usr/lib/gdm3/gdm-x-session
+/usr/lib/xorg/Xorg
+/usr/libexec/gnome-session-binary
+/usr/bin/bash
+
+2.6
+processor	: 0
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 142
+model name	: Intel(R) Core(TM) i7-8550U CPU @ 1.80GHz
+stepping	: 10
+microcode	: 0xea
+cpu MHz		: 2936.112
+cache size	: 8192 KB
+physical id	: 0
+siblings	: 8
+core id		: 0
+cpu cores	: 4
+apicid		: 0
+initial apicid	: 0
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 22
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc cpuid aperfmperf pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch cpuid_fault epb invpcid_single pti ssbd ibrs ibpb stibp tpr_shadow vnmi flexpriority ept vpid ept_ad fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid mpx rdseed adx smap clflushopt intel_pt xsaveopt xsavec xgetbv1 xsaves dtherm ida arat pln pts hwp hwp_notify hwp_act_window hwp_epp md_clear flush_l1d
+vmx flags	: vnmi preemption_timer invvpid ept_x_only ept_ad ept_1gb flexpriority tsc_offset vtpr mtf vapic ept vpid unrestricted_guest ple pml ept_mode_based_exec
+bugs		: cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass l1tf mds swapgs itlb_multihit srbds
+bogomips	: 3999.93
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 39 bits physical, 48 bits virtual
+power management:
+
+processor	: 1
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 142
+model name	: Intel(R) Core(TM) i7-8550U CPU @ 1.80GHz
+stepping	: 10
+microcode	: 0xea
+cpu MHz		: 2000.000
+cache size	: 8192 KB
+physical id	: 0
+siblings	: 8
+core id		: 1
+cpu cores	: 4
+apicid		: 2
+initial apicid	: 2
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 22
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc cpuid aperfmperf pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch cpuid_fault epb invpcid_single pti ssbd ibrs ibpb stibp tpr_shadow vnmi flexpriority ept vpid ept_ad fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid mpx rdseed adx smap clflushopt intel_pt xsaveopt xsavec xgetbv1 xsaves dtherm ida arat pln pts hwp hwp_notify hwp_act_window hwp_epp md_clear flush_l1d
+vmx flags	: vnmi preemption_timer invvpid ept_x_only ept_ad ept_1gb flexpriority tsc_offset vtpr mtf vapic ept vpid unrestricted_guest ple pml ept_mode_based_exec
+bugs		: cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass l1tf mds swapgs itlb_multihit srbds
+bogomips	: 3999.93
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 39 bits physical, 48 bits virtual
+power management:
+
+processor	: 2
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 142
+model name	: Intel(R) Core(TM) i7-8550U CPU @ 1.80GHz
+stepping	: 10
+microcode	: 0xea
+cpu MHz		: 2911.684
+cache size	: 8192 KB
+physical id	: 0
+siblings	: 8
+core id		: 2
+cpu cores	: 4
+apicid		: 4
+initial apicid	: 4
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 22
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc cpuid aperfmperf pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch cpuid_fault epb invpcid_single pti ssbd ibrs ibpb stibp tpr_shadow vnmi flexpriority ept vpid ept_ad fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid mpx rdseed adx smap clflushopt intel_pt xsaveopt xsavec xgetbv1 xsaves dtherm ida arat pln pts hwp hwp_notify hwp_act_window hwp_epp md_clear flush_l1d
+vmx flags	: vnmi preemption_timer invvpid ept_x_only ept_ad ept_1gb flexpriority tsc_offset vtpr mtf vapic ept vpid unrestricted_guest ple pml ept_mode_based_exec
+bugs		: cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass l1tf mds swapgs itlb_multihit srbds
+bogomips	: 3999.93
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 39 bits physical, 48 bits virtual
+power management:
+
+processor	: 3
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 142
+model name	: Intel(R) Core(TM) i7-8550U CPU @ 1.80GHz
+stepping	: 10
+microcode	: 0xea
+cpu MHz		: 2000.000
+cache size	: 8192 KB
+physical id	: 0
+siblings	: 8
+core id		: 3
+cpu cores	: 4
+apicid		: 6
+initial apicid	: 6
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 22
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc cpuid aperfmperf pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch cpuid_fault epb invpcid_single pti ssbd ibrs ibpb stibp tpr_shadow vnmi flexpriority ept vpid ept_ad fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid mpx rdseed adx smap clflushopt intel_pt xsaveopt xsavec xgetbv1 xsaves dtherm ida arat pln pts hwp hwp_notify hwp_act_window hwp_epp md_clear flush_l1d
+vmx flags	: vnmi preemption_timer invvpid ept_x_only ept_ad ept_1gb flexpriority tsc_offset vtpr mtf vapic ept vpid unrestricted_guest ple pml ept_mode_based_exec
+bugs		: cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass l1tf mds swapgs itlb_multihit srbds
+bogomips	: 3999.93
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 39 bits physical, 48 bits virtual
+power management:
+
+processor	: 4
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 142
+model name	: Intel(R) Core(TM) i7-8550U CPU @ 1.80GHz
+stepping	: 10
+microcode	: 0xea
+cpu MHz		: 2000.000
+cache size	: 8192 KB
+physical id	: 0
+siblings	: 8
+core id		: 0
+cpu cores	: 4
+apicid		: 1
+initial apicid	: 1
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 22
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc cpuid aperfmperf pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch cpuid_fault epb invpcid_single pti ssbd ibrs ibpb stibp tpr_shadow vnmi flexpriority ept vpid ept_ad fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid mpx rdseed adx smap clflushopt intel_pt xsaveopt xsavec xgetbv1 xsaves dtherm ida arat pln pts hwp hwp_notify hwp_act_window hwp_epp md_clear flush_l1d
+vmx flags	: vnmi preemption_timer invvpid ept_x_only ept_ad ept_1gb flexpriority tsc_offset vtpr mtf vapic ept vpid unrestricted_guest ple pml ept_mode_based_exec
+bugs		: cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass l1tf mds swapgs itlb_multihit srbds
+bogomips	: 3999.93
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 39 bits physical, 48 bits virtual
+power management:
+
+processor	: 5
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 142
+model name	: Intel(R) Core(TM) i7-8550U CPU @ 1.80GHz
+stepping	: 10
+microcode	: 0xea
+cpu MHz		: 1142.296
+cache size	: 8192 KB
+physical id	: 0
+siblings	: 8
+core id		: 1
+cpu cores	: 4
+apicid		: 3
+initial apicid	: 3
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 22
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc cpuid aperfmperf pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch cpuid_fault epb invpcid_single pti ssbd ibrs ibpb stibp tpr_shadow vnmi flexpriority ept vpid ept_ad fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid mpx rdseed adx smap clflushopt intel_pt xsaveopt xsavec xgetbv1 xsaves dtherm ida arat pln pts hwp hwp_notify hwp_act_window hwp_epp md_clear flush_l1d
+vmx flags	: vnmi preemption_timer invvpid ept_x_only ept_ad ept_1gb flexpriority tsc_offset vtpr mtf vapic ept vpid unrestricted_guest ple pml ept_mode_based_exec
+bugs		: cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass l1tf mds swapgs itlb_multihit srbds
+bogomips	: 3999.93
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 39 bits physical, 48 bits virtual
+power management:
+
+processor	: 6
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 142
+model name	: Intel(R) Core(TM) i7-8550U CPU @ 1.80GHz
+stepping	: 10
+microcode	: 0xea
+cpu MHz		: 2000.000
+cache size	: 8192 KB
+physical id	: 0
+siblings	: 8
+core id		: 2
+cpu cores	: 4
+apicid		: 5
+initial apicid	: 5
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 22
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc cpuid aperfmperf pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch cpuid_fault epb invpcid_single pti ssbd ibrs ibpb stibp tpr_shadow vnmi flexpriority ept vpid ept_ad fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid mpx rdseed adx smap clflushopt intel_pt xsaveopt xsavec xgetbv1 xsaves dtherm ida arat pln pts hwp hwp_notify hwp_act_window hwp_epp md_clear flush_l1d
+vmx flags	: vnmi preemption_timer invvpid ept_x_only ept_ad ept_1gb flexpriority tsc_offset vtpr mtf vapic ept vpid unrestricted_guest ple pml ept_mode_based_exec
+bugs		: cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass l1tf mds swapgs itlb_multihit srbds
+bogomips	: 3999.93
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 39 bits physical, 48 bits virtual
+power management:
+
+processor	: 7
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 142
+model name	: Intel(R) Core(TM) i7-8550U CPU @ 1.80GHz
+stepping	: 10
+microcode	: 0xea
+cpu MHz		: 2938.029
+cache size	: 8192 KB
+physical id	: 0
+siblings	: 8
+core id		: 3
+cpu cores	: 4
+apicid		: 7
+initial apicid	: 7
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 22
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc cpuid aperfmperf pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch cpuid_fault epb invpcid_single pti ssbd ibrs ibpb stibp tpr_shadow vnmi flexpriority ept vpid ept_ad fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid mpx rdseed adx smap clflushopt intel_pt xsaveopt xsavec xgetbv1 xsaves dtherm ida arat pln pts hwp hwp_notify hwp_act_window hwp_epp md_clear flush_l1d
+vmx flags	: vnmi preemption_timer invvpid ept_x_only ept_ad ept_1gb flexpriority tsc_offset vtpr mtf vapic ept vpid unrestricted_guest ple pml ept_mode_based_exec
+bugs		: cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass l1tf mds swapgs itlb_multihit srbds
+bogomips	: 3999.93
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 39 bits physical, 48 bits virtual
+power management:
+
+3. My script file named as used_scripts.sh in the same folder as this txt file. 
+In order to make script executable globally we should: 
+    a. Assign execute permission for file: chmod u+x script_name 
+    b. In order to run a Bash script from anywhere on your system, we need to add script to our PATH environment variable:
+       export PATH="<path_to_script>"
+
+4. SSH is a network protocol that gives users, particularly system administrators, a secure way to access a computer over an unsecured network.
+   4.1 ssh-keygen  -b 4096
+   4.2 The SSH connection is implemented using a client-server model.
+       SSH keys are a matching set of cryptographic keys which can be used for authentication. Each set contains a public and a private key.
+       In a user key set, the private key remains on the system being used to access the remote system  and is used to decrypt information that is exchanged in the SSH protocol.
+       A public key is used to encrypt information, can be shared, and is used by the user and the remote server. 
+       How ssh authentication works?
+       a. Client (has private key) initiate SSH connection
+       b. Server (has public key) send random challenge message 
+       c. Client response encrypt message with private key
+       d. Server decrypt message with public key. If message match, client is authenticated
+
+
+5. First of all command like: curl google.com doesn`t work, because CURL, by default, does NOT follow redirects.
+   And we will receive 301 Moved Error. Correct command: curl -L google.com. Curl also can be used to download files and etc.  
+   a. address name will be send to the ISP, asking for the IP address
+   b. Since ISP doesnt have the IP address it will in turn send a request to DNS(Domain Name Server) asking for the IP address. DNS will search for the IP address mapped with the webpage and will return that to the ISP who in turn will return it.
+   c. TCP connection
+   d. Send HTTP request. 
+   e. Server handles request
+   f. Server sends response
+
+   
+6. DockerHub: dor28/udevs2:latest
