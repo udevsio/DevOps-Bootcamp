@@ -1,16 +1,18 @@
-FROM golang:latest
-RUN mkdir /app
+FROM golang:1.16-alpine3.13
 
-
-COPY go.mod ./app
-RUN go mod download 
-COPY *.go ./app
 WORKDIR /app
+
+COPY go.mod .
+COPY *.go .
+
+RUN go mod download 
 
 RUN go build -o main main.go
 
 EXPOSE 3000
 
 CMD ["/app/main"]
+
+
 
 
