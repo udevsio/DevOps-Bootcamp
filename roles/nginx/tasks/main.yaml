@@ -12,7 +12,7 @@
   shell: 'sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable"'
 
 - name: Install Docker
-  shell: 'sudo apt update && sudo apt install -y docker-ce'
+  shell: 'sudo apt install -y docker-ce'
 
   name: create docker group
   shell: 'sudo usermod -aG docker $USER'
