@@ -1,1 +1,268 @@
+[2.1] An absolute path is beginnig from the start of root to the destination of file or directory,and it starts(/).Relative path is the current location of direcotry or file.
+[2.2] i have copied to  /d/Devops/git_lab/DevOps-Bootcamp
+[2.3] uname is to get information about system
+[2.3.1] uname -r 
+      3.10.0-1160.e17.x86_64 
+[2.3.2] uname -p 
+      x86_64
+[2.4]ubuntu@ip-172-31-93-152:~$ systemctl --type=service
+  UNIT                                           LOAD   ACTIVE SUB     DESCRIPT>
+  accounts-daemon.service                        loaded active running Accounts>
+  acpid.service                                  loaded active running ACPI eve>
+  apparmor.service                               loaded active exited  Load App>
+  apport.service                                 loaded active exited  LSB: aut>
+  atd.service                                    loaded active running Deferred>
+  blk-availability.service                       loaded active exited  Availabi>
+  cloud-config.service                           loaded active exited  Apply th>
+  cloud-final.service                            loaded active exited  Execute >
+  cloud-init-local.service                       loaded active exited  Initial >
+  cloud-init.service                             loaded active exited  Initial >
+  console-setup.service                          loaded active exited  Set cons>
+  cron.service                                   loaded active running Regular >
+  dbus.service                                   loaded active running D-Bus Sy>
+  finalrd.service                                loaded active exited  Create f>
+  getty@tty1.service                             loaded active running Getty on>
+  keyboard-setup.service                         loaded active exited  Set the >
+  kmod-static-nodes.service                      loaded active exited  Create l>
+  lvm2-monitor.service                           loaded active exited  Monitori>
+  multipathd.service                             loaded active running Device-M>
+  networkd-dispatcher.service                    loaded active running Dispatch>
+  polkit.service                                 loaded active running Authoriz>
+  rsyslog.service                                loaded active running System L>
+  serial-getty@ttyS0.service                     loaded active running Serial G>
+  setvtrgb.service                               loaded active exited  Set cons>
+  snap.amazon-ssm-agent.amazon-ssm-agent.service loaded active running Service >
+  snapd.apparmor.service                         loaded active exited  Load App>
+  snapd.seeded.service                           loaded active exited  Wait unt>
+  snapd.service                                  loaded active running Snap Dae>
+  ssh.service                                    loaded active running OpenBSD >
+  systemd-fsck-root.service                      loaded active exited  File Sys>
+  systemd-journal-flush.service                  loaded active exited  Flush Jo>
+  systemd-journald.service                       loaded active running Journal >
+  systemd-logind.service                         loaded active running Login Se>
+  systemd-machine-id-commit.service              loaded active exited  Commit a>
+  systemd-modules-load.service                   loaded active exited  Load Ker>
+  systemd-networkd-wait-online.service           loaded active exited  Wait for>
+  systemd-networkd.service                       loaded active running Network >
+  systemd-random-seed.service                    loaded active exited  Load/Sav>
+  systemd-remount-fs.service                     loaded active exited  Remount >
+  systemd-resolved.service                       loaded active running Network >
+  systemd-sysctl.service                         loaded active exited  Apply Ke>
+  systemd-sysusers.service                       loaded active exited  Create S>
+  systemd-timesyncd.service                      loaded active running Network >
+  systemd-tmpfiles-setup-dev.service             loaded active exited  Create S>
+  systemd-tmpfiles-setup.service                 loaded active exited  Create V>
+  systemd-udev-settle.service                    loaded active exited  udev Wai>
+  systemd-udev-trigger.service                   loaded active exited  udev Col>
+  systemd-udevd.service                          loaded active running udev Ker>
+  systemd-update-utmp.service                    loaded active exited  Update U>
+  systemd-user-sessions.service                  loaded active exited  Permit U>
+  udisks2.service                                loaded active running Disk Man>
+  ufw.service                                    loaded active exited  Uncompli>
+  unattended-upgrades.service                    loaded active running Unattend>
+  user-runtime-dir@1000.service                  loaded active exited  User Run>
+  user@1000.service                              loaded active running User Man>
 
+LOAD   = Reflects whether the unit definition was properly loaded.
+ACTIVE = The high-level unit activation state, i.e. generalization of SUB.
+SUB    = The low-level unit activation state, values depend on unit type.
+
+55 loaded units listed. Pass --all to see loaded but inactive units, too.
+To show all installed unit files use 'systemctl list-unit-files'.
+lines 40-63/63 (END)
+  systemd-remount-fs.service                     loaded active exited  Remount Root and Kernel File Systems
+  systemd-resolved.service                       loaded active running Network Name Resolution
+  systemd-sysctl.service                         loaded active exited  Apply Kernel Variables
+  systemd-sysusers.service                       loaded active exited  Create System Users
+  systemd-timesyncd.service                      loaded active running Network Time Synchronization
+  systemd-tmpfiles-setup-dev.service             loaded active exited  Create Static Device Nodes in /dev
+  systemd-tmpfiles-setup.service                 loaded active exited  Create Volatile Files and Directories
+  systemd-udev-settle.service                    loaded active exited  udev Wait for Complete Device Initialization
+  systemd-udev-trigger.service                   loaded active exited  udev Coldplug all Devices
+  systemd-udevd.service                          loaded active running udev Kernel Device Manager
+  systemd-update-utmp.service                    loaded active exited  Update UTMP about System Boot/Shutdown
+  systemd-user-sessions.service                  loaded active exited  Permit User Sessions
+  udisks2.service                                loaded active running Disk Manager
+  ufw.service                                    loaded active exited  Uncomplicated firewall
+  unattended-upgrades.service                    loaded active running Unattended Upgrades Shutdown
+  user-runtime-dir@1000.service                  loaded active exited  User Runtime Directory /run/user/1000
+  user@1000.service                              loaded active running User Manager for UID 1000
+
+LOAD   = Reflects whether the unit definition was properly loaded.
+ACTIVE = The high-level unit activation state, i.e. generalization of SUB.
+SUB    = The low-level unit activation state, values depend on unit type.
+
+55 loaded units listed. Pass --all to see loaded but inactive units, too.
+To show all installed unit files use 'systemctl list-unit-files'.
+
+[2.5]ubuntu@ip-172-31-93-152:~$ ps -aux
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root           1  1.2  1.2 102784 12548 ?        Ss   12:59   0:03 /sbin/init
+root           2  0.0  0.0      0     0 ?        S    12:59   0:00 [kthreadd]
+root           3  0.0  0.0      0     0 ?        I<   12:59   0:00 [rcu_gp]
+root           4  0.0  0.0      0     0 ?        I<   12:59   0:00 [rcu_par_gp]
+root           5  0.0  0.0      0     0 ?        I    12:59   0:00 [kworker/0:0-events]
+root           6  0.0  0.0      0     0 ?        I<   12:59   0:00 [kworker/0:0H-events_highpri]
+root           7  0.0  0.0      0     0 ?        I    12:59   0:00 [kworker/0:1-events]
+root           8  0.0  0.0      0     0 ?        I    12:59   0:00 [kworker/u30:0-ext4-rsv-conversion]
+root           9  0.0  0.0      0     0 ?        I<   12:59   0:00 [mm_percpu_wq]
+root          10  0.0  0.0      0     0 ?        S    12:59   0:00 [rcu_tasks_rude_]
+root          11  0.0  0.0      0     0 ?        S    12:59   0:00 [rcu_tasks_trace]
+root          12  0.0  0.0      0     0 ?        S    12:59   0:00 [ksoftirqd/0]
+root          13  0.1  0.0      0     0 ?        I    12:59   0:00 [rcu_sched]
+root          14  0.0  0.0      0     0 ?        S    12:59   0:00 [migration/0]
+root          15  0.0  0.0      0     0 ?        S    12:59   0:00 [idle_inject/0]
+root          16  0.0  0.0      0     0 ?        S    12:59   0:00 [cpuhp/0]
+root          17  0.0  0.0      0     0 ?        S    12:59   0:00 [kdevtmpfs]
+root          18  0.0  0.0      0     0 ?        I<   12:59   0:00 [netns]
+root          19  0.0  0.0      0     0 ?        I<   12:59   0:00 [inet_frag_wq]
+root          20  0.0  0.0      0     0 ?        S    12:59   0:00 [kauditd]
+root          21  0.0  0.0      0     0 ?        S    12:59   0:00 [khungtaskd]
+root          22  0.0  0.0      0     0 ?        S    12:59   0:00 [oom_reaper]
+root          23  0.0  0.0      0     0 ?        I<   12:59   0:00 [writeback]
+root          24  0.0  0.0      0     0 ?        S    12:59   0:00 [kcompactd0]
+root          25  0.0  0.0      0     0 ?        SN   12:59   0:00 [ksmd]
+root          26  0.0  0.0      0     0 ?        SN   12:59   0:00 [khugepaged]
+root          72  0.0  0.0      0     0 ?        I<   12:59   0:00 [kintegrityd]
+root          73  0.0  0.0      0     0 ?        I<   12:59   0:00 [kblockd]
+root          74  0.0  0.0      0     0 ?        I<   12:59   0:00 [blkcg_punt_bio]
+root          75  0.0  0.0      0     0 ?        S    12:59   0:00 [xen-balloon]
+root          76  0.0  0.0      0     0 ?        I<   12:59   0:00 [tpm_dev_wq]
+root          77  0.0  0.0      0     0 ?        I<   12:59   0:00 [ata_sff]
+root          78  0.0  0.0      0     0 ?        I<   12:59   0:00 [md]
+root          79  0.0  0.0      0     0 ?        I<   12:59   0:00 [edac-poller]
+root          80  0.0  0.0      0     0 ?        I<   12:59   0:00 [devfreq_wq]
+root          81  0.0  0.0      0     0 ?        S    12:59   0:00 [watchdogd]
+root          82  0.0  0.0      0     0 ?        I    12:59   0:00 [kworker/u30:1-events_unbound]
+root          83  0.0  0.0      0     0 ?        I<   12:59   0:00 [kworker/0:1H-kblockd]
+root          85  0.0  0.0      0     0 ?        S    12:59   0:00 [kswapd0]
+root          86  0.0  0.0      0     0 ?        S    12:59   0:00 [ecryptfs-kthrea]
+root          88  0.0  0.0      0     0 ?        I<   12:59   0:00 [kthrotld]
+root          89  0.0  0.0      0     0 ?        I<   12:59   0:00 [acpi_thermal_pm]
+root          90  0.0  0.0      0     0 ?        S    12:59   0:00 [xenbus]
+root          91  0.0  0.0      0     0 ?        S    12:59   0:00 [xenwatch]
+root          92  0.0  0.0      0     0 ?        I<   12:59   0:00 [nvme-wq]
+root          93  0.0  0.0      0     0 ?        I<   12:59   0:00 [nvme-reset-wq]
+root          94  0.0  0.0      0     0 ?        I<   12:59   0:00 [nvme-delete-wq]
+root          95  0.0  0.0      0     0 ?        S    12:59   0:00 [scsi_eh_0]
+root          96  0.0  0.0      0     0 ?        I<   12:59   0:00 [scsi_tmf_0]
+root          97  0.0  0.0      0     0 ?        S    12:59   0:00 [scsi_eh_1]
+root          98  0.0  0.0      0     0 ?        I<   12:59   0:00 [scsi_tmf_1]
+root          99  0.0  0.0      0     0 ?        I    12:59   0:00 [kworker/u30:2-events_unbound]
+root         100  0.0  0.0      0     0 ?        I<   12:59   0:00 [vfio-irqfd-clea]
+root         101  0.0  0.0      0     0 ?        I<   12:59   0:00 [ipv6_addrconf]
+root         110  0.0  0.0      0     0 ?        I<   12:59   0:00 [kstrp]
+root         113  0.0  0.0      0     0 ?        I<   12:59   0:00 [zswap-shrink]
+root         114  0.0  0.0      0     0 ?        I<   12:59   0:00 [kworker/u31:0]
+root         119  0.0  0.0      0     0 ?        I<   12:59   0:00 [charger_manager]
+root         120  0.0  0.0      0     0 ?        S    12:59   0:00 [jbd2/xvda1-8]
+root         121  0.0  0.0      0     0 ?        I<   12:59   0:00 [ext4-rsv-conver]
+root         160  0.1  1.4  45144 13936 ?        S<s  12:59   0:00 /lib/systemd/systemd-journald
+root         191  0.0  0.5   9248  5812 ?        Ss   12:59   0:00 /lib/systemd/systemd-udevd
+root         202  0.0  0.0      0     0 ?        I    12:59   0:00 [kworker/0:2-cgroup_destroy]
+root         203  0.0  0.0      0     0 ?        I<   12:59   0:00 [cryptd]
+root         260  0.0  0.0      0     0 ?        I<   12:59   0:00 [kaluad]
+root         261  0.0  0.0      0     0 ?        I<   12:59   0:00 [kmpath_rdacd]
+root         262  0.0  0.0      0     0 ?        I<   12:59   0:00 [kmpathd]
+root         263  0.0  0.0      0     0 ?        I<   12:59   0:00 [kmpath_handlerd]
+root         264  0.0  1.8 280208 17996 ?        SLsl 12:59   0:00 /sbin/multipathd -d -s
+root         273  0.0  0.0      0     0 ?        S<   12:59   0:00 [loop0]
+root         276  0.0  0.0      0     0 ?        S<   12:59   0:00 [loop1]
+root         277  0.0  0.0      0     0 ?        S<   12:59   0:00 [loop2]
+root         279  0.0  0.0      0     0 ?        S<   12:59   0:00 [loop3]
+root         280  0.0  0.0      0     0 ?        S<   12:59   0:00 [loop4]
+systemd+     304  0.0  0.5  90008  5796 ?        Ssl  12:59   0:00 /lib/systemd/systemd-timesyncd
+systemd+     378  0.0  0.7  26612  7624 ?        Ss   12:59   0:00 /lib/systemd/systemd-networkd
+systemd+     380  0.0  1.2  23904 12080 ?        Ss   12:59   0:00 /lib/systemd/systemd-resolved
+root         434  0.0  0.9 241044  9348 ?        Ssl  12:59   0:00 /usr/lib/accountsservice/accounts-daemon
+root         435  0.0  0.0   2548   724 ?        Ss   12:59   0:00 /usr/sbin/acpid
+root         442  0.0  0.2   8544  2972 ?        Ss   12:59   0:00 /usr/sbin/cron -f
+message+     443  0.0  0.4   7552  4652 ?        Ss   12:59   0:00 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation
+root         452  0.0  1.8  29204 17908 ?        Ss   12:59   0:00 /usr/bin/python3 /usr/bin/networkd-dispatcher --run-startup-triggers
+syslog       454  0.0  0.5 224508  5172 ?        Ssl  12:59   0:00 /usr/sbin/rsyslogd -n -iNONE
+root         455  0.4  3.6 733548 36140 ?        Ssl  12:59   0:01 /usr/lib/snapd/snapd
+root         456  0.0  0.7  16656  7780 ?        Ss   12:59   0:00 /lib/systemd/systemd-logind
+root         458  0.0  1.3 394692 13708 ?        Ssl  12:59   0:00 /usr/lib/udisks2/udisksd
+daemon       459  0.0  0.2   3800  2268 ?        Ss   12:59   0:00 /usr/sbin/atd -f
+root         554  0.0  0.2   7360  2308 ttyS0    Ss+  12:59   0:00 /sbin/agetty -o -p -- \u --keep-baud 115200,38400,9600 ttyS0 vt220
+root         572  0.0  0.1   5836  1796 tty1     Ss+  12:59   0:00 /sbin/agetty -o -p -- \u --noclear tty1 linux
+root         602  0.0  0.9 236432  9188 ?        Ssl  12:59   0:00 /usr/lib/policykit-1/polkitd --no-debug
+root         617  0.0  2.0 108116 20708 ?        Ssl  12:59   0:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-sign
+root         647  0.0  0.7  12184  7340 ?        Ss   12:59   0:00 sshd: /usr/sbin/sshd -D -o AuthorizedKeysCommand /usr/share/ec2-instance-connect/eic_run_au
+root        1075  0.0  1.4 1232856 14636 ?       Ssl  12:59   0:00 /snap/amazon-ssm-agent/4046/amazon-ssm-agent
+root        1107  0.1  3.2 1173820 32508 ?       Sl   12:59   0:00 /snap/amazon-ssm-agent/4046/ssm-agent-worker
+root        1149  0.0  0.8  13804  8720 ?        Ss   13:00   0:00 sshd: ubuntu [priv]
+ubuntu      1152  0.0  0.9  18280  9476 ?        Ss   13:00   0:00 /lib/systemd/systemd --user
+ubuntu      1153  0.0  0.4 104000  4268 ?        S    13:00   0:00 (sd-pam)
+ubuntu      1253  0.0  0.6  13940  6252 ?        S    13:00   0:00 sshd: ubuntu@pts/0
+ubuntu      1254  0.0  0.5  10040  5112 pts/0    Ss   13:00   0:00 -bash
+ubuntu      1285  0.0  0.3  10820  3560 pts/0    R+   13:04   0:00 ps -aux
+
+[2.6] CPU info
+ubuntu@ip-172-31-93-152:~$ cat /proc/cpuinfo
+processor       : 0
+vendor_id       : GenuineIntel
+cpu family      : 6
+model           : 63
+model name      : Intel(R) Xeon(R) CPU E5-2676 v3 @ 2.40GHz
+stepping        : 2
+microcode       : 0x46
+cpu MHz         : 2400.102
+cache size      : 30720 KB
+physical id     : 0
+siblings        : 1
+core id         : 0
+cpu cores       : 1
+apicid          : 0
+initial apicid  : 0
+fpu             : yes
+fpu_exception   : yes
+cpuid level     : 13
+wp              : yes
+flags           : fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx rdtscp lm constant_tsc rep_good nopl xtopology cpuid tsc_known_freq pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand hypervisor lahf_lm abm cpuid_fault invpcid_single pti fsgsbase bmi1 avx2 smep bmi2 erms invpcid xsaveopt
+bugs            : cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass l1tf mds swapgs itlb_multihit
+bogomips        : 4800.17
+clflush size    : 64
+cache_alignment : 64
+address sizes   : 46 bits physical, 48 bits virtual
+power management:
+
+Ram info
+ubuntu@ip-172-31-93-152:~$ free -h
+              total        used        free      shared  buff/cache   available
+Mem:          968Mi       151Mi       401Mi       0.0Ki       416Mi       672Mi
+Swap:            0B          0B          0B
+
+
+
+//task 3
+
+Creating and setting script file global(steps)
+1.vi myscript.sh
+2.#!/bin/bash
+echo "my commands"
+uname -p
+uname -r
+uname
+systemctl --type=service
+ps -aux
+free
+cat /proc/cpuinfo
+3.sudo cp myscript.sh /usr/local/bin
+4.sudo chmod +x /usr/local/bin/myscript.sh
+it makes our script global
+
+[4]SSH The Secure Shell Protocol (SSH) is a  network protocol for operating network services securely over an unsecured network. Its used for remote connection and execute commands.
+[4.1]In order to generate 4096 bit ssh key we should enter command "ssh-keygen -o -b 4096".
+[4.2]Private and public keys together create a key pair that is used as the secure access credential.Private key is only known for user. 
+The server uses the public key to encrypt a message and send it to the client. If the client has the correct private key, they can decrypt the message and send it back to the server for verification.
+
+[5]Curl is a command line tool that developers use to transfer data to and from a server. At the most fundamental, curl lets you talk to a server by specifying the location (in the form of a URL) and the data you want to send
+
+[6]
+
+
+
+Extra 1x
+[1]I created AWS EC2 instance with Ubuntu 20.04 LTS but the site which you gave does not work.
+I have created the instance with ID i-00bec067e7c0bb27f, the type of instance is t2.micro and the zone is us-east-1d. And when i run it  gives me the Public IP now it is 54.152.194.32.
