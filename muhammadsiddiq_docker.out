@@ -1,0 +1,2 @@
+CONTAINER ID   IMAGE        COMMAND    CREATED        STATUS                  PORTS                                       NAMES
+50d80871d974   go-backend   "/build"   1 second ago   Up Less than a second   0.0.0.0:8080->8080/tcp, :::8080->8080/tcp   adoring_bose
