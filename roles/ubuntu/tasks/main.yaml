@@ -8,17 +8,17 @@
 - name: Add Docker's official GPG key
   shell: "curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -"
 
+- name: Add Docker's official GPG key
+  shell: "curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -"
+
 - name: Add Docker's repository
   shell: 'sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable"'
 
 - name: Install Docker
-  shell: 'sudo apt install -y docker-ce'
+  shell: "sudo apt update && sudo apt install -y docker-ce"
 
-  name: create docker group
-  shell: 'sudo usermod -aG docker $USER'
-
-  name: give access to docker group to files of docker
-  shell: 'sudo chown root:docker /var/run/docker.sock && sudo chown -R root:docker /var/run/docker'
+- name: Add user to docker group
+  shell: "sudo usermod -aG docker $USER"
 
   name: Run hello world image
   shell: 'docker run hello-world'

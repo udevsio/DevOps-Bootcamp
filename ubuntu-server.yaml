@@ -1,0 +1,8 @@
+---
+- name: Setup Ubuntu server
+  hosts: all
+  remote_user: ubuntu
+  become: yes
+
+  roles:
+  - ubuntu
