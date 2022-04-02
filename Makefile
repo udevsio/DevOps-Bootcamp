@@ -2,6 +2,7 @@ NAME=go-backend
 PORT=8080
 REPO=muhammadsiddiqbe/udevs
 TAG=latest
+SERVER_IP=100.24.28.234
 
 login:
 	docker login -u ${DOCKER_USER} -p ${DOCKER_PASSWORD}
@@ -18,3 +19,6 @@ push-image:
 
 apply:
 	terraform apply
+
+ansible:
+	ansible-playbook  -u root -i ${SERVER_IP}, --private-key ~/Downloads/terraform.pem ubuntu-server.yaml -v
