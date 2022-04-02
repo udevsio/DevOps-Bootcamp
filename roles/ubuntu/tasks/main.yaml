@@ -1,3 +1,4 @@
+---
 - name: Update
   shell: "sudo apt update"
 
@@ -21,3 +22,20 @@
 
 - name: Add user to docker group
   shell: "sudo usermod -aG docker $USER"
+
+- name: "Install nginx"
+  shell: "sudo apt install -y nginx"
+
+- name: "Check status nginx"
+  shell: "sudo systemctl status nginx"
+
+- name: "Configure nginx"
+  copy: "src=nginx.conf dest=/etc/nginx/sites-enabled"
+
+
+- name: rm old containers
+  shell: "docker rm -f $(docker ps -aq)"
+  ignore_errors: yes
+
+- name: Run project
+  shell: "docker run -p 8080:8080 -d --name=udevs muhammadsiddiqbe/udevs"
