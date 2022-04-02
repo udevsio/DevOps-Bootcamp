@@ -11,9 +11,9 @@ DevOps Internship invitation task
 
 - 2.1 What is absolute and relative path? <br />
   _Absolute path is the path from the root of the file system and relative path is the path from the current directory. _<br />
-  ```/home/mysuer/files/example.txt``` - this is an example of absolute path <br />
+  `/home/mysuer/files/example.txt` - this is an example of absolute path <br />
   `../../../example` - this is an example of relative path\* </br>
-- 2.2 Path to git repo you have cloned earlier <br />```/home/muhammadsiddiqbe/Workspace/DevOps-Bootcamp```
+- 2.2 Path to git repo you have cloned earlier <br />`/home/muhammadsiddiqbe/Workspace/DevOps-Bootcamp`
 - 2.3 uname, what is it and how we can use it? <br /> uname prints information about the operating system
   - 2.3.1 What is version of kernel? <br /> uname -v
   - 2.3.2 What is processor architecture? <br /> uname -p
@@ -21,7 +21,7 @@ DevOps Internship invitation task
 - 2.5 Get list of active processes <br /> `systemctl list-units --type=service --state=active`
 - 2.6 CPU/RAM info <br/> `ps, top, htop, neofetch`
 
-3. Combine every used command into script file. Script should be global - explain how to do it? <br/> We have to add the path of the script file to ```PATH``` variable. ```export PATH=$PATH:$PWD``` or we can move it ```mv ./script.sh /usr/bin``` this directory that already added to PATH vairable
+3. Combine every used command into script file. Script should be global - explain how to do it? <br/> We have to add the path of the script file to `PATH` variable. `export PATH=$PATH:$PWD` or we can move it `mv ./script.sh /usr/bin` this directory that already added to PATH vairable
 
 4. What is SSH? <br /> ssh is communication protocol like http
    - 4.1 How to generate 4096 bit key? <br /> ssh-keygen -t rsa -b 4096
@@ -39,7 +39,7 @@ Extra:
 
 1. Create AWS EC2 instance with Ubuntu 20.04 LTS
 
-- 1.1 Add auto genrated domain of your ec2 instance to this readme - https://updateme.com
+- 1.1 Add auto genrated domain of your ec2 instance to this readme - http://ec2-3-87-103-151.compute-1.amazonaws.com/
 
 2. Install Docker and run your image in it
 
