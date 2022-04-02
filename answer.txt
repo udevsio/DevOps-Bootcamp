@@ -1,0 +1,48 @@
+2.1        Absolute path is defined as the specifying the location of a file or directory from the root directory(/).
+           In other words we can say absolute path is a complete path from start of actual filesystem from / directory
+                /etc/samba/samba.conf
+          Relative path is defined as the path related to the present working directly(pwd). It starts at your current 
+          directory and never starts with a /
+                cd ../samba
+
+2.2         C:\Users\Asus\Desktop\New folder\DevOps-Bootcamp    --local path
+            https://github.com/eldor95/DevOps-Bootcamp          --global path
+
+2.3         Operating system name, release, and version; node name; hardware name; processor type 
+        
+        2.3.1            uname -r     ||    cat /proc/version    ||    hostnamectl | grep Kernel  
+        
+        2.3.2            uname -a     ||    getconf LONG_BIT     ||     grep -o -w 'lm' /proc/cpuinfo
+
+2.4         systemctl list-unit-files --type=service
+
+2.5         ps aux
+
+2.6         cat  /proc/cpuinfo    ||  lscpu
+            cat  /proc/meminfo    ||  free
+
+3.          chmod +x script.sh
+            bash script.sh >> eldor_output.txt 
+
+
+4.          SSH is an acronym for Secure Shell. It is a generic term that refers to versions of SSH protocols,
+            for example SSH-1 and SSH-2, among other things like OpenSSH. While it is often referred to as a version of SSH,
+            it is, strictly speaking, a suite that consists of networking utilities that are based on the SSH protocol.
+      
+      4.1  ssh-keygen -t rsa -b 4096
+      4.2   SSH uses an acymmetric encryption. Private and public keys is generated and stored in local workstation.
+            Public key is sent to remote server. Server generates top-secret key, encrypts it by clients public key and send
+            it to client. Client decrypts the key and uses it to authenticate the user. Then ssh session is established.
+            SSH creates a tunnel between client and server. 
+
+      
+5.1         curl is a command line tool for transferring data with URL syntax from a source to a destination. 
+            curl uses HTTP protocol by default. 
+            curl makes the requests to `google.com`, gets the data returned by server and displays the content of data.
+
+6. Write Dockerfile for repo entity
+   - 6.1 Build image from Dockerfile
+   - 6.2 Push image to your dockerhub repo -> link to your your public image
+
+
+
