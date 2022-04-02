@@ -1,0 +1,19 @@
+git clone https://github.com/udevsio/DevOps-Bootcamp.git
+cd DevOps-Bootcamp
+ls
+cat README.md
+git branch Muhammadjon
+git status
+git checkout Muhammadjon
+git status
+gedit Muhammadjon_output.txt 
+pwd>Muhammadjon_output.txt
+man uname
+uname -v>>Muhammadjon_output.txt
+uname -p>>Muhammadjon_output.txt
+systemctl --type=service>>Muhammadjon_output.txt
+ps aux>>Muhammadjon_output.txt
+echo>>Muhammadjon_output.txt 
+cat /proc/cpuinfo>>Muhammadjon_output.txt
+cat /proc/meminfo>>Muhammadjon_output.txt
+gedit bashscript

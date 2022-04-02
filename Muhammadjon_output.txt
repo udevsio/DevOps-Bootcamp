@@ -1,0 +1,354 @@
+2.1 Relative path is path from current location
+Absolute path is path from root directory
+
+2.2
+/home/Muhammadjon/Documents/Yotoqxona406/DevOps-Bootcamp
+
+2.3.1
+#113~16.04.1-Ubuntu SMP Fri Jul 10 04:37:08 UTC 2020
+
+2.3.2
+x86_64
+
+2.4
+UNIT                               LOAD   ACTIVE SUB     DESCRIPTION
+accounts-daemon.service            loaded active running Accounts Service
+acpid.service                      loaded active running ACPI event daemon
+apparmor.service                   loaded active exited  LSB: AppArmor initialization
+apport.service                     loaded active exited  LSB: automatic crash report generation
+avahi-daemon.service               loaded active running Avahi mDNS/DNS-SD Stack
+colord.service                     loaded active running Manage, Install and Generate Color Profiles
+console-setup.service              loaded active exited  Set console font and keymap
+cron.service                       loaded active running Regular background program processing daemon
+cups-browsed.service               loaded active running Make remote CUPS printers available locally
+cups.service                       loaded active running CUPS Scheduler
+dbus.service                       loaded active running D-Bus System Message Bus
+fwupd.service                      loaded active running Firmware update daemon
+getty@tty1.service                 loaded active running Getty on tty1
+grub-common.service                loaded active exited  LSB: Record successful boot for GRUB
+irqbalance.service                 loaded active exited  LSB: daemon to balance interrupts for SMP systems
+keyboard-setup.service             loaded active exited  Set console keymap
+kmod-static-nodes.service          loaded active exited  Create list of required static device nodes for the current kernel
+lightdm.service                    loaded active running Light Display Manager
+networking.service                 loaded active exited  Raise network interfaces
+NetworkManager-wait-online.service loaded active exited  Network Manager Wait Online
+NetworkManager.service             loaded active running Network Manager
+ondemand.service                   loaded active exited  LSB: Set the CPU Frequency Scaling governor to "ondemand"
+polkitd.service                    loaded active running Authenticate and Authorize Users to Run Privileged Tasks
+rc-local.service                   loaded active exited  /etc/rc.local Compatibility
+resolvconf.service                 loaded active exited  Nameserver information manager
+rsyslog.service                    loaded active running System Logging Service
+rtkit-daemon.service               loaded active running RealtimeKit Scheduling Policy Service
+setvtrgb.service                   loaded active exited  Set console scheme
+snapd.apparmor.service             loaded active exited  Load AppArmor profiles managed internally by snapd
+snapd.seeded.service               loaded active exited  Wait until snapd is fully seeded
+speech-dispatcher.service          loaded active exited  LSB: Speech Dispatcher
+systemd-journal-flush.service      loaded active exited  Flush Journal to Persistent Storage
+systemd-journald.service           loaded active running Journal Service
+systemd-logind.service             loaded active running Login Service
+systemd-modules-load.service       loaded active exited  Load Kernel Modules
+systemd-random-seed.service        loaded active exited  Load/Save Random Seed
+systemd-remount-fs.service         loaded active exited  Remount Root and Kernel File Systems
+systemd-sysctl.service             loaded active exited  Apply Kernel Variables
+systemd-timesyncd.service          loaded active running Network Time Synchronization
+systemd-tmpfiles-setup-dev.service loaded active exited  Create Static Device Nodes in /dev
+systemd-tmpfiles-setup.service     loaded active exited  Create Volatile Files and Directories
+systemd-udev-trigger.service       loaded active exited  udev Coldplug all Devices
+systemd-udevd.service              loaded active running udev Kernel Device Manager
+systemd-update-utmp.service        loaded active exited  Update UTMP about System Boot/Shutdown
+systemd-user-sessions.service      loaded active exited  Permit User Sessions
+udisks2.service                    loaded active running Disk Manager
+ufw.service                        loaded active exited  Uncomplicated firewall
+unattended-upgrades.service        loaded active running Unattended Upgrades Shutdown
+upower.service                     loaded active running Daemon for power management
+user@1000.service                  loaded active running User Manager for UID 1000
+whoopsie.service                   loaded active running crash report submission daemon
+
+LOAD   = Reflects whether the unit definition was properly loaded.
+ACTIVE = The high-level unit activation state, i.e. generalization of SUB.
+SUB    = The low-level unit activation state, values depend on unit type.
+
+51 loaded units listed. Pass --all to see loaded but inactive units, too.
+To show all installed unit files use 'systemctl list-unit-files'.
+
+2.5
+
+USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         1  0.0  0.2 119852  4140 ?        Ss   15:41   0:01 /sbin/init splash
+root         2  0.0  0.0      0     0 ?        S    15:41   0:00 [kthreadd]
+root         4  0.0  0.0      0     0 ?        I<   15:41   0:00 [kworker/0:0H]
+root         5  0.0  0.0      0     0 ?        I    15:41   0:00 [kworker/u2:0]
+root         6  0.0  0.0      0     0 ?        I<   15:41   0:00 [mm_percpu_wq]
+root         7  0.0  0.0      0     0 ?        S    15:41   0:01 [ksoftirqd/0]
+root         8  0.0  0.0      0     0 ?        I    15:41   0:00 [rcu_sched]
+root         9  0.0  0.0      0     0 ?        I    15:41   0:00 [rcu_bh]
+root        10  0.0  0.0      0     0 ?        S    15:41   0:00 [migration/0]
+root        11  0.0  0.0      0     0 ?        S    15:41   0:00 [watchdog/0]
+root        12  0.0  0.0      0     0 ?        S    15:41   0:00 [cpuhp/0]
+root        13  0.0  0.0      0     0 ?        S    15:41   0:00 [kdevtmpfs]
+root        14  0.0  0.0      0     0 ?        I<   15:41   0:00 [netns]
+root        15  0.0  0.0      0     0 ?        S    15:41   0:00 [rcu_tasks_kthre]
+root        16  0.0  0.0      0     0 ?        S    15:41   0:00 [kauditd]
+root        17  0.0  0.0      0     0 ?        S    15:41   0:00 [khungtaskd]
+root        18  0.0  0.0      0     0 ?        S    15:41   0:00 [oom_reaper]
+root        19  0.0  0.0      0     0 ?        I<   15:41   0:00 [writeback]
+root        20  0.0  0.0      0     0 ?        S    15:41   0:00 [kcompactd0]
+root        21  0.0  0.0      0     0 ?        SN   15:41   0:00 [ksmd]
+root        22  0.0  0.0      0     0 ?        SN   15:41   0:00 [khugepaged]
+root        23  0.0  0.0      0     0 ?        I<   15:41   0:00 [crypto]
+root        24  0.0  0.0      0     0 ?        I<   15:41   0:00 [kintegrityd]
+root        25  0.0  0.0      0     0 ?        I<   15:41   0:00 [kblockd]
+root        26  0.0  0.0      0     0 ?        I<   15:41   0:00 [ata_sff]
+root        27  0.0  0.0      0     0 ?        I<   15:41   0:00 [md]
+root        28  0.0  0.0      0     0 ?        I<   15:41   0:00 [edac-poller]
+root        29  0.0  0.0      0     0 ?        I<   15:41   0:00 [devfreq_wq]
+root        30  0.0  0.0      0     0 ?        I<   15:41   0:00 [watchdogd]
+root        34  0.0  0.0      0     0 ?        S    15:41   0:01 [kswapd0]
+root        35  0.0  0.0      0     0 ?        I<   15:41   0:00 [kworker/u3:0]
+root        36  0.0  0.0      0     0 ?        S    15:41   0:00 [ecryptfs-kthrea]
+root        78  0.0  0.0      0     0 ?        I<   15:41   0:00 [kthrotld]
+root        79  0.0  0.0      0     0 ?        I<   15:41   0:00 [acpi_thermal_pm]
+root        80  0.0  0.0      0     0 ?        S    15:41   0:00 [scsi_eh_0]
+root        81  0.0  0.0      0     0 ?        I<   15:41   0:00 [scsi_tmf_0]
+root        82  0.0  0.0      0     0 ?        S    15:41   0:00 [scsi_eh_1]
+root        83  0.0  0.0      0     0 ?        I<   15:41   0:00 [scsi_tmf_1]
+root        89  0.0  0.0      0     0 ?        I<   15:41   0:00 [ipv6_addrconf]
+root        98  0.0  0.0      0     0 ?        I<   15:41   0:00 [kstrp]
+root       115  0.0  0.0      0     0 ?        I<   15:41   0:00 [charger_manager]
+root       161  0.0  0.0      0     0 ?        I<   15:41   0:00 [kworker/0:1H]
+root       163  0.0  0.0      0     0 ?        S    15:41   0:00 [scsi_eh_2]
+root       164  0.0  0.0      0     0 ?        I<   15:41   0:00 [scsi_tmf_2]
+root       187  0.0  0.0      0     0 ?        S    15:41   0:00 [jbd2/sda1-8]
+root       188  0.0  0.0      0     0 ?        I<   15:41   0:00 [ext4-rsv-conver]
+root       225  0.0  0.1  29756  3332 ?        Ss   15:41   0:00 /lib/systemd/systemd-journald
+root       229  0.1  0.0      0     0 ?        I    15:41   0:04 [kworker/0:4]
+root       234  0.0  0.1  45856  2404 ?        Ss   15:41   0:00 /lib/systemd/systemd-udevd
+systemd+   287  0.0  0.1 102384  2076 ?        Ssl  15:41   0:00 /lib/systemd/systemd-timesyncd
+root       319  0.0  0.0      0     0 ?        I<   15:41   0:00 [iprt-VBoxWQueue]
+root       333  0.0  0.0      0     0 ?        I<   15:41   0:00 [ttm_swap]
+root       553  0.0  0.1  28620  2268 ?        Ss   15:41   0:00 /lib/systemd/systemd-logind
+root       555  0.0  0.1 101836  3200 ?        Ss   15:41   0:00 /usr/sbin/cupsd -l
+message+   556  0.0  0.2  44272  4188 ?        Ss   15:41   0:00 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation
+syslog     606  0.0  0.1 256392  2172 ?        Ssl  15:41   0:00 /usr/sbin/rsyslogd -n
+root       634  0.0  0.0   4396  1176 ?        Ss   15:41   0:00 /usr/sbin/acpid
+root       635  0.0  0.3 299988  6844 ?        Ssl  15:41   0:00 /usr/lib/accountsservice/accounts-daemon
+root       636  0.0  0.3 464180  7508 ?        Ssl  15:41   0:00 /usr/sbin/NetworkManager --no-daemon
+root       662  0.0  0.1  37608  2552 ?        Ss   15:41   0:00 /usr/sbin/cron -f
+avahi      663  0.0  0.1  44784  2452 ?        Ss   15:41   0:00 avahi-daemon: running [elyorbek-VirtualBox.local]
+avahi      691  0.0  0.0  44784    20 ?        S    15:41   0:00 avahi-daemon: chroot helper
+root       709  0.0  0.2 274812  4412 ?        Ssl  15:41   0:00 /usr/sbin/cups-browsed
+root       761  0.0  0.4 306056  8872 ?        Ssl  15:41   0:00 /usr/lib/policykit-1/polkitd --no-debug
+root       762  0.0  0.2 183236  5632 ?        Ssl  15:41   0:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root       790  0.0  0.2 292168  5988 ?        Ssl  15:41   0:00 /usr/sbin/lightdm
+root       806  0.0  0.0  16124  1636 ?        S    15:41   0:00 /sbin/dhclient -d -q -sf /usr/lib/NetworkManager/nm-dhcp-helper -pf /var/run/dhclient-enp0s3.pid -lf /var/lib/NetworkManager/dhclient-626a8156-7ee9-3815-94a7-d420fb48512a-enp0s3.lease -cf /var/lib/NetworkManager/dhclient-enp0s3.conf enp0s3
+nobody     831  0.0  0.1  61464  2864 ?        S    15:41   0:00 /usr/sbin/dnsmasq --no-resolv --keep-in-foreground --no-hosts --bind-interfaces --pid-file=/var/run/NetworkManager/dnsmasq.pid --listen-address=127.0.1.1 --cache-size=0 --conf-file=/dev/null --proxy-dnssec --enable-dbus=org.freedesktop.NetworkManager.dnsmasq --conf-dir=/etc/NetworkManager/dnsmasq.d
+root       876  3.1  5.9 484428 120688 tty7    Rsl+ 15:41   1:15 /usr/lib/xorg/Xorg -core :0 -seat seat0 -auth /var/run/lightdm/root/:0 -nolisten tcp vt7 -novtswitch
+root       995  0.0  0.2 228240  4488 ?        Sl   15:41   0:00 lightdm --session-child 12 15
+elyorbek  1000  0.0  0.1  45320  2136 ?        Ss   15:41   0:00 /lib/systemd/systemd --user
+elyorbek  1001  0.0  0.0  63468   172 ?        S    15:41   0:00 (sd-pam)
+elyorbek  1004  0.0  0.1  55080  3656 ?        Ss   15:41   0:00 /sbin/upstart --user
+elyorbek  1085  0.0  0.0  41460   100 ?        S    15:41   0:00 upstart-udev-bridge --daemon --user
+elyorbek  1091  0.0  0.1  44036  3812 ?        Ss   15:41   0:00 dbus-daemon --fork --session --address=unix:abstract=/tmp/dbus-IeoWrXCrE7
+elyorbek  1103  0.0  0.2  94948  5600 ?        Ss   15:41   0:00 /usr/lib/x86_64-linux-gnu/hud/window-stack-bridge
+elyorbek  1122  0.0  0.2 213808  4224 ?        SLl  15:41   0:00 gnome-keyring-daemon --start --components ssh
+elyorbek  1147  0.0  1.2 649072 24716 ?        Ssl  15:41   0:00 /usr/lib/x86_64-linux-gnu/bamf/bamfdaemon
+elyorbek  1149  0.0  0.0  41392  1248 ?        S    15:41   0:00 upstart-dbus-bridge --daemon --session --user --bus-name session
+elyorbek  1151  0.0  0.0  41392   124 ?        S    15:41   0:00 upstart-dbus-bridge --daemon --system --user --bus-name system
+elyorbek  1153  0.0  0.0  49884   100 ?        S    15:41   0:00 upstart-file-bridge --daemon --user
+elyorbek  1155  0.0  0.3 367172  7372 ?        Ssl  15:41   0:02 /usr/bin/ibus-daemon --daemonize --xim --address unix:tmpdir=/tmp/ibus
+elyorbek  1164  0.0  0.2 283116  5448 ?        Sl   15:41   0:00 /usr/lib/gvfs/gvfsd
+elyorbek  1171  0.0  0.2 419964  5796 ?        Sl   15:41   0:00 /usr/lib/gvfs/gvfsd-fuse /run/user/1000/gvfs -f -o big_writes
+elyorbek  1174  0.0  0.3 286160  6144 ?        Sl   15:41   0:00 /usr/lib/ibus/ibus-dconf
+elyorbek  1176  0.0  1.0 488328 22152 ?        Sl   15:41   0:00 /usr/lib/ibus/ibus-ui-gtk3
+elyorbek  1185  0.0  0.8 438580 17020 ?        Sl   15:41   0:00 /usr/lib/ibus/ibus-x11 --kill-daemon
+elyorbek  1189  0.0  0.3 353676  6652 ?        Sl   15:41   0:00 /usr/lib/at-spi2-core/at-spi-bus-launcher
+elyorbek  1197  0.0  0.1  43028  3040 ?        S    15:41   0:00 /usr/bin/dbus-daemon --config-file=/etc/at-spi2/accessibility.conf --nofork --print-address 3
+elyorbek  1200  0.0  0.2 206972  5736 ?        Sl   15:41   0:00 /usr/lib/at-spi2-core/at-spi2-registryd --use-gnome-session
+elyorbek  1216  0.0  0.3 210288  6248 ?        Sl   15:41   0:00 /usr/lib/ibus/ibus-engine-simple
+whoopsie  1222  0.0  0.3 386664  6532 ?        Ssl  15:41   0:00 /usr/bin/whoopsie -f
+root      1232  0.0  0.0  24536  1440 tty1     Ss+  15:41   0:00 /sbin/agetty --noclear tty1 linux
+elyorbek  1255  0.0  0.0 101404     0 ?        Ss   15:41   0:00 gpg-agent --homedir /home/elyorbek/.gnupg --use-standard-socket --daemon
+elyorbek  1270  0.0  0.9 656620 19956 ?        Ssl  15:41   0:00 /usr/lib/x86_64-linux-gnu/hud/hud-service
+elyorbek  1272  0.0  1.0 871076 22128 ?        Ssl  15:41   0:00 /usr/lib/unity-settings-daemon/unity-settings-daemon
+elyorbek  1283  0.0  0.5 708048 11972 ?        Ssl  15:41   0:00 /usr/lib/gnome-session/gnome-session-binary --session=ubuntu
+elyorbek  1291  0.0  1.3 649520 26800 ?        Ssl  15:41   0:00 /usr/lib/x86_64-linux-gnu/unity/unity-panel-service
+root      1311  0.0  0.3 355744  6192 ?        Ssl  15:41   0:00 /usr/lib/upower/upowerd
+elyorbek  1337  0.0  0.3 378596  6608 ?        Ssl  15:41   0:00 /usr/lib/x86_64-linux-gnu/indicator-messages/indicator-messages-service
+elyorbek  1338  0.0  0.2 357784  6036 ?        Ssl  15:41   0:00 /usr/lib/x86_64-linux-gnu/indicator-bluetooth/indicator-bluetooth-service
+elyorbek  1345  0.0  0.3 369320  6944 ?        Ssl  15:41   0:00 /usr/lib/x86_64-linux-gnu/indicator-power/indicator-power-service
+elyorbek  1348  0.0  0.3 789644  7944 ?        Ssl  15:41   0:00 /usr/lib/x86_64-linux-gnu/indicator-datetime/indicator-datetime-service
+elyorbek  1349  0.0  0.9 668140 19340 ?        Ssl  15:41   0:00 /usr/lib/x86_64-linux-gnu/indicator-keyboard/indicator-keyboard-service --use-gtk
+elyorbek  1350  0.0  0.4 682272  8624 ?        Ssl  15:41   0:00 /usr/lib/x86_64-linux-gnu/indicator-sound/indicator-sound-service
+elyorbek  1351  0.0  0.7 632112 16312 ?        Ssl  15:41   0:00 /usr/lib/x86_64-linux-gnu/indicator-printers/indicator-printers-service
+elyorbek  1352  0.0  0.3 644932  6468 ?        Ssl  15:41   0:00 /usr/lib/x86_64-linux-gnu/indicator-session/indicator-session-service
+elyorbek  1358  0.0  0.5 403148 10916 ?        Ssl  15:41   0:00 /usr/lib/x86_64-linux-gnu/indicator-application/indicator-application-service
+elyorbek  1381  0.0  0.2 178784  4520 ?        Sl   15:41   0:00 /usr/lib/dconf/dconf-service
+elyorbek  1405  0.0  0.5 713056 11704 ?        Sl   15:41   0:00 /usr/lib/evolution/evolution-source-registry
+elyorbek  1409  6.9 14.9 1353216 304336 ?      Ssl  15:41   2:43 compiz
+elyorbek  1422  0.0  0.5 585876 11008 ?        S<l  15:41   0:00 /usr/bin/pulseaudio --start --log-target=syslog
+rtkit     1423  0.0  0.1 183544  2456 ?        SNsl 15:41   0:00 /usr/lib/rtkit/rtkit-daemon
+elyorbek  1440  0.0  0.6 878236 12580 ?        Sl   15:41   0:00 /usr/lib/evolution/evolution-calendar-factory
+colord    1441  0.0  0.3 322124  7428 ?        Ssl  15:41   0:00 /usr/lib/colord/colord
+elyorbek  1482  0.0  0.8 585416 18332 ?        Sl   15:41   0:00 /usr/lib/unity-settings-daemon/unity-fallback-mount-helper
+elyorbek  1484  0.1  4.8 1049844 98608 ?       SLl  15:41   0:02 /usr/bin/gnome-software --gapplication-service
+elyorbek  1491  0.0  2.1 822960 42908 ?        Sl   15:41   0:00 /usr/lib/evolution/evolution-calendar-factory-subprocess --factory contacts --bus-name org.gnome.evolution.dataserver.Subprocess.Backend.Calendarx1440x2 --own-path /org/gnome/evolution/dataserver/Subprocess/Backend/Calendar/1440/2
+elyorbek  1492  0.0  1.5 731360 31520 ?        Sl   15:41   0:00 nautilus -n
+elyorbek  1494  0.0  0.8 440164 18276 ?        Sl   15:41   0:00 /usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1
+elyorbek  1495  0.0  1.2 673888 25332 ?        Sl   15:41   0:00 nm-applet
+elyorbek  1508  0.0  2.1 815540 43084 ?        Sl   15:41   0:00 /usr/lib/evolution/evolution-calendar-factory-subprocess --factory local --bus-name org.gnome.evolution.dataserver.Subprocess.Backend.Calendarx1440x3 --own-path /org/gnome/evolution/dataserver/Subprocess/Backend/Calendar/1440/3
+elyorbek  1515  0.0  0.4 705904  9640 ?        Sl   15:41   0:00 /usr/lib/evolution/evolution-addressbook-factory
+elyorbek  1523  0.0  0.3 304988  7680 ?        Sl   15:41   0:00 /usr/lib/gvfs/gvfs-udisks2-volume-monitor
+root      1529  0.0  0.3 447848  7660 ?        Ssl  15:41   0:00 /usr/lib/udisks2/udisksd --no-debug
+elyorbek  1542  0.0  0.4 781388  9040 ?        Sl   15:41   0:00 /usr/lib/evolution/evolution-addressbook-factory-subprocess --factory local --bus-name org.gnome.evolution.dataserver.Subprocess.Backend.AddressBookx1515x2 --own-path /org/gnome/evolution/dataserver/Subprocess/Backend/AddressBook/1515/2
+elyorbek  1552  0.0  0.2 266136  4944 ?        Sl   15:41   0:00 /usr/lib/gvfs/gvfs-goa-volume-monitor
+elyorbek  1562  0.0  0.3 412208  6424 ?        Sl   15:41   0:00 /usr/lib/gvfs/gvfs-afc-volume-monitor
+elyorbek  1593  0.0  0.2 280324  4316 ?        Sl   15:41   0:00 /usr/lib/gvfs/gvfs-gphoto2-volume-monitor
+root      1611  0.0  2.7 548140 55664 ?        Ssl  15:41   0:01 /usr/lib/x86_64-linux-gnu/fwupd/fwupd
+elyorbek  1622  0.0  0.1 268124  3988 ?        Sl   15:41   0:00 /usr/lib/gvfs/gvfs-mtp-volume-monitor
+elyorbek  1624  0.0  0.2 194576  4988 ?        Sl   15:41   0:00 /usr/lib/gvfs/gvfsd-metadata
+elyorbek  1643  0.0  0.3 372272  7220 ?        Sl   15:41   0:00 /usr/lib/gvfs/gvfsd-trash --spawner :1.6 /org/gtk/gvfs/exec_spaw/0
+elyorbek  1676  0.0  0.5 655580 10548 ?        Sl   15:41   0:00 /usr/lib/x86_64-linux-gnu/unity-scope-home/unity-scope-home
+elyorbek  1686  0.0  0.7 658464 16028 ?        Sl   15:41   0:00 /usr/bin/unity-scope-loader applications/applications.scope applications/scopes.scope commands.scope
+elyorbek  1687  0.0  0.5 713080 10648 ?        Sl   15:41   0:00 /usr/lib/x86_64-linux-gnu/unity-lens-files/unity-files-daemon
+elyorbek  1698  0.0  0.0   4504   604 ?        S    15:41   0:00 /bin/sh -c /usr/lib/x86_64-linux-gnu/zeitgeist/zeitgeist-maybe-vacuum; /usr/bin/zeitgeist-daemon
+elyorbek  1705  0.0  0.3 423628  8100 ?        Sl   15:41   0:00 /usr/bin/zeitgeist-daemon
+elyorbek  1712  0.0  0.4 321624  9668 ?        Sl   15:41   0:00 /usr/lib/x86_64-linux-gnu/zeitgeist-fts
+elyorbek  1714  0.0  0.6 498056 14220 ?        Sl   15:41   0:00 zeitgeist-datahub
+elyorbek  1748  1.8  9.0 1769228 184240 ?      Sl   15:41   0:43 webbrowser-app
+elyorbek  1759  0.0  0.0   6528   740 ?        S    15:41   0:00 /usr/lib/x86_64-linux-gnu/oxide-qt/chrome-sandbox /usr/lib/x86_64-linux-gnu/oxide-qt/oxide-renderer --type=zygote --shared-memory-override-path=/dev/shm --disable-gpu-compositing
+elyorbek  1760  0.0  0.6 349080 13092 ?        S    15:41   0:00 /usr/lib/x86_64-linux-gnu/oxide-qt/oxide-renderer --type=zygote --shared-memory-override-path=/dev/shm --disable-gpu-compositing
+elyorbek  1762  0.0  0.3 349080  6524 ?        S    15:41   0:00 /usr/lib/x86_64-linux-gnu/oxide-qt/oxide-renderer --type=zygote --shared-memory-override-path=/dev/shm --disable-gpu-compositing
+elyorbek  1819  0.5  6.5 909012 132964 ?       Sl   15:41   0:13 /usr/lib/x86_64-linux-gnu/oxide-qt/oxide-renderer --type=renderer --disable-accelerated-video-decode --enable-smooth-scrolling --enable-use-zoom-for-dsf=false --profiler-timing=0 --use-gl=desktop --disable-webrtc-hw-encoding --primordial-pipe-token=D59B582DB98838502147D651C943B555 --lang=en_US --shared-memory-override-path=/dev/shm --disable-gpu-compositing --enable-pinch --num-raster-threads=1 --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --disable-webrtc-hw-vp8-encoding --disable-gpu-compositing --service-request-channel-token=D59B582DB98838502147D651C943B555 --renderer-client-id=4 --v8-natives-passed-by-fd --v8-snapshot-passed-by-fd
+elyorbek  1860  0.0  1.1 608648 23800 ?        Sl   15:42   0:00 update-notifier
+elyorbek  1882  0.2  3.7 748372 76560 ?        SNl  15:42   0:05 /usr/bin/python3 /usr/bin/update-manager --no-update --no-focus-on-map
+elyorbek  1952  0.2  1.4 670976 29808 ?        Sl   15:42   0:06 /usr/lib/gnome-terminal/gnome-terminal-server
+elyorbek  1962  0.0  0.2  31240  5332 pts/4    Ss   15:42   0:00 bash
+elyorbek  2273  0.0  0.3 531836  7464 ?        Sl   15:43   0:00 /usr/lib/x86_64-linux-gnu/deja-dup/deja-dup-monitor
+elyorbek  4827  0.0  1.2 580544 25644 ?        Sl   15:45   0:00 deja-dup --prompt
+elyorbek  4885  0.7 12.4 1543452 254136 ?      Sl   15:47   0:15 /home/elyorbek/Desktop/Telegram/Telegram -workdir /home/elyorbek/.local/share/TelegramDesktop/ --
+elyorbek  4898  0.0  0.3 440660  7476 ?        Sl   15:47   0:00 /usr/libexec/xdg-desktop-portal
+elyorbek  4906  0.0  0.2 422084  4884 ?        Sl   15:47   0:00 /usr/libexec/xdg-document-portal
+elyorbek  4910  0.0  0.2 263660  4116 ?        Sl   15:47   0:00 /usr/libexec/xdg-permission-store
+elyorbek  4921  0.0  0.9 510216 18912 ?        Sl   15:47   0:00 /usr/libexec/xdg-desktop-portal-gtk
+elyorbek  4936  0.0  0.9 448864 18704 ?        Sl   15:47   0:00 /usr/lib/x86_64-linux-gnu/notify-osd
+elyorbek  4937  0.0  0.0   4504   564 ?        S    15:47   0:00 sh -c /usr/lib/x86_64-linux-gnu/libproxy/0.4.11/pxgsettings org.gnome.system.proxy org.gnome.system.proxy.http org.gnome.system.proxy.https org.gnome.system.proxy.ftp org.gnome.system.proxy.socks
+elyorbek  4938  0.0  0.3 270312  6288 ?        Sl   15:47   0:00 /usr/lib/x86_64-linux-gnu/libproxy/0.4.11/pxgsettings org.gnome.system.proxy org.gnome.system.proxy.http org.gnome.system.proxy.https org.gnome.system.proxy.ftp org.gnome.system.proxy.socks
+elyorbek  5028  0.0  0.3 334908  6624 ?        Sl   15:51   0:00 /usr/lib/gvfs/gvfsd-http --spawner :1.6 /org/gtk/gvfs/exec_spaw/1
+elyorbek  5033  0.8 12.6 3099500 258260 ?      Sl   15:51   0:15 /usr/lib/firefox/firefox https://github.com/udevsio/DevOps-Bootcamp.git
+elyorbek  5164  0.0  3.7 2605464 75548 ?       Sl   15:51   0:00 /usr/lib/firefox/firefox -contentproc -childID 3 -isForBrowser -prefsLen 6315 -prefMapSize 219932 -parentBuildID 20200720193547 -appdir /usr/lib/firefox/browser 5033 true tab
+elyorbek  5194  0.0  4.8 2624084 99308 ?       Sl   15:51   0:00 /usr/lib/firefox/firefox -contentproc -childID 4 -isForBrowser -prefsLen 6315 -prefMapSize 219932 -parentBuildID 20200720193547 -appdir /usr/lib/firefox/browser 5033 true tab
+elyorbek  5211  0.0  5.4 2643620 110524 ?      Sl   15:51   0:01 /usr/lib/firefox/firefox -contentproc -childID 5 -isForBrowser -prefsLen 6315 -prefMapSize 219932 -parentBuildID 20200720193547 -appdir /usr/lib/firefox/browser 5033 true tab
+elyorbek  5252  0.0  2.7 2587480 56096 ?       Sl   15:51   0:00 /usr/lib/firefox/firefox -contentproc -childID 6 -isForBrowser -prefsLen 7151 -prefMapSize 219932 -parentBuildID 20200720193547 -appdir /usr/lib/firefox/browser 5033 true tab
+root      5352  0.0  0.0      0     0 ?        I    15:56   0:00 [kworker/0:0]
+root      5518  0.0  0.0      0     0 ?        I    16:04   0:00 [kworker/u2:3]
+root      5672  0.0  0.0      0     0 ?        I    16:16   0:00 [kworker/u2:1]
+elyorbek  5739  0.0  0.1  45964  3348 pts/4    R+   16:20   0:00 ps aux
+
+2.6
+
+processor	: 0
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 126
+model name	: Intel(R) Core(TM) i5-1035G1 CPU @ 1.00GHz
+stepping	: 5
+cpu MHz		: 1190.401
+cache size	: 6144 KB
+physical id	: 0
+siblings	: 1
+core id		: 0
+cpu cores	: 1
+apicid		: 0
+initial apicid	: 0
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 22
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx rdtscp lm constant_tsc rep_good nopl xtopology nonstop_tsc cpuid tsc_known_freq pni pclmulqdq monitor ssse3 cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt aes xsave avx rdrand hypervisor lahf_lm abm 3dnowprefetch invpcid_single fsgsbase avx2 invpcid rdseed clflushopt md_clear flush_l1d arch_capabilities
+bugs		: spectre_v1 spectre_v2 spec_store_bypass swapgs itlb_multihit
+bogomips	: 2380.80
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 39 bits physical, 48 bits virtual
+power management:
+
+
+MemTotal:        2041032 kB
+MemFree:           98188 kB
+MemAvailable:     331636 kB
+Buffers:           15368 kB
+Cached:           496392 kB
+SwapCached:        10176 kB
+Active:          1259024 kB
+Inactive:         552876 kB
+Active(anon):    1088536 kB
+Inactive(anon):   372064 kB
+Active(file):     170488 kB
+Inactive(file):   180812 kB
+Unevictable:          32 kB
+Mlocked:              32 kB
+SwapTotal:        998396 kB
+SwapFree:         591356 kB
+Dirty:                12 kB
+Writeback:             0 kB
+AnonPages:       1297848 kB
+Mapped:           458584 kB
+Shmem:            160460 kB
+Slab:              56612 kB
+SReclaimable:      27236 kB
+SUnreclaim:        29376 kB
+KernelStack:        9788 kB
+PageTables:        43880 kB
+NFS_Unstable:          0 kB
+Bounce:                0 kB
+WritebackTmp:          0 kB
+CommitLimit:     2018912 kB
+Committed_AS:    5744240 kB
+VmallocTotal:   34359738367 kB
+VmallocUsed:           0 kB
+VmallocChunk:          0 kB
+HardwareCorrupted:     0 kB
+AnonHugePages:         0 kB
+ShmemHugePages:        0 kB
+ShmemPmdMapped:        0 kB
+CmaTotal:              0 kB
+CmaFree:               0 kB
+HugePages_Total:       0
+HugePages_Free:        0
+HugePages_Rsvd:        0
+HugePages_Surp:        0
+Hugepagesize:       2048 kB
+DirectMap4k:      102336 kB
+DirectMap2M:     1994752 kB
+
+#113~16.04.1-Ubuntu SMP Fri Jul 10 04:37:08 UTC 2020 x86_64
+
+4  
+
+ssh stands for secure secure socket shell, it is protocol that provides secure way to access remote computer
+
+4.1
+
+mkdir ~/.ssh
+chmod 700 ~/.ssh
+ssh-keygen -t rsa -b 4096
+
+4.2
+
+private key is secret known only to the user
+public key might be shared
+
+5
+
+curl is command line tool to transfer data to or from server
+curl can transfer multiple files at once
+
+
+
+
+
+
+
+
+
+
