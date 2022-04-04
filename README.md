@@ -27,11 +27,11 @@ DevOps Internship invitation task
   	/home/venom/Desktop/git	
   - 2.3 uname, what is it and how we can use it?
   
-	Using the uname command. you can retrieve the machine hardware name for your current device. On a Linux system, this is typically the kernel's architecture. To retrieve the machine hardware 		name, you will need to use the “ -m ” or “ --machine ” option
+	Using the uname command. you can retrieve the machine hardware name for your current device. On a Linux system, this is typically the kernel's architecture. To retrieve the machine hardware name, you will need to use the “ -m ” or “ --machine ” option
 	
       - 2.3.1 What is version of kernel?
       
-      	Kernel is the important part of an Operating System. The kernel is the first program that is loaded after the boot loader whenever we start a system. The Kernel is present in the memory until 	the Operating System is shut-down.
+      	Kernel is the important part of an Operating System. The kernel is the first program that is loaded after the boot loader whenever we start a system. The Kernel is present in the memory until the Operating System is shut-down.
 
 	Kernel provides an interface between the user and the hardware components of the system. When a process makes a request to the Kernel, then it is called System Call.
 	Functions
@@ -59,9 +59,8 @@ DevOps Internship invitation task
 	
   
   
-3. Combine every used command into script file. Script should be global - explain how to do it?
-	
-	1.Open script file with command vim 
+3. Combine every used command into script file. Script should be global - explain how to do it?	
+	1.Open script file with command vim\n
 	if your Linux could not recognize command vim you 
 	can download it with command sudo apt install vim 
 	1.1 vim file name.sh
@@ -76,7 +75,7 @@ DevOps Internship invitation task
 	3.2 For save our file we use command :x and press Enter 
 	3.3 And we should close file for that we use command :!q
 
-We have Done
+	We have Done
 
 	4. For run our script we use command bash 
 	4.1 bash file name.sh
@@ -134,6 +133,7 @@ We have Done
 	REPOSITORY   TAG       IMAGE ID       CREATED          SIZE
 	mycentos     latest    b58c158d147a   12 seconds ago   108MB
 	ubuntu       latest    ff0fea8310f3   2 weeks ago      72.8MB
+        
    - 6.2 Push image to your dockerhub repo -> link to your your public image
 	docker push venomuzz/mywork
 	Using default tag: latest
