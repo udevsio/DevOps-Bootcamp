@@ -108,12 +108,12 @@ We have Done
 
     	Enter a passphrase at the prompt. All people connecting to OSL servers must use a passphrase. This is just a password used to unlock your key. If someone else gets a copy of your private key 		they will be able to log in as you on any account that uses that key, unless you specify a passphrase. If you specify a passphrase they would need to know both your private key and your 		passphrase to log in as you.
 
-    		After you re-enter your passphrase, ssh-keygen may print a little picture representing your key ((you don’t need to worry about this now, but it is meant as an easily recognizeable 			fingerprint of your key, so you could know if it is changed without your knowledge - but it doesn’t seem to be widely used)) then exit.
+    	After you re-enter your passphrase, ssh-keygen may print a little picture representing your key ((you don’t need to worry about this now, but it is meant as an easily recognizeable 			fingerprint of your key, so you could know if it is changed without your knowledge - but it doesn’t seem to be widely used)) then exit.
 
-    		Your private key should now be in the location you specified, and your public key will be at that same location but with ‘.pub’ tacked onto the filename.
+    	Your private key should now be in the location you specified, and your public key will be at that same location but with ‘.pub’ tacked onto the filename.
 
 
-    		Or, to use the public key on a computer under your control, add it to ~/.ssh/authorized_keys (you can specify multiple public keys, one per line).
+    	Or, to use the public key on a computer under your control, add it to ~/.ssh/authorized_keys (you can specify multiple public keys, one per line).
     				
    - 4.2 What is private/public key and how ssh authentication works?
    
