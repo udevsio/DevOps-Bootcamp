@@ -63,23 +63,22 @@ DevOps Internship invitation task
 	1.Open script file with command vim\n
 	if your Linux could not recognize command vim you 
 	can download it with command sudo apt install vim 
-	1.1 vim file name.sh
+	1 vim file name.sh
 
-	2. And we need to write first line which Os we want use our script
+	2 And we need to write first line which Os we want use our script
 	if you want use your script on Linux, Unix, etc. 
-	2.1 You should  write to first line —> #! /bin/bash
-	2.2 And we can write our script file
+	2 You should  write to first line —> #! /bin/bash
+	2 And we can write our script file
 
-	3. After write our script we must save it 
-	3.1 First one press ESC
-	3.2 For save our file we use command :x and press Enter 
-	3.3 And we should close file for that we use command :!q
+	3 After write our script we must save it 
+	3 First one press ESC
+	3 For save our file we use command :x and press Enter 
+	3 And we should close file for that we use command :!q
 
 	We have Done
 
-	4. For run our script we use command bash 
-	4.1 bash file name.sh
-	===========================================================================================
+	4 For run our script we use command bash 
+	4 bash file name.sh
 	
 	4. What is SSH?
 	
